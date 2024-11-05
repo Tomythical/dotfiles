@@ -17,9 +17,11 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.terraform" },
     { import = "lazyvim.plugins.extras.lang.yaml" },
     { import = "lazyvim.plugins.extras.lang.helm" },
+    { import = "lazyvim.plugins.extras.lang.go" },
     -- Formatting
     { import = "lazyvim.plugins.extras.formatting.black" },
     -- Coding
+    { import = "lazyvim.plugins.extras.coding.blink" },
     { import = "lazyvim.plugins.extras.coding.tabnine" },
     { import = "lazyvim.plugins.extras.coding.neogen" },
     { import = "lazyvim.plugins.extras.coding.mini-comment" },
@@ -38,6 +40,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.ui.treesitter-context" },
     --Utils
     { import = "lazyvim.plugins.extras.util.project" },
+    { import = "lazyvim.plugins.extras.util.chezmoi" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
     -- Testing
     { import = "lazyvim.plugins.extras.test.core" },
