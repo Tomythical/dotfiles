@@ -13,7 +13,7 @@ return {
       "mdformat",
       "nginx-language-server",
       "pyright",
-      "ruff-lsp",
+      "ruff",
       "shfmt",
       "stylua",
       "terraform-ls",
