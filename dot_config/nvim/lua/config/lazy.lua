@@ -20,9 +20,10 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.go" },
     -- Formatting
     { import = "lazyvim.plugins.extras.formatting.black" },
+    -- AI
+    { import = "lazyvim.plugins.extras.ai.tabnine" },
     -- Coding
     { import = "lazyvim.plugins.extras.coding.blink" },
-    { import = "lazyvim.plugins.extras.coding.tabnine" },
     { import = "lazyvim.plugins.extras.coding.neogen" },
     { import = "lazyvim.plugins.extras.coding.mini-comment" },
     { import = "lazyvim.plugins.extras.coding.mini-surround" },
