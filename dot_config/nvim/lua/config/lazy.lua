@@ -22,6 +22,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.formatting.black" },
     -- AI
     { import = "lazyvim.plugins.extras.ai.tabnine" },
+    { import = "lazyvim.plugins.extras.ai.copilot" },
+    { import = "lazyvim.plugins.extras.ai.copilot-chat" },
     -- Coding
     { import = "lazyvim.plugins.extras.coding.blink" },
     { import = "lazyvim.plugins.extras.coding.neogen" },
@@ -43,6 +45,7 @@ require("lazy").setup({
     --Utils
     { import = "lazyvim.plugins.extras.util.project" },
     { import = "lazyvim.plugins.extras.util.chezmoi" },
+    { import = "lazyvim.plugins.extras.util.octo" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
     -- Testing
     { import = "lazyvim.plugins.extras.test.core" },
