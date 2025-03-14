@@ -1,0 +1,8 @@
+customCommands:
+  - key: 'G'
+    context: 'localBranches'
+    command: "gh pr view --web || (echo 'Creating PR...' && gh pr create --web)"
+    description: 'Open PR if it exists. Otherwise create a PR for this branch'
+gui:
+  nerdFontsVersion: "3"
+notARepository: 'skip'
