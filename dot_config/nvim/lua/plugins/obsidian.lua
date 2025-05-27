@@ -22,15 +22,9 @@ return {
   opts = {
     workspaces = {
       {
-        name = "personal",
-        path = "/home/tmatheickal/personal/obsidian_vault/",
-      },
-      {
         name = "work",
-        path = "~/vaults/work",
+        path = "~/repos/DEVOPS/devops-obsidian/",
       },
     },
-
-    -- see below for full list of options 👇
   },
 }
