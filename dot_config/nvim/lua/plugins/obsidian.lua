@@ -1,24 +1,35 @@
 return {
   "obsidian-nvim/obsidian.nvim",
-  version = "*", -- recommended, use latest release instead of latest commit
+  version = "*",
   lazy = true,
-  ft = "markdown",
-  -- Replace the above line with this if you only want to load obsidian.nvim for markdown files in your vault:
-  -- event = {
-  --   -- If you want to use the home shortcut '~' here you need to call 'vim.fn.expand'.
-  --   -- E.g. "BufReadPre " .. vim.fn.expand "~" .. "/my-vault/*.md"
-  --   -- refer to `:h file-pattern` for more examples
-  --   "BufReadPre path/to/my-vault/*.md",
-  --   "BufNewFile path/to/my-vault/*.md",
-  -- },
   dependencies = {
-    -- Required.
     "nvim-lua/plenary.nvim",
-
-    -- see above for full list of optional dependencies ☝️
   },
-  ---@module 'obsidian'
-  ---@type obsidian.config.ClientOpts
+  cmd = {
+    "ObsidianNew",
+    "ObsidianSearch",
+    "ObsidianQuickSwitch",
+    "ObsidianFollowLink",
+    "ObsidianBacklinks",
+    "ObsidianToday",
+    "ObsidianTemplate",
+    "ObsidianOpen",
+    "ObsidianLinkNew",
+    "ObsidianToggleCheckbox",
+    "ObsidianRename",
+  },
+  keys = {
+    { "<leader>on", "<cmd>ObsidianNew<CR>", desc = "New Obsidian note" },
+    { "<leader>of", "<cmd>ObsidianQuickSwitch<CR>", desc = "Find Obsidian note" },
+    { "<leader>os", "<cmd>ObsidianSearch<CR>", desc = "Search in Obsidian vault" },
+    { "<leader>od", "<cmd>ObsidianToday<CR>", desc = "Open today's daily note" },
+    { "<leader>oo", "<cmd>ObsidianOpen<CR>", desc = "Open in Obsidian app" },
+    { "<leader>ob", "<cmd>ObsidianBacklinks<CR>", desc = "Find backlinks" },
+    { "<leader>ox", "<cmd>ObsidianToggleCheckbox<CR>", desc = "Toggle checkbox" },
+    { "<leader>or", "<cmd>ObsidianRename<CR>", desc = "Rename note" },
+    { "<leader>oq", "<cmd>ObsidianQuickSwitch<CR>", desc = "Quick switch note" },
+    { "<leader>ol", "<cmd>ObsidianLink<CR>", desc = "Create link" },
+  },
   opts = {
     workspaces = {
       {
@@ -26,6 +37,40 @@ return {
         path = "~/repos/DEVOPS/devops-obsidian/",
       },
     },
+    completion = {
+      nvim_cmp = false,
+      blink = true,
+      min_chars = 2,
+    },
     disable_frontmatter = true,
+    notes_subdir = "Thomas/Notes",
+    new_notes_location = "notes_subdir",
+
+    note_id_func = function(title)
+      if not title or title == "" then
+        return tostring(os.time())
+      end
+      return title:gsub("[^A-Za-z0-9-]", "-"):gsub("%-+", "-"):gsub("^-+", ""):gsub("-+$", "")
+    end,
+
+    daily_notes = {
+      folder = "Thomas/Daily Notes",
+      date_format = "%a %b-%e",
+    },
+    ui = {
+      enable = true,
+      update_debounce = 200,
+      max_file_length = 5000,
+      checkboxes = {
+        [" "] = { char = "󰄱", hl_group = "ObsidianTodo", order = 1 },
+        ["x"] = { char = "", hl_group = "ObsidianDone", order = 2 },
+        [">"] = { char = "󰔟", hl_group = "ObsidianRightArrow", order = 3 },
+        ["~"] = { char = "󰯇", hl_group = "ObsidianTilde", order = 4 },
+        ["!"] = { char = "󱈸", hl_group = "ObsidianImportant", order = 5 },
+      },
+    },
+    picker = {
+      name = "snacks.pick",
+    },
   },
 }
