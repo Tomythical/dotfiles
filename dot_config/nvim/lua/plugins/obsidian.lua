@@ -42,7 +42,7 @@ return {
       blink = true,
       min_chars = 2,
     },
-    disable_frontmatter = true,
+
     notes_subdir = "Thomas/Notes",
     new_notes_location = "notes_subdir",
 
@@ -72,5 +72,6 @@ return {
     picker = {
       name = "snacks.pick",
     },
+    preferred_link_style = "wiki",
   },
 }
