@@ -26,5 +26,6 @@ return {
         path = "~/repos/DEVOPS/devops-obsidian/",
       },
     },
+    disable_frontmatter = true,
   },
 }

@@ -9,7 +9,7 @@ return {
         },
         ["terraform"] = { "terraform_fmt" },
         ["yaml"] = { "yamlfix" },
-        ["markdown"] = { "mdformat" },
+        -- ["markdown"] = { "mdformat" },
       },
       formatters = {
         ruff_format = {
