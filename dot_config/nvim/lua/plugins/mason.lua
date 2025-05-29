@@ -9,8 +9,6 @@ return {
       "hadolint",
       "json-lsp",
       "lua-language-server",
-      "marksman",
-      "mdformat",
       "nginx-language-server",
       "pyright",
       "ruff",
