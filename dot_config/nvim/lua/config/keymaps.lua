@@ -11,3 +11,7 @@ vim.keymap.set("n", "vv", "viw", { desc = "View In Word" })
 --- Cellular Automation
 vim.keymap.set("n", "<leader>uml", "<cmd>CellularAutomaton make_it_rain<CR>")
 vim.keymap.set("n", "<leader>umg", "<cmd>CellularAutomaton game_of_life<CR>")
+
+-- Markdown task creation
+vim.keymap.set("i", "<C-t>", "- [ ] ", { desc = "Insert markdown task" })
+vim.keymap.set("n", "<leader>ot", "o- [ ] ", { desc = "Create new markdown task", silent = true })
