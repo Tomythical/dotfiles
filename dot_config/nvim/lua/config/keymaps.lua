@@ -11,3 +11,8 @@ vim.keymap.set("n", "vv", "viw", { desc = "View In Word" })
 --- Cellular Automation
 vim.keymap.set("n", "<leader>uml", "<cmd>CellularAutomaton make_it_rain<CR>")
 vim.keymap.set("n", "<leader>umg", "<cmd>CellularAutomaton game_of_life<CR>")
+
+-- Markdown task checkbox
+vim.keymap.set("n", "<leader>o", function() end, { desc = "󰠮 Obsidian" })
+vim.keymap.set("n", "<leader>ot", "i- [ ] <Esc>", { desc = "󰄬 Insert task checkbox", buffer = true })
+vim.keymap.set("i", "<C-t>", "- [ ] ", { desc = "Insert task checkbox", buffer = true })
