@@ -1,7 +1,7 @@
 return {
   "obsidian-nvim/obsidian.nvim",
   version = "*",
-  lazy = "true",
+  lazy = false,
   dependencies = {
     "nvim-lua/plenary.nvim",
   },
