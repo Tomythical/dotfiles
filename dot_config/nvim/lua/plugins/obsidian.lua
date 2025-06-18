@@ -1,7 +1,8 @@
 return {
   "obsidian-nvim/obsidian.nvim",
   version = "*",
-  lazy = false,
+  lazy = true,
+  ft = "markdown",
   dependencies = {
     "nvim-lua/plenary.nvim",
   },
@@ -17,11 +18,13 @@ return {
     "ObsidianLinkNew",
     "ObsidianToggleCheckbox",
     "ObsidianRename",
+    "ObsidianFollowLink",
   },
   keys = {
     { "<leader>on", "<cmd>ObsidianNew<CR>", desc = "󱞂 New Obsidian note" },
-    { "<leader>of", "<cmd>ObsidianQuickSwitch<CR>", desc = "󰤵 Find Obsidian note" },
-    { "<leader>os", "<cmd>ObsidianSearch<CR>", desc = " Search in Obsidian vault" },
+    { "<leader>os", "<cmd>ObsidianQuickSwitch<CR>", desc = "󰤵 Find Obsidian note" },
+    { "<leader>og", "<cmd>ObsidianSearch<CR>", desc = " Search in Obsidian vault" },
+    { "<leader>of", "<cmd>ObsidianFollowLink<CR>", desc = "Follow Obsidian Note Link" },
     { "<leader>od", "<cmd>ObsidianToday<CR>", desc = "󱨰 Open today's daily note" },
     { "<leader>oo", "<cmd>ObsidianOpen<CR>", desc = " Open in Obsidian app" },
     { "<leader>ob", "<cmd>ObsidianBacklinks<CR>", desc = "Find backlinks" },
