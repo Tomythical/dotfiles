@@ -2,7 +2,7 @@ return {
   "obsidian-nvim/obsidian.nvim",
   version = "*",
   ft = "markdown",
-  priority = 100,
+  priority = 1000,
   dependencies = {
     "nvim-lua/plenary.nvim",
   },
@@ -67,7 +67,7 @@ return {
       update_debounce = 200,
       max_file_length = 5000,
       checkboxes = {
-        [" "] = { char = "󰄱", hl_group = "ObsidianTodo", order = 1 },
+        [" "] = { char = "☐", hl_group = "ObsidianTodo", order = 1 },
         ["x"] = { char = "", hl_group = "ObsidianDone", order = 2 },
         [">"] = { char = "󰔟", hl_group = "ObsidianRightArrow", order = 3 },
         ["~"] = { char = "󰯇", hl_group = "ObsidianTilde", order = 4 },
