@@ -1,0 +1,12 @@
+summary: Mute anetd in singapore
+notes: ""
+tags:
+- alert
+project: ""
+priority: P1
+delegatedto: ""
+subtasks: []
+dependencies: []
+created: 2025-06-24T09:45:37.153335648+01:00
+resolved: 2025-06-24T10:06:23.40265821+01:00
+due: 0001-01-01T00:00:00Z

@@ -1,0 +1,16 @@
+summary: Upgrade Falco
+notes: |+
+  - [ ] Fix in dev
+  - [ ] Make sure we are using our mirror for the image
+  - [ ] Do we need pod annotation so our prometheus can pick it up
+
+tags:
+- upgrades
+project: ""
+priority: P1
+delegatedto: ""
+subtasks: []
+dependencies: []
+created: 2025-06-23T17:40:09.299464369+01:00
+resolved: 0001-01-01T00:00:00Z
+due: 0001-01-01T00:00:00Z

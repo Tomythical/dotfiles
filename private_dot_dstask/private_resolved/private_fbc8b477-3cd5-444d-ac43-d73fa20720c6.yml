@@ -1,0 +1,12 @@
+summary: upgrade prometheus at lunch
+notes: |
+  CR - https://sgxfx.atlassian.net/browse/CR-26350
+tags: []
+project: ""
+priority: P2
+delegatedto: ""
+subtasks: []
+dependencies: []
+created: 2025-06-23T12:25:19.596983272+01:00
+resolved: 2025-06-23T12:57:41.807225288+01:00
+due: 0001-01-01T00:00:00Z

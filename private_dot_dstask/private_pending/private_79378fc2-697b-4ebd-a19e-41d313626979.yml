@@ -1,0 +1,12 @@
+summary: Move Flux to Direct WIF Auth
+notes: ""
+tags:
+- onprem-k8s
+project: ""
+priority: P3
+delegatedto: ""
+subtasks: []
+dependencies: []
+created: 2025-06-25T14:33:28.61574094+01:00
+resolved: 0001-01-01T00:00:00Z
+due: 0001-01-01T00:00:00Z

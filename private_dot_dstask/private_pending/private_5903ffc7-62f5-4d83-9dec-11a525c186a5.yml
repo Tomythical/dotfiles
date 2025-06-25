@@ -1,0 +1,15 @@
+summary: Find out what's wrong with Flux
+notes: |+
+  - Could try reproducing without flux, do a k apply -f on a made up imagepolicy and see if after the apply if you get -oyaml it does it still contain both fields under policy
+
+
+tags:
+- ci-cd
+project: ""
+priority: P1
+delegatedto: ""
+subtasks: []
+dependencies: []
+created: 2025-06-23T17:27:23.907942711+01:00
+resolved: 0001-01-01T00:00:00Z
+due: 0001-01-01T00:00:00Z

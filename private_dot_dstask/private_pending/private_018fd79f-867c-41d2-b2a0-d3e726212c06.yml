@@ -1,0 +1,12 @@
+summary: Upgade UAT SG Node pools at Lunch
+notes: ""
+tags:
+- gcp
+project: ""
+priority: P2
+delegatedto: ""
+subtasks: []
+dependencies: []
+created: 2025-06-23T17:38:37.898733321+01:00
+resolved: 0001-01-01T00:00:00Z
+due: 0001-01-01T00:00:00Z

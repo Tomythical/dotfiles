@@ -1,0 +1,22 @@
+summary: Upgrade External Secret
+notes: |+
+  - [ ] PROD
+    - [ ] Update image registry
+    - https://sgxfx.atlassian.net/browse/CR-26097
+    - [ ] Update to 0.17.0
+    - [ ] Bump request/limit size
+  - [x] UAT
+    - [x] Update image registry
+    - https://sgxfx.atlassian.net/browse/CR-26096
+    - [x] Update to 0.17.0
+
+tags:
+- upgrades
+project: ""
+priority: P2
+delegatedto: ""
+subtasks: []
+dependencies: []
+created: 2025-06-24T10:10:50.140393216+01:00
+resolved: 0001-01-01T00:00:00Z
+due: 0001-01-01T00:00:00Z

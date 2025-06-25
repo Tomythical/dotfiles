@@ -1,0 +1,14 @@
+summary: Get Frontend Docs Working
+notes: |+
+  - [ ]  Create a wildcard cert using cert-manager + ACME
+
+tags:
+- ci-cd
+project: ""
+priority: P0
+delegatedto: ""
+subtasks: []
+dependencies: []
+created: 2025-06-24T10:22:27.49935484+01:00
+resolved: 0001-01-01T00:00:00Z
+due: 0001-01-01T00:00:00Z

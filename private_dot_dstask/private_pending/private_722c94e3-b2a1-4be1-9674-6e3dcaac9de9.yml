@@ -1,0 +1,12 @@
+summary: Set up flux to use federation auth
+notes: ""
+tags:
+- onprem-k8s
+project: ""
+priority: P1
+delegatedto: ""
+subtasks: []
+dependencies: []
+created: 2025-06-24T14:06:41.103196064+01:00
+resolved: 0001-01-01T00:00:00Z
+due: 0001-01-01T00:00:00Z

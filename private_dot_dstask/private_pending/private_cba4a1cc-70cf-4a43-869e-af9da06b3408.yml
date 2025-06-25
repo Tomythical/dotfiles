@@ -1,0 +1,14 @@
+summary: Upgrade Prometheus in Prod
+notes: |+
+  - https://sgxfx.atlassian.net/browse/CR-26360
+
+tags:
+- upgrades
+project: ""
+priority: P3
+delegatedto: ""
+subtasks: []
+dependencies: []
+created: 2025-06-23T12:59:11.534483866+01:00
+resolved: 0001-01-01T00:00:00Z
+due: 0001-01-01T00:00:00Z

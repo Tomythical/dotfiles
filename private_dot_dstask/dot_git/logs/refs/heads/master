@@ -1,0 +1,59 @@
+0000000000000000000000000000000000000000 e852500eeabfcb4aeef27a56fa3e8e825fc3e97e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750677919 +0100	commit (initial): Added 1: upgrade prometheus at lunch
+e852500eeabfcb4aeef27a56fa3e8e825fc3e97e d2d1c8071b50c9cb8d246a31813f6b9656964d93 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750678039 +0100	commit: Edit note 1: upgrade prometheus at lunch
+d2d1c8071b50c9cb8d246a31813f6b9656964d93 dbd17a389fb78ed930441d9d10a5a484aeffb293 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750678087 +0100	commit: Started 1: upgrade prometheus at lunch
+dbd17a389fb78ed930441d9d10a5a484aeffb293 dae3a69a65a58f767e0735958766f46f5f3a3c61 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750679861 +0100	commit: Resolved 1: upgrade prometheus at lunch
+dae3a69a65a58f767e0735958766f46f5f3a3c61 96fef621fbc6df44c09f43aeb49ac233f7af2c0a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750679951 +0100	commit: Added 1: Upgrade Prometheus in Prod
+96fef621fbc6df44c09f43aeb49ac233f7af2c0a 774e1bd7397f9fd5160cbf8010fc682371cc0964 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750696043 +0100	commit: Added 2: Find out what
+774e1bd7397f9fd5160cbf8010fc682371cc0964 e0c5a07029b7a4c711de69eaa933ca5ed8dc1882 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750696062 +0100	commit: Edited 2: Find out what's wrong with Flux
+e0c5a07029b7a4c711de69eaa933ca5ed8dc1882 278d8ba36fd1acdef19a44271891ba602aebc8e0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750696131 +0100	commit: Edit note 2: Find out what's wrong with Flux
+278d8ba36fd1acdef19a44271891ba602aebc8e0 2176a5adfc1a7a8fbcc8701080e33d39d4226c5a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750696149 +0100	commit: Edit note 2: Find out what's wrong with Flux
+2176a5adfc1a7a8fbcc8701080e33d39d4226c5a 154ef649fa2cc7c3b2c6f5f23863d3393e3c285a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750696251 +0100	commit: Edited 2: Find out what's wrong with Flux
+154ef649fa2cc7c3b2c6f5f23863d3393e3c285a 4d44710a78e5120e996204076716d216306a1959 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750696717 +0100	commit: Added 3: Upgade UAT SG Node pools at Lunch
+4d44710a78e5120e996204076716d216306a1959 e5edf6d416789cf555715b58a25c84073152f786 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750696731 +0100	commit: Added 4: Flux Deployment of cloud apps onto onprem-k8s-gitops-uat
+e5edf6d416789cf555715b58a25c84073152f786 50e9d664c7d81b5f97293f10a52aeebddbe57185 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750696809 +0100	commit: Added 5: Upgrade Falco
+50e9d664c7d81b5f97293f10a52aeebddbe57185 ae11575972296a659a0c08e999a1c507fa6e8430 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750754737 +0100	commit: Added 6: Mute anetd in singapore
+ae11575972296a659a0c08e999a1c507fa6e8430 d0aaa86a4561a901e4a3069bd4ddfe6937a6569c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750755736 +0100	commit: Modified 1: Upgrade Prometheus in Prod
+d0aaa86a4561a901e4a3069bd4ddfe6937a6569c 5fe2cf410faafc435b71fb4ecc6b541259df49c1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750755750 +0100	commit: Modified 5: Upgrade Falco
+5fe2cf410faafc435b71fb4ecc6b541259df49c1 e72c84edbb7525c28fa359d2b60614554dc49886 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750755968 +0100	commit: Modified 2: Find out what's wrong with Flux
+e72c84edbb7525c28fa359d2b60614554dc49886 2efadf9fa7a30fe2a833dbb17758937716953a5d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750755983 +0100	commit: Resolved 6: Mute anetd in singapore
+2efadf9fa7a30fe2a833dbb17758937716953a5d f2300b71a9dcb00f3f20792fd3eeb74e8aa42602 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750756013 +0100	commit: Modified 3: Upgade UAT SG Node pools at Lunch
+f2300b71a9dcb00f3f20792fd3eeb74e8aa42602 5ed702aa0f6466a28b9d577efad24ab137ee9fba Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750756078 +0100	commit: Modified 4: Flux Deployment of cloud apps onto onprem-k8s-gitops-uat
+5ed702aa0f6466a28b9d577efad24ab137ee9fba ded1d0b9d299aa5cba56642397402d0eeb4c5a2e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750756250 +0100	commit: Added 6: Upgrade External Secret
+ded1d0b9d299aa5cba56642397402d0eeb4c5a2e 0f27e0e252c19eb2aa0646f2a788476aef6dc0e5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750756795 +0100	commit: Edit note 6: Upgrade External Secret
+0f27e0e252c19eb2aa0646f2a788476aef6dc0e5 78607292536d68f512243154cf3356b180dbff6a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750756947 +0100	commit: Added 7: Get Frontend Docs Working
+78607292536d68f512243154cf3356b180dbff6a 0fc72ad45410a729a4771922368f0dfe460474e3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750757040 +0100	commit: Edit note 1: Upgrade Prometheus in Prod
+0fc72ad45410a729a4771922368f0dfe460474e3 04642fd77fc392aae8a0061a4354b98cc97a9502 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750757090 +0100	commit: Added 8: help
+04642fd77fc392aae8a0061a4354b98cc97a9502 ec59fcdb1febbd7ab70553726d53ddd64cb699c7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750757099 +0100	commit: Removed: 8: help
+ec59fcdb1febbd7ab70553726d53ddd64cb699c7 6704eeed5900d4cb026f81b8d38dda1aec803cd2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750757240 +0100	commit: Modified 6: Upgrade External Secret
+6704eeed5900d4cb026f81b8d38dda1aec803cd2 483d025dad2bd3025f334978da5b6a419e8c52ed Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750757256 +0100	commit: Modified 5: Upgrade Falco
+483d025dad2bd3025f334978da5b6a419e8c52ed 31c581e9d37b804ea6eecc40ca538c6c5585aa23 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750757279 +0100	commit: Modified 4: Flux Deployment of cloud apps onto onprem-k8s-gitops-uat
+31c581e9d37b804ea6eecc40ca538c6c5585aa23 552971b233a348bf0407055b51b48ef0dac5e279 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750757451 +0100	commit: Edit note 7: Get Frontend Docs Working
+552971b233a348bf0407055b51b48ef0dac5e279 5865d51b8dcc6fd788c529a6fd0f825c03e476ae Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750757496 +0100	commit: Edit note 2: Find out what's wrong with Flux
+5865d51b8dcc6fd788c529a6fd0f825c03e476ae c51e3dd8e9bc8285b67fbf65fe71ec19e55935d7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750757555 +0100	commit: Started 6: Upgrade External Secret
+c51e3dd8e9bc8285b67fbf65fe71ec19e55935d7 54bf63176b014fab9a009c1d22eb4d6d7775ee53 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750758598 +0100	commit: Added 8: Ask Devan about RTC Slack token
+54bf63176b014fab9a009c1d22eb4d6d7775ee53 b43bd59dd6697ccce174af46eebb553443cab719 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750766678 +0100	commit: Stopped 6: Upgrade External Secret
+b43bd59dd6697ccce174af46eebb553443cab719 c6f3c9acbb0ab0514aaece953a2635c4a2741bc3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750766838 +0100	commit: Started 6: Upgrade External Secret
+c6f3c9acbb0ab0514aaece953a2635c4a2741bc3 fceaf440ece0c8410465a98c2368db72c1da953d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750769791 +0100	commit: Stopped 6: Upgrade External Secret
+fceaf440ece0c8410465a98c2368db72c1da953d 4f3ea6863a8fe101a05185f48790293ff4217925 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750769861 +0100	commit: Edit note 6: Upgrade External Secret
+4f3ea6863a8fe101a05185f48790293ff4217925 6c05f486c657e7a3875e8b10fdbe2d360108e178 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750770097 +0100	commit: Modified 1: Upgrade Prometheus in Prod
+6c05f486c657e7a3875e8b10fdbe2d360108e178 f3ae54237f4ec220f54b6fb3e7c68cfdca752e60 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750770201 +0100	commit: Modified 8: Ask Devan about RTC Slack token
+f3ae54237f4ec220f54b6fb3e7c68cfdca752e60 f44bf5aec4114030ae97bdec13551ee1fda2f880 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750770291 +0100	commit: Edit note 6: Upgrade External Secret
+f44bf5aec4114030ae97bdec13551ee1fda2f880 e6e1ad3ea95d35020802e4494b6625c3d1dae831 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750770401 +0100	commit: Added 9: Set up flux to use federation auth
+e6e1ad3ea95d35020802e4494b6625c3d1dae831 537ecb25c54ba8c048c9834ac882887b0737abe3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750775895 +0100	commit: Edit note 5: Upgrade Falco
+537ecb25c54ba8c048c9834ac882887b0737abe3 e59bf14c00c4c3c83d48a70500e367fa54e08783 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750775902 +0100	commit: Modified 5: Upgrade Falco
+e59bf14c00c4c3c83d48a70500e367fa54e08783 799e9b669e98272f4eea3d1cf45aab5c2e158bd9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750775954 +0100	commit: Modified 7: Get Frontend Docs Working
+799e9b669e98272f4eea3d1cf45aab5c2e158bd9 41b8c050bdc0ba9a91122db748b058dc13a22ebe Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750776162 +0100	commit: Started 6: Upgrade External Secret
+41b8c050bdc0ba9a91122db748b058dc13a22ebe e76e5a0bf7e162f8cbc13c442e4b0a3e4ecb70e7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750781587 +0100	commit: Added 10: Review CV
+e76e5a0bf7e162f8cbc13c442e4b0a3e4ecb70e7 bb1b9b66646ebf54490ada209d2506767269910e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750781817 +0100	commit: Edit note 10: Review CV
+bb1b9b66646ebf54490ada209d2506767269910e 957a32b7006e94ac71d57fe0b1cffb2823a44e8b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750841451 +0100	commit: Added 11: Terraform Service Account Restructure
+957a32b7006e94ac71d57fe0b1cffb2823a44e8b b2c3ab2e6369bc59600459a545198e9c5574c145 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750841494 +0100	commit: Added 12: Move CI ARC to use new GCP WIF
+b2c3ab2e6369bc59600459a545198e9c5574c145 39f264205047a2d4d61cf43dfcde5591b1773e57 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750841539 +0100	commit: Added 13: Make Wishlist for Devan AMA
+39f264205047a2d4d61cf43dfcde5591b1773e57 40379d7cfdd09d5abbd2dc0b8ce0e2cb83f53d08 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750842897 +0100	commit: Started 7: Get Frontend Docs Working
+40379d7cfdd09d5abbd2dc0b8ce0e2cb83f53d08 c40fb31b0bddb583011cabfd4fab9eff056f739e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750853955 +0100	commit: Added 14: Finish Format pr status slack notifications PR
+c40fb31b0bddb583011cabfd4fab9eff056f739e 8e68fb5318933ecdac228120d740a91db81a64cb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750856364 +0100	commit: Stopped 6: Upgrade External Secret
+8e68fb5318933ecdac228120d740a91db81a64cb 31f7643ab6e4b9ec94e89b840c1ccb71042ff69a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750856426 +0100	commit: Modified 6: Upgrade External Secret
+31f7643ab6e4b9ec94e89b840c1ccb71042ff69a b6d87a8f27c0ebf39ad05b7eb68a12927dd0a949 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750856442 +0100	commit: Modified 8: Ask Devan about RTC Slack token
+b6d87a8f27c0ebf39ad05b7eb68a12927dd0a949 ab25a9315f2b0616830bba11d7df0771610ac2e7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750858238 +0100	commit: Edited 4: Get metrics-server working
+ab25a9315f2b0616830bba11d7df0771610ac2e7 05df5a7e89102d97170454942a7d12be12066586 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750858255 +0100	commit: Resolved 4: Get metrics-server working
+05df5a7e89102d97170454942a7d12be12066586 b372b3f9e18b12754c261c4362a689d0281179ae Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750858408 +0100	commit: Added 4: Move Flux to Direct WIF Auth
+b372b3f9e18b12754c261c4362a689d0281179ae 6191e472bdcddb94028381b809fb04c03c1a0f74 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750866229 +0100	commit: Modified 9: Set up flux to use federation auth
