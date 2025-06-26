@@ -2,8 +2,10 @@ summary: Upgrade Prometheus in Prod
 notes: |+
   - https://sgxfx.atlassian.net/browse/CR-26360
 
+
 tags:
 - upgrades
+- weekend
 project: ""
 priority: P3
 delegatedto: ""

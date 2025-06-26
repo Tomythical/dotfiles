@@ -1,7 +1,8 @@
-summary: Upgade UAT SG Node pools aon Weekend
+summary: Upgade UAT SG Node pools on Weekend
 notes: ""
 tags:
 - gcp
+- weekend
 project: ""
 priority: P3
 delegatedto: ""
