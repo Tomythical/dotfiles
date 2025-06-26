@@ -68,3 +68,4 @@ f58f70ef693158091d77e1f9f2be318224a3efd7 a73c591185e277871b36c441b491d78be98bf14
 a73c591185e277871b36c441b491d78be98bf144 05002d305e09ea8fe3ecce000f4d7867bec14f50 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750933278 +0100	commit: Added 18: Remove deprecated pause image in OPS
 05002d305e09ea8fe3ecce000f4d7867bec14f50 3efac92a31cc47920f327e642c8c55adedc36db7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750933280 +0100	commit: Started 18: Remove deprecated pause image in OPS
 3efac92a31cc47920f327e642c8c55adedc36db7 fa2c2380b65b5dc1bd63ecf277c9deda49814603 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750934814 +0100	commit: Edited 18: Remove deprecated pause image in OPS and add to Flux
+fa2c2380b65b5dc1bd63ecf277c9deda49814603 8ad55d18f189eab1d985519e0d45d146d1b468a4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750935512 +0100	commit: Edit note 16: Enable gVNIC in UAT node pools
