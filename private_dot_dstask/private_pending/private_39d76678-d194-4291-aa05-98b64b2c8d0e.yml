@@ -4,10 +4,11 @@ notes: |+
   - [ ] Make sure we are using our mirror for the image
   - [ ] Do we need pod annotation so our prometheus can pick it up
 
+
 tags:
 - upgrades
 project: ""
-priority: P1
+priority: P2
 delegatedto: ""
 subtasks: []
 dependencies: []
