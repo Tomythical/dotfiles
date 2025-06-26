@@ -57,3 +57,5 @@ b6d87a8f27c0ebf39ad05b7eb68a12927dd0a949 ab25a9315f2b0616830bba11d7df0771610ac2e
 ab25a9315f2b0616830bba11d7df0771610ac2e7 05df5a7e89102d97170454942a7d12be12066586 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750858255 +0100	commit: Resolved 4: Get metrics-server working
 05df5a7e89102d97170454942a7d12be12066586 b372b3f9e18b12754c261c4362a689d0281179ae Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750858408 +0100	commit: Added 4: Move Flux to Direct WIF Auth
 b372b3f9e18b12754c261c4362a689d0281179ae 6191e472bdcddb94028381b809fb04c03c1a0f74 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750866229 +0100	commit: Modified 9: Set up flux to use federation auth
+6191e472bdcddb94028381b809fb04c03c1a0f74 4693f40e0d694e88432a24894aad1a9cbbfce99c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750928447 +0100	commit: Added 15: Enable gVNIC in PROD node pools
+4693f40e0d694e88432a24894aad1a9cbbfce99c 6209adcb9211eaa05442e5f49988efc34fff6647 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750928926 +0100	commit: Edit note 15: Enable gVNIC in PROD node pools
