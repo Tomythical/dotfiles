@@ -59,3 +59,11 @@ ab25a9315f2b0616830bba11d7df0771610ac2e7 05df5a7e89102d97170454942a7d12be1206658
 b372b3f9e18b12754c261c4362a689d0281179ae 6191e472bdcddb94028381b809fb04c03c1a0f74 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750866229 +0100	commit: Modified 9: Set up flux to use federation auth
 6191e472bdcddb94028381b809fb04c03c1a0f74 4693f40e0d694e88432a24894aad1a9cbbfce99c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750928447 +0100	commit: Added 15: Enable gVNIC in PROD node pools
 4693f40e0d694e88432a24894aad1a9cbbfce99c 6209adcb9211eaa05442e5f49988efc34fff6647 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750928926 +0100	commit: Edit note 15: Enable gVNIC in PROD node pools
+6209adcb9211eaa05442e5f49988efc34fff6647 18e39d6a376e26a04082b16bcb9f9668b5bf9883 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750933129 +0100	commit: Added 16: Enable gVNIC in UAT node pools
+18e39d6a376e26a04082b16bcb9f9668b5bf9883 caf0413afb3a25f4766db3069bcc433ee46f3638 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750933135 +0100	commit: Modified 16: Enable gVNIC in UAT node pools
+caf0413afb3a25f4766db3069bcc433ee46f3638 4789c98dc378ca587dba8fa83f5985ed0250dd85 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750933177 +0100	commit: Added 17: Upgrade External Secret to 0.18.1 in UAT
+4789c98dc378ca587dba8fa83f5985ed0250dd85 602c6048102a05523da9fc10d1760c01c1401600 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750933183 +0100	commit: Stopped 7: Get Frontend Docs Working
+602c6048102a05523da9fc10d1760c01c1401600 f58f70ef693158091d77e1f9f2be318224a3efd7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750933190 +0100	commit: Started 17: Upgrade External Secret to 0.18.1 in UAT
+f58f70ef693158091d77e1f9f2be318224a3efd7 a73c591185e277871b36c441b491d78be98bf144 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750933238 +0100	commit: Started 16: Enable gVNIC in UAT node pools
+a73c591185e277871b36c441b491d78be98bf144 05002d305e09ea8fe3ecce000f4d7867bec14f50 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750933278 +0100	commit: Added 18: Remove deprecated pause image in OPS
+05002d305e09ea8fe3ecce000f4d7867bec14f50 3efac92a31cc47920f327e642c8c55adedc36db7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750933280 +0100	commit: Started 18: Remove deprecated pause image in OPS
