@@ -95,3 +95,6 @@ d8413aacb13befe1d080a79f1f6e72f50434a4c2 071da91c6db1cb7dedceedfb0cf2925773b15b4
 928ffc08ed62efd0050607ea301ef3225f7a555c 0ea685d5aabbc97ca3d3f4e3f7079b093ecf269d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750942516 +0100	commit: Started 7: Get Frontend Docs Working
 0ea685d5aabbc97ca3d3f4e3f7079b093ecf269d d71a77025efa0999f71b89296df80af41570471a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750942531 +0100	commit: Started 19: Grant fixhub-orchestrator/fixhub-orchestrator access to reach GCP UAT DBs via principal IAM
 d71a77025efa0999f71b89296df80af41570471a 3fc5ba6e905be31b67c83ea90b94f866d777579b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750948725 +0100	commit: Resolved 18: Remove deprecated pause image in OPS and add to Flux
+3fc5ba6e905be31b67c83ea90b94f866d777579b d5ce6890b891b01f94b8ccb61e585b59997db770 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750953220 +0100	commit: Stopped 7: Get Frontend Docs Working
+d5ce6890b891b01f94b8ccb61e585b59997db770 3b01fbf1309676337e521f9132e2c332b580feb3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750953230 +0100	commit: Modified 7: Get Frontend Docs Working
+3b01fbf1309676337e521f9132e2c332b580feb3 8b0552aaecb46c1193858d244e5fc6b4a1ffc474 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750953236 +0100	commit: Modified 7: Get Frontend Docs Working
