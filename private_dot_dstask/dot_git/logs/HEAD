@@ -115,3 +115,6 @@ f1919bbdc8f04e21f9ddcecde19f7bddd75ce211 0bde4b4c62dde0d07dc18ad17dab053b36c83cf
 0bde4b4c62dde0d07dc18ad17dab053b36c83cf7 2302471869d15a2fde298ed6f5fd5fd0d91b4ba1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021559 +0100	commit: Modified 16: Enable gVNIC in UAT node pools
 2302471869d15a2fde298ed6f5fd5fd0d91b4ba1 73b17f7c9eee60b209592211d0df84aa74d6d8ab Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021559 +0100	commit: Modified 17: Upgrade External Secret to 0.18.1 in UAT
 73b17f7c9eee60b209592211d0df84aa74d6d8ab 365cdad78ba241c171367b1e4fd1ddc9904f539d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021650 +0100	commit: Edited 3: Upgade UAT LDN + SG Node pools on Weekend
+365cdad78ba241c171367b1e4fd1ddc9904f539d 35a54dd6e6cf9ff6fec762fbfbfc3cbfb6901ca6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751027286 +0100	commit: Added 7: Update Jira Webhook for comments to match the change-bot webhook
+35a54dd6e6cf9ff6fec762fbfbfc3cbfb6901ca6 b68c051a4c50dcdbc73b3e508fece9bf6d89ab12 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751027335 +0100	commit: Added 9: Fix WIF Perms for github-actions frontend-docs
+b68c051a4c50dcdbc73b3e508fece9bf6d89ab12 80cc8e9dc799097e0c702f077d279b2c726822ec Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751027348 +0100	commit: Started 9: Fix WIF Perms for github-actions frontend-docs
