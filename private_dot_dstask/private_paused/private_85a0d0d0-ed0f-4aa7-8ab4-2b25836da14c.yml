@@ -1,19 +1,14 @@
-summary: Upgrade External Secret
+summary: Upgrade External Secret in PROD
 notes: |+
-  - [ ] PROD
-    - [ ] Update image registry
-    - https://sgxfx.atlassian.net/browse/CR-26097
-    - [ ] Update to 0.17.0
-    - [ ] Bump request/limit size
-  - [x] UAT
-    - [x] Update image registry
-    - https://sgxfx.atlassian.net/browse/CR-26096
-    - [x] Update to 0.17.0
+  - https://sgxfx.atlassian.net/browse/CR-26097
+
+
 
 tags:
 - upgrades
+- weekend
 project: ""
-priority: P2
+priority: P3
 delegatedto: ""
 subtasks: []
 dependencies: []

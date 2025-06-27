@@ -98,3 +98,20 @@ d71a77025efa0999f71b89296df80af41570471a 3fc5ba6e905be31b67c83ea90b94f866d777579
 3fc5ba6e905be31b67c83ea90b94f866d777579b d5ce6890b891b01f94b8ccb61e585b59997db770 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750953220 +0100	commit: Stopped 7: Get Frontend Docs Working
 d5ce6890b891b01f94b8ccb61e585b59997db770 3b01fbf1309676337e521f9132e2c332b580feb3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750953230 +0100	commit: Modified 7: Get Frontend Docs Working
 3b01fbf1309676337e521f9132e2c332b580feb3 8b0552aaecb46c1193858d244e5fc6b4a1ffc474 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1750953236 +0100	commit: Modified 7: Get Frontend Docs Working
+8b0552aaecb46c1193858d244e5fc6b4a1ffc474 c322d37f09f46ca3b1033b9d7ac584cb89cde8e0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751019134 +0100	commit: Edit note 7: Get Frontend Docs Working
+c322d37f09f46ca3b1033b9d7ac584cb89cde8e0 4b28a70d52d1bd0f798b0604a76753d98271d8c0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751019137 +0100	commit: Resolved 7: Get Frontend Docs Working
+4b28a70d52d1bd0f798b0604a76753d98271d8c0 4821bf78d2cd6a8b9d066a265e16e647d8144b1c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751019194 +0100	commit: Resolved 19: Grant fixhub-orchestrator/fixhub-orchestrator access to reach GCP UAT DBs via principal IAM
+4821bf78d2cd6a8b9d066a265e16e647d8144b1c 931c68cfa906e9e8ed45b3c5115a7fecc858379b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751019202 +0100	commit: Modified 15: Enable gVNIC in PROD node pools
+931c68cfa906e9e8ed45b3c5115a7fecc858379b a3243e7d752fc58008431ae148b9b0cb494e713b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751020146 +0100	commit: Stopped 15: Enable gVNIC in PROD node pools
+a3243e7d752fc58008431ae148b9b0cb494e713b 2d54c110ff4eadbb6837466c4d9ca0be4faecf61 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751020151 +0100	commit: Modified 15: Enable gVNIC in PROD node pools
+2d54c110ff4eadbb6837466c4d9ca0be4faecf61 f3449968713c9f307cbc5d880c5b2e720a2030a3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751020333 +0100	commit: Edit note 6: Upgrade External Secret
+f3449968713c9f307cbc5d880c5b2e720a2030a3 fe037f3fe6a26c9f9b5bf733ec965b75c4dde852 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021265 +0100	commit: Modified 17: Upgrade External Secret to 0.18.1 in UAT
+fe037f3fe6a26c9f9b5bf733ec965b75c4dde852 a2282693a1cce506fde9499219fb2d8c9b20fe28 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021295 +0100	commit: Edited 6: Upgrade External Secret in PROD
+a2282693a1cce506fde9499219fb2d8c9b20fe28 b98e349ca247430e19896c51a75e4856364233c5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021310 +0100	commit: Modified 6: Upgrade External Secret in PROD
+b98e349ca247430e19896c51a75e4856364233c5 c36839521e6a31c65e877ce86960d5ee94a3ce14 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021324 +0100	commit: Modified 6: Upgrade External Secret in PROD
+c36839521e6a31c65e877ce86960d5ee94a3ce14 e09a77a9a8711b8a873469de000eb4591edc8535 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021524 +0100	commit: Modified 6: Upgrade External Secret in PROD
+e09a77a9a8711b8a873469de000eb4591edc8535 f1919bbdc8f04e21f9ddcecde19f7bddd75ce211 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021524 +0100	commit: Modified 15: Enable gVNIC in PROD node pools
+f1919bbdc8f04e21f9ddcecde19f7bddd75ce211 0bde4b4c62dde0d07dc18ad17dab053b36c83cf7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021553 +0100	commit: Modified 16: Enable gVNIC in UAT node pools
+0bde4b4c62dde0d07dc18ad17dab053b36c83cf7 2302471869d15a2fde298ed6f5fd5fd0d91b4ba1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021559 +0100	commit: Modified 16: Enable gVNIC in UAT node pools
+2302471869d15a2fde298ed6f5fd5fd0d91b4ba1 73b17f7c9eee60b209592211d0df84aa74d6d8ab Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021559 +0100	commit: Modified 17: Upgrade External Secret to 0.18.1 in UAT
+73b17f7c9eee60b209592211d0df84aa74d6d8ab 365cdad78ba241c171367b1e4fd1ddc9904f539d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751021650 +0100	commit: Edited 3: Upgade UAT LDN + SG Node pools on Weekend
