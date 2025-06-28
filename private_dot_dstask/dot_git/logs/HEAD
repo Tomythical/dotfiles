@@ -126,3 +126,4 @@ d834fd43b7930515a945118e5141d568ee2610d8 de902f8dea5d2ccc8600a0c505c715b9a0553a7
 de902f8dea5d2ccc8600a0c505c715b9a0553a7d 0056491846778ef821fdd38ec860c542fe0f9e59 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751042010 +0100	commit: Resolved 9: Find out why Fixhub-Orchestrator Version Syncing Failed
 0056491846778ef821fdd38ec860c542fe0f9e59 08e8b70fdf4ba7854289dff0b9487f348867d0c9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751109011 +0100	commit: Resolved 16: Enable gVNIC in UAT node pools
 08e8b70fdf4ba7854289dff0b9487f348867d0c9 5dfbc8d3f43eb8072c558056d32a8fd276912063 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751109017 +0100	commit: Resolved 3: Upgade UAT LDN + SG Node pools on Weekend
+5dfbc8d3f43eb8072c558056d32a8fd276912063 9474f92a6bf5bc1814559386485ae0461a206d3e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751109435 +0100	commit: Resolved 17: Upgrade External Secret to 0.18.1 in UAT
