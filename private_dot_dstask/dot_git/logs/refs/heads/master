@@ -130,3 +130,4 @@ de902f8dea5d2ccc8600a0c505c715b9a0553a7d 0056491846778ef821fdd38ec860c542fe0f9e5
 9474f92a6bf5bc1814559386485ae0461a206d3e 0cff078fdd1f7c802898e534a54e8a586e3d4b01 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751115932 +0100	commit: Resolved 1: Upgrade Prometheus in Prod
 0cff078fdd1f7c802898e534a54e8a586e3d4b01 67586c1e2eca98b28d4c3705998ca88d95352024 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751233916 +0100	commit: Resolved 6: Upgrade External Secret in PROD
 67586c1e2eca98b28d4c3705998ca88d95352024 3dfaeb4028eeed1cb3463b5c97c53f7f8426d163 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751233923 +0100	commit: Resolved 15: Enable gVNIC in PROD node pools
+3dfaeb4028eeed1cb3463b5c97c53f7f8426d163 c76225f50201f37979bed30bc6398d441c78b188 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751272990 +0100	commit: Resolved 10: Review CV
