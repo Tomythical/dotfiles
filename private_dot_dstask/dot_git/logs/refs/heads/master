@@ -136,3 +136,4 @@ c76225f50201f37979bed30bc6398d441c78b188 76c34e65c014387ef587e3055cadae81b126f1a
 fb2686a50a09299b9e3815452e3c40b6b9e14856 234db3361ba7269e545d2d9338653bb591315be9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751277946 +0100	commit: Stopped 2: Find out what's wrong with Flux
 234db3361ba7269e545d2d9338653bb591315be9 05d592bbf89c1d4159b449067fd9fce24ffda81e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751277951 +0100	commit: Modified 2: Find out what's wrong with Flux
 05d592bbf89c1d4159b449067fd9fce24ffda81e b169432d12d89c22e5494885ed1509bccebd2096 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751277956 +0100	commit: Started 12: Move CI ARC to use new GCP WIF
+b169432d12d89c22e5494885ed1509bccebd2096 0ba523178b8cd96450439235cfe0332524a8089a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751293878 +0100	commit: Edit note 12: Move CI ARC to use new GCP WIF
