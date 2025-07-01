@@ -1,14 +1,15 @@
 summary: Upgrade Falco
 notes: |+
-  - [ ] Fix in dev
-  - [ ] Make sure we are using our mirror for the image
-  - [ ] Do we need pod annotation so our prometheus can pick it up
+  - [x] Make sure we are using our mirror for the image
+  - [x] Do we need pod annotation so our prometheus can pick it up
+  - [ ] Remove in DEV
+
 
 
 tags:
 - upgrades
 project: ""
-priority: P2
+priority: P3
 delegatedto: ""
 subtasks: []
 dependencies: []

@@ -18,6 +18,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.yaml" },
     { import = "lazyvim.plugins.extras.lang.helm" },
     { import = "lazyvim.plugins.extras.lang.go" },
+    { import = "lazyvim.plugins.extras.lang.markdown" },
     -- Formatting
     { import = "lazyvim.plugins.extras.formatting.black" },
     -- AI
