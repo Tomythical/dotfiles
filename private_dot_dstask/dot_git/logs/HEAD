@@ -159,3 +159,7 @@ aa65b5dc7b03f118cbe2b267a8a834a82931066f 009093a54f78063ade78f3443cfab419bfad636
 009093a54f78063ade78f3443cfab419bfad6368 fc76e04b290cbf93ac8de778eda7319dcd53b1ae Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751449904 +0100	commit: Modified 1: Review Maxx CVs
 fc76e04b290cbf93ac8de778eda7319dcd53b1ae a9d3a1c605203f1930159b6241ec98a880f57543 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751449980 +0100	commit: Added 16: Create read replica of DB in PROD
 a9d3a1c605203f1930159b6241ec98a880f57543 c825b078a4290bbeb7aad268a5021ad36bd10ce9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751450007 +0100	commit: Edited 16: Create read replica of tableau-data DB in PROD
+c825b078a4290bbeb7aad268a5021ad36bd10ce9 d401025843e94984ba251fb965f1add5aa10d47c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751457762 +0100	commit: Started 10: Get Hal to check DB perms in rtc-metrics
+d401025843e94984ba251fb965f1add5aa10d47c bc298fe8e33f6ebe08a84321952559505e8d4780 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751457771 +0100	commit: Started 15: Grant Jaques access to rtc-metrics DB replica
+bc298fe8e33f6ebe08a84321952559505e8d4780 70f8bfccf4dd998240c455855756c85d025ea94c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751457807 +0100	commit: Edit note 5: Upgrade Falco
+70f8bfccf4dd998240c455855756c85d025ea94c 8633a348919ea9b9bbc37248b0ed575f03b92c8f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751457817 +0100	commit: Resolved 5: Upgrade Falco
