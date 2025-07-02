@@ -155,3 +155,7 @@ cdcafa1355facbab84e6e04433a155b1a444824f 2eff1740096b682cacb19c31605e6c4a4e80ad5
 e6255edbacfd34873337d9e262b8dc418aaa3108 0477dadf2f9a31f5554e478cc611d1df7fa0beeb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751388320 +0100	commit: Added 10: Get Hal to check DB perms in rtc-metrics
 0477dadf2f9a31f5554e478cc611d1df7fa0beeb e8b5710e7b4fc8efba7998c2402647ce4bf9b415 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751388321 +0100	commit: Added 15: Get Hal to check DB perms in rtc-metrics
 e8b5710e7b4fc8efba7998c2402647ce4bf9b415 aa65b5dc7b03f118cbe2b267a8a834a82931066f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751388394 +0100	commit: Removed: 15: Get Hal to check DB perms in rtc-metrics
+aa65b5dc7b03f118cbe2b267a8a834a82931066f 009093a54f78063ade78f3443cfab419bfad6368 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751449896 +0100	commit: Added 15: Grant Jaques access to rtc-metrics DB replica
+009093a54f78063ade78f3443cfab419bfad6368 fc76e04b290cbf93ac8de778eda7319dcd53b1ae Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751449904 +0100	commit: Modified 1: Review Maxx CVs
+fc76e04b290cbf93ac8de778eda7319dcd53b1ae a9d3a1c605203f1930159b6241ec98a880f57543 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751449980 +0100	commit: Added 16: Create read replica of DB in PROD
+a9d3a1c605203f1930159b6241ec98a880f57543 c825b078a4290bbeb7aad268a5021ad36bd10ce9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751450007 +0100	commit: Edited 16: Create read replica of tableau-data DB in PROD
