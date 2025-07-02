@@ -163,3 +163,4 @@ c825b078a4290bbeb7aad268a5021ad36bd10ce9 d401025843e94984ba251fb965f1add5aa10d47
 d401025843e94984ba251fb965f1add5aa10d47c bc298fe8e33f6ebe08a84321952559505e8d4780 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751457771 +0100	commit: Started 15: Grant Jaques access to rtc-metrics DB replica
 bc298fe8e33f6ebe08a84321952559505e8d4780 70f8bfccf4dd998240c455855756c85d025ea94c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751457807 +0100	commit: Edit note 5: Upgrade Falco
 70f8bfccf4dd998240c455855756c85d025ea94c 8633a348919ea9b9bbc37248b0ed575f03b92c8f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751457817 +0100	commit: Resolved 5: Upgrade Falco
+8633a348919ea9b9bbc37248b0ed575f03b92c8f 3abd39adbfd428079928185caae96a574452baf4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751468906 +0100	commit: Stopped 15: Grant Jaques access to rtc-metrics DB replica
