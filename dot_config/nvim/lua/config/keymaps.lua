@@ -15,3 +15,6 @@ vim.keymap.set("n", "<leader>umg", "<cmd>CellularAutomaton game_of_life<CR>")
 -- Markdown task creation
 vim.keymap.set("i", "<C-t>", "- [ ] ", { desc = "Insert markdown task" })
 vim.keymap.set("n", "<leader>ot", "o- [ ] ", { desc = "Create new markdown task", silent = true })
+
+-- Surrounding words with backticks
+vim.keymap.set("n", "gs", 'ciw`<C-r>"`<Esc>', { noremap = true })
