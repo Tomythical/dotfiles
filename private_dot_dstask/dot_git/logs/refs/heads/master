@@ -171,3 +171,4 @@ bbb61313f5ccc2a3b04bdcf0fab58697e35ef690 759f1e0d441aa16cc8d52f5704af562fb41a85c
 cdb8112242ffefa916512895ef85f9759dbbcd1d 0d46b3aebf30c51b4aa0f19990da8fae1685135d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751535752 +0100	commit: Resolved 1: Review Maxx CVs
 0d46b3aebf30c51b4aa0f19990da8fae1685135d d4a888d340cecc332a0d770c820ab7a027cc7ffe Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751536425 +0100	commit: Started 16: Create read replica of tableau-data DB in PROD in London
 d4a888d340cecc332a0d770c820ab7a027cc7ffe 930b30e7a27a460e7756c2bf9b062eb5c283213e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751536430 +0100	commit: Stopped 16: Create read replica of tableau-data DB in PROD in London
+930b30e7a27a460e7756c2bf9b062eb5c283213e 84498da570ddf11a91b52bf82acbf15be849f780 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751539070 +0100	commit: Edit note 9: Deploy ld-relay-proxy in feature-flags ns
