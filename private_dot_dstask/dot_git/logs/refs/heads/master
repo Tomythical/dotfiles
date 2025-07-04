@@ -185,3 +185,4 @@ e3ce379438d0ce66494d1682a50600cfd54be549 1d847b542fc5998519cb3c65f8aaa7db7f5bb0c
 63552d38a02c1b89e4506ac4195c46cf6a19c799 f7216377fc51a28e82de1bcfe0fe11a388d090e4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751556246 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
 f7216377fc51a28e82de1bcfe0fe11a388d090e4 c22df4dbf4372b985ddcf2000fcd9ef913a92662 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751556335 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
 c22df4dbf4372b985ddcf2000fcd9ef913a92662 37b44dd6677b88622c03baa0923d8a47b197102c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751559359 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
+37b44dd6677b88622c03baa0923d8a47b197102c bb3970e23c0e6bfe329216d75c0519c9aec8fdd7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751641725 +0100	commit: Added 5: Review Senio DevOps CVs London
