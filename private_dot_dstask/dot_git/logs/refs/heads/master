@@ -204,3 +204,4 @@ a8725cd05e1cc40d1039d9655009b482b5ec8f90 415db259abbf30c74246994450fcd738396cd3a
 7b4609a498dd3db9818db582c0f82755c69cc8ad 0426e68947ab30f69fdeabc9a78651781f2fe3a9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751885073 +0100	commit: Added 9: Upgrade Flux in OPS
 0426e68947ab30f69fdeabc9a78651781f2fe3a9 be972b2163e3b0462df240e44fca4d405ad1c4d7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751890269 +0100	commit: Edit note 1: Make data-team group in terraform and add group IAM for DBs
 be972b2163e3b0462df240e44fca4d405ad1c4d7 72f752af326941a5f322508102302743fe7e8705 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751890291 +0100	commit: Edit note 1: Make data-team group in terraform and add group IAM for DBs
+72f752af326941a5f322508102302743fe7e8705 34915526913573e8d4bc26ea5ad70d040710aca0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751901093 +0100	commit: Edit note 1: Make data-team group in terraform and add group IAM for DBs
