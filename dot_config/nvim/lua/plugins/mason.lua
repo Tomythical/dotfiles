@@ -8,6 +8,7 @@ return {
       "dockerfile-language-server",
       "hadolint",
       "json-lsp",
+      "jinja-lsp",
       "lua-language-server",
       "nginx-language-server",
       "pyright",
