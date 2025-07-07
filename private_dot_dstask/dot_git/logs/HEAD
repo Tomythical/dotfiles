@@ -187,3 +187,6 @@ f7216377fc51a28e82de1bcfe0fe11a388d090e4 c22df4dbf4372b985ddcf2000fcd9ef913a9266
 c22df4dbf4372b985ddcf2000fcd9ef913a92662 37b44dd6677b88622c03baa0923d8a47b197102c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751559359 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
 37b44dd6677b88622c03baa0923d8a47b197102c bb3970e23c0e6bfe329216d75c0519c9aec8fdd7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751641725 +0100	commit: Added 5: Review Senio DevOps CVs London
 bb3970e23c0e6bfe329216d75c0519c9aec8fdd7 9b406ce68f26c4c1eacc725bb4ead27889377f51 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751823138 +0100	commit: Edit note 15: Grant Jaques access to rtc-metrics DB replica
+9b406ce68f26c4c1eacc725bb4ead27889377f51 1dd0af45350112591bf0139858b3b550d64fc453 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751879413 +0100	commit: Resolved 15: Grant Jaques access to rtc-metrics DB replica
+1dd0af45350112591bf0139858b3b550d64fc453 a2f5071045bbe90294e4618f94acde9dcfed8776 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751879417 +0100	commit: Resolved 16: Create read replica of tableau-data DB in PROD in London
+a2f5071045bbe90294e4618f94acde9dcfed8776 46e5310a17017aa4036beb31ea264b45e1cb4ef0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751879428 +0100	commit: Edited 5: Review Senior DevOps CVs London
