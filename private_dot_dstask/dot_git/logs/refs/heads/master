@@ -217,3 +217,8 @@ e17ef775c36ea5ab2edb2eeef992ce522d13fced dcc6b9514bd19bd9a7bb7a304f9ab95a463f9c5
 dcc6b9514bd19bd9a7bb7a304f9ab95a463f9c51 253001d679198880bc1e9651c46049981208b2f5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752068387 +0100	commit: Edit note 3: Upgrade External Secret to 0.18.1 in OPS
 253001d679198880bc1e9651c46049981208b2f5 2a6d6acb0864e26e946b8a6759e44427c6d04f2d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752070486 +0100	commit: Modified 12: Migrate trusted-c2d to be a c4d instance in PROD
 2a6d6acb0864e26e946b8a6759e44427c6d04f2d d0c55e7ee73e2d7ea898dbcc5e1ba31f690da4bb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752070497 +0100	commit: Started 10: Remove the public IP the DBs in UAT or prod
+d0c55e7ee73e2d7ea898dbcc5e1ba31f690da4bb 4def601d6f22124a65d3545e740d0d5d89c4407f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752074171 +0100	commit: Added 15: Upgrade GKE PROD
+4def601d6f22124a65d3545e740d0d5d89c4407f c9220fd644a69723af79b938241cf33e459ef32b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752074197 +0100	commit: Modified 15: Upgrade GKE PROD
+c9220fd644a69723af79b938241cf33e459ef32b 5ac6187653d1f482415fd266018c4573ff05b275 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752074207 +0100	commit: Modified 15: Upgrade GKE PROD
+5ac6187653d1f482415fd266018c4573ff05b275 278e462dea6c2682162179026f36ff0c21f00251 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752076015 +0100	commit: Edit note 12: Migrate trusted-c2d to be a c4d instance in PROD
+278e462dea6c2682162179026f36ff0c21f00251 f78291972f2ef92541c73f85be84d465a4e61d5a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752076021 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
