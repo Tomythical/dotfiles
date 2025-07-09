@@ -19,40 +19,45 @@ vim.keymap.set("n", "<leader>ot", "o- [ ] ", { desc = "Create new markdown task"
 -- Surrounding words with backticks
 vim.keymap.set("n", "gs", 'ciw`<C-r>"`<Esc>', { noremap = true })
 
+-- local M = {}
+--
+-- function M.open_dstask_split()
+--   -- open vertical split and make it e.g. 30 columns wide
+--   vim.cmd("vsplit")
+--   -- open terminal in this window, running dstask
+--   vim.cmd("terminal dstask")
+--   -- enter terminal-mode
+--   vim.cmd("startinsert")
+-- end
+
+local snacks = require("snacks")
 local M = {}
 
-function M.open_dstask_split()
-  -- open vertical split and make it e.g. 30 columns wide
-  vim.cmd("vsplit")
-  -- open terminal in this window, running dstask
-  vim.cmd("terminal dstask")
-  -- enter terminal-mode
-  vim.cmd("startinsert")
-end
-
-local N = {}
-
--- open a horizontal split and run `dstask note <ID>`
-function N.open_dstask_note()
-  -- 1. ask for the task ID
-  local task_id = vim.fn.input("DSTask note for ID: ")
-  if task_id == "" then
-    print("Aborted: no ID given")
+function M.dstask_edit_snacks()
+  local lines = vim.fn.systemlist("dstask --format '{{id}}\t{{summary}}'")
+  if vim.v.shell_error ~= 0 or #lines == 0 then
+    vim.notify("No tasks found or dstask error", vim.log.levels.ERROR)
     return
   end
 
-  -- 2. split & resize to e.g. 10 lines tall
-  vim.cmd("split")
+  -- build items for snacks: { label = "ID: Summary", value = ID }
+  local items = vim.tbl_map(function(line)
+    local id, summary = line:match("^(%S+)\t(.+)$")
+    return { label = id .. ": " .. summary, value = id }
+  end, lines)
 
-  -- 3. launch your shell to run dstask note and then stay at a prompt
-  local cmd = string.format("terminal dstask note %s", task_id)
-  vim.cmd(cmd)
-
-  -- 4. enter insert mode in the terminal
-  vim.cmd("startinsert")
+  snacks.picker({
+    prompt = "Edit dstask > ",
+    items = items,
+    on_select = function(item)
+      vim.cmd("vsplit | vertical resize 40")
+      local shell = os.getenv("SHELL") or "bash"
+      vim.cmd(string.format([[terminal %s -lc "dstask edit %s; exec %s"]], shell, item.value, shell))
+      vim.cmd("startinsert")
+    end,
+  })
 end
 
--- map it to <leader>d
-vim.keymap.set("n", "<leader>N", M.open_dstask_split, { desc = "Open dstask in small vertical split" })
--- map it to <leader>n
-vim.keymap.set("n", "<leader>n", N.open_dstask_note, { desc = "Open horizontal dstask note terminal" })
+vim.keymap.set("n", "<leader>e", M.dstask_edit_snacks, {
+  desc = "Pick dstask task to edit (Snacks)",
+})
