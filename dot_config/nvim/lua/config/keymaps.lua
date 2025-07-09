@@ -26,13 +26,33 @@ function M.open_dstask_split()
   vim.cmd("vsplit")
   -- open terminal in this window, running dstask
   vim.cmd("terminal dstask")
-  --    here we use bash -lc, but if you use zsh/fish just change it appropriately!
-  local shell = os.getenv("SHELL") or "zsh"
-  local cmd = string.format([[terminal %s -lc "dstask; exec %s"]], shell, shell)
-  vim.cmd(cmd)
   -- enter terminal-mode
+  vim.cmd("startinsert")
+end
+
+local N = {}
+
+-- open a horizontal split and run `dstask note <ID>`
+function N.open_dstask_note()
+  -- 1. ask for the task ID
+  local task_id = vim.fn.input("DSTask note for ID: ")
+  if task_id == "" then
+    print("Aborted: no ID given")
+    return
+  end
+
+  -- 2. split & resize to e.g. 10 lines tall
+  vim.cmd("split")
+
+  -- 3. launch your shell to run dstask note and then stay at a prompt
+  local cmd = string.format("terminal dstask note %s", task_id)
+  vim.cmd(cmd)
+
+  -- 4. enter insert mode in the terminal
   vim.cmd("startinsert")
 end
 
 -- map it to <leader>d
 vim.keymap.set("n", "<leader>N", M.open_dstask_split, { desc = "Open dstask in small vertical split" })
+-- map it to <leader>n
+vim.keymap.set("n", "<leader>n", N.open_dstask_note, { desc = "Open horizontal dstask note terminal" })

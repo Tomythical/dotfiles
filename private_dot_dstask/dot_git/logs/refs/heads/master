@@ -214,3 +214,4 @@ c9218e0a0b248e9dd16751e3100eb3e0c322fcdf 2ac9bf88dbfc748e2376f29c3b8ca63e364a718
 8304e24e6e26ba1ad764a6d28facb6d3553de08c f11dcd516a37fd7007b979d93282bfe442d9ba18 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1751993821 +0100	commit: Started 3: Upgrade External Secret to 0.18.1 in OPS
 f11dcd516a37fd7007b979d93282bfe442d9ba18 e17ef775c36ea5ab2edb2eeef992ce522d13fced Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752052970 +0100	commit: Edit note 3: Upgrade External Secret to 0.18.1 in OPS
 e17ef775c36ea5ab2edb2eeef992ce522d13fced dcc6b9514bd19bd9a7bb7a304f9ab95a463f9c51 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752056879 +0100	commit: Edit note 1: Make data-team group in terraform and add group IAM for DBs
+dcc6b9514bd19bd9a7bb7a304f9ab95a463f9c51 253001d679198880bc1e9651c46049981208b2f5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752068387 +0100	commit: Edit note 3: Upgrade External Secret to 0.18.1 in OPS
