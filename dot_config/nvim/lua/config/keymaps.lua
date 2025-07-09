@@ -34,7 +34,7 @@ local snacks = require("snacks")
 local M = {}
 
 function M.dstask_edit_snacks()
-  local lines = vim.fn.systemlist("dstask --format '{{id}}\t{{summary}}'")
+  local lines = vim.fn.systemlist("dstask")
   if vim.v.shell_error ~= 0 or #lines == 0 then
     vim.notify("No tasks found or dstask error", vim.log.levels.ERROR)
     return
@@ -51,9 +51,8 @@ function M.dstask_edit_snacks()
     items = items,
     on_select = function(item)
       vim.cmd("vsplit | vertical resize 40")
-      local shell = os.getenv("SHELL") or "bash"
-      vim.cmd(string.format([[terminal %s -lc "dstask edit %s; exec %s"]], shell, item.value, shell))
-      vim.cmd("startinsert")
+      local cmd = string.format("terminal dstask note %s", item)
+      vim.cmd(cmd)
     end,
   })
 end
