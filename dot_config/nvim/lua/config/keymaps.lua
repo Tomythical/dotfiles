@@ -18,3 +18,21 @@ vim.keymap.set("n", "<leader>ot", "o- [ ] ", { desc = "Create new markdown task"
 
 -- Surrounding words with backticks
 vim.keymap.set("n", "gs", 'ciw`<C-r>"`<Esc>', { noremap = true })
+
+local M = {}
+
+function M.open_dstask_split()
+  -- open vertical split and make it e.g. 30 columns wide
+  vim.cmd("vsplit")
+  -- open terminal in this window, running dstask
+  vim.cmd("terminal dstask")
+  --    here we use bash -lc, but if you use zsh/fish just change it appropriately!
+  local shell = os.getenv("SHELL") or "zsh"
+  local cmd = string.format([[terminal %s -lc "dstask; exec %s"]], shell, shell)
+  vim.cmd(cmd)
+  -- enter terminal-mode
+  vim.cmd("startinsert")
+end
+
+-- map it to <leader>d
+vim.keymap.set("n", "<leader>N", M.open_dstask_split, { desc = "Open dstask in small vertical split" })
