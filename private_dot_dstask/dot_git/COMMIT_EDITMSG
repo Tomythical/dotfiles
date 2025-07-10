@@ -1,1 +1,1 @@
-Edit note 6: Gateway API templating change for Regional LB instead of Istio
+Edit note 10: Remove the public IP the DBs in UAT or prod
