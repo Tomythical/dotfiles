@@ -239,3 +239,4 @@ eab65e53198cdff43a131cca4715a9620af3be20 a309e0c25767ae6c9299f8020bb7cc616827c31
 a309e0c25767ae6c9299f8020bb7cc616827c31b fbd962055105f332792319971c6c153b062eb426 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752222897 +0100	commit: Modified 12: Migrate trusted-c2d to be a c4d instance in PROD
 fbd962055105f332792319971c6c153b062eb426 8c105ffb51f54966e3125224fabc5be06e686dc7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752222905 +0100	commit: Modified 2: Upgrade GKE PROD
 8c105ffb51f54966e3125224fabc5be06e686dc7 1ffb4e068dce0ea0661816092ca89912b79250f9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752224853 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
+1ffb4e068dce0ea0661816092ca89912b79250f9 fb3ba87c6dc385a0d3834e160faa192107709535 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752327695 +0100	commit: Resolved 2: Upgrade GKE PROD
