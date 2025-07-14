@@ -243,3 +243,4 @@ fbd962055105f332792319971c6c153b062eb426 8c105ffb51f54966e3125224fabc5be06e686dc
 fb3ba87c6dc385a0d3834e160faa192107709535 e7ea67fc2dbb4a966564a30aa3a13f21397fabc4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752333513 +0100	commit: Edit note 1: Make data-team group in terraform and add group IAM for DBs
 e7ea67fc2dbb4a966564a30aa3a13f21397fabc4 07fdd554a9a0b600885b8a27bdca3a7c2d01b119 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752484988 +0100	commit: Edit note 12: Migrate trusted-c2d to be a c4d instance in PROD
 07fdd554a9a0b600885b8a27bdca3a7c2d01b119 86be6e99881fe9da0f2694d1b2da983fe469274b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752485227 +0100	commit: Resolved 12: Migrate trusted-c2d to be a c4d instance in PROD
+86be6e99881fe9da0f2694d1b2da983fe469274b 22152a375b346cfc6f78dae34f9a8c9bd893fa72 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752502482 +0100	commit: Edit note 1: Make data-team group in terraform and add group IAM for DBs
