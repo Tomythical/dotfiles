@@ -255,3 +255,6 @@ e7ea67fc2dbb4a966564a30aa3a13f21397fabc4 07fdd554a9a0b600885b8a27bdca3a7c2d01b11
 6856b07fb9e69f0d3bcf42caf7dc2df05ea05015 f4e87a1ea6931ac5a72c770f3217e9c6fe1e6ae0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752584265 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
 f4e87a1ea6931ac5a72c770f3217e9c6fe1e6ae0 c6982e924ff71a5ad89588c861247ed3427e8b3a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752586886 +0100	commit: Added 1: Add high-level try-catch for github call
 c6982e924ff71a5ad89588c861247ed3427e8b3a e10f74bd5f2504cce8a6808b7febdc0e348b86d2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752586912 +0100	commit: Modified 15: Find out what's wrong with Flux
+e10f74bd5f2504cce8a6808b7febdc0e348b86d2 e69726a68a47902b4cb0c6ca13758936e5f3505f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752592432 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
+e69726a68a47902b4cb0c6ca13758936e5f3505f e9fdf04322c072d5178008e61b9bbcb9e303f3df Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752594504 +0100	commit: Edit note 3: Upgrade External Secret to 0.18.1 in OPS
+e9fdf04322c072d5178008e61b9bbcb9e303f3df 81a9a71616f23dc4e4ae10c9eb46cf3601228d5d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752595711 +0100	commit: Edit note 9: Upgrade Flux in OPS
