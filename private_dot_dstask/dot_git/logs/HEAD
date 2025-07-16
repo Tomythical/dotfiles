@@ -258,3 +258,7 @@ c6982e924ff71a5ad89588c861247ed3427e8b3a e10f74bd5f2504cce8a6808b7febdc0e348b86d
 e10f74bd5f2504cce8a6808b7febdc0e348b86d2 e69726a68a47902b4cb0c6ca13758936e5f3505f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752592432 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
 e69726a68a47902b4cb0c6ca13758936e5f3505f e9fdf04322c072d5178008e61b9bbcb9e303f3df Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752594504 +0100	commit: Edit note 3: Upgrade External Secret to 0.18.1 in OPS
 e9fdf04322c072d5178008e61b9bbcb9e303f3df 81a9a71616f23dc4e4ae10c9eb46cf3601228d5d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752595711 +0100	commit: Edit note 9: Upgrade Flux in OPS
+81a9a71616f23dc4e4ae10c9eb46cf3601228d5d 205a28d958c584dade20a922d9ba5f9b8dec7962 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752657741 +0100	commit: Started 9: Upgrade Flux in OPS
+205a28d958c584dade20a922d9ba5f9b8dec7962 4fca9cd90754dd52d848de82a87b84075860aa61 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752657748 +0100	commit: Stopped 9: Upgrade Flux in OPS
+4fca9cd90754dd52d848de82a87b84075860aa61 57bc6bc896a797f27eaa179f0095a2631f3aeb6c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752658317 +0100	commit: Added 2: Review Senior DevOps CVs
+57bc6bc896a797f27eaa179f0095a2631f3aeb6c 334b340157467b1cf9a7c9f1ce8258086f0ab242 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752661494 +0100	commit: Resolved 2: Review Senior DevOps CVs
