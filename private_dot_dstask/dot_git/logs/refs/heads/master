@@ -262,3 +262,7 @@ e9fdf04322c072d5178008e61b9bbcb9e303f3df 81a9a71616f23dc4e4ae10c9eb46cf3601228d5
 205a28d958c584dade20a922d9ba5f9b8dec7962 4fca9cd90754dd52d848de82a87b84075860aa61 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752657748 +0100	commit: Stopped 9: Upgrade Flux in OPS
 4fca9cd90754dd52d848de82a87b84075860aa61 57bc6bc896a797f27eaa179f0095a2631f3aeb6c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752658317 +0100	commit: Added 2: Review Senior DevOps CVs
 57bc6bc896a797f27eaa179f0095a2631f3aeb6c 334b340157467b1cf9a7c9f1ce8258086f0ab242 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752661494 +0100	commit: Resolved 2: Review Senior DevOps CVs
+334b340157467b1cf9a7c9f1ce8258086f0ab242 32b2edf00c6cd4a6910f2b6fb56f71b660cae85f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752675238 +0100	commit: Edit note 9: Upgrade Flux in OPS
+32b2edf00c6cd4a6910f2b6fb56f71b660cae85f 172c7b6cc9cbf2c213f164dca0708335bac7cd62 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752675242 +0100	commit: Resolved 9: Upgrade Flux in OPS
+172c7b6cc9cbf2c213f164dca0708335bac7cd62 2eabb53d33a108ccb7a538ad47dbed81aa1d1181 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752679938 +0100	commit: Stopped 10: Remove the public IP the DBs in UAT or prod
+2eabb53d33a108ccb7a538ad47dbed81aa1d1181 cab5813a76aaebee7d53e4aa3126e56150f0ce2a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752679981 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
