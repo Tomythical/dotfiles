@@ -266,3 +266,4 @@ e9fdf04322c072d5178008e61b9bbcb9e303f3df 81a9a71616f23dc4e4ae10c9eb46cf3601228d5
 32b2edf00c6cd4a6910f2b6fb56f71b660cae85f 172c7b6cc9cbf2c213f164dca0708335bac7cd62 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752675242 +0100	commit: Resolved 9: Upgrade Flux in OPS
 172c7b6cc9cbf2c213f164dca0708335bac7cd62 2eabb53d33a108ccb7a538ad47dbed81aa1d1181 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752679938 +0100	commit: Stopped 10: Remove the public IP the DBs in UAT or prod
 2eabb53d33a108ccb7a538ad47dbed81aa1d1181 cab5813a76aaebee7d53e4aa3126e56150f0ce2a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1752679981 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
+cab5813a76aaebee7d53e4aa3126e56150f0ce2a c277ddf85932bee96828fd6d55056a67747a390b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753089599 +0100	commit: Added 2: Move to using OCI Helm Charts using our GCHR mirror
