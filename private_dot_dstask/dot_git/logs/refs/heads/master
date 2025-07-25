@@ -273,3 +273,4 @@ ffa15389f5fc265434cc14cc1bd8c2fc4dff069f 98be558212a72e216874553763bd79eda2cddd3
 4232437ea7a5bc65c6bde373a2bb798395350a4a 57e0829962d153814533fb6df8b7d960d62e5ea7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753357070 +0100	commit: Modified 11: Terraform Service Account Restructure
 57e0829962d153814533fb6df8b7d960d62e5ea7 7d11e03480137189cdc8c6046c3498e55cb3bee2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753357158 +0100	commit: Added 9: GitHub Actions for internal DevOps Pipelines
 7d11e03480137189cdc8c6046c3498e55cb3bee2 048eea757a2fc9ddb44ca186e2dd4017363d1816 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753369547 +0100	commit: Edit note 2: Move to using OCI Helm Charts using our GCHR mirror
+048eea757a2fc9ddb44ca186e2dd4017363d1816 ec4bf6fd1c31d1bb942c988f622656974c655bc0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753455453 +0100	commit: Modified 7: Update Jira Webhook for comments to match the change-bot webhook
