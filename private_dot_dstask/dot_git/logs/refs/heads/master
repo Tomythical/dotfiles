@@ -281,3 +281,4 @@ bdb38b237fa6f83be89d2c2764edf2ee2f6e9c2e 8b7532a4265dfbc8ff0b94b930a108606a20907
 8b7532a4265dfbc8ff0b94b930a108606a20907d eb7e034a504671da6b368d27396fd77972550e63 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753716845 +0100	commit: Edit note 2: Move to using OCI Helm Charts using our GCHR mirror
 eb7e034a504671da6b368d27396fd77972550e63 fb51c640314f1e4641ceeb108836b51f891a88f1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753719637 +0100	commit: Stopped 2: Move to using OCI Helm Charts using our GCHR mirror
 fb51c640314f1e4641ceeb108836b51f891a88f1 a246f0bcf85896f2d03609dbeb10c3e46613b58d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753719642 +0100	commit: Started 11: Terraform Service Account Restructure
+a246f0bcf85896f2d03609dbeb10c3e46613b58d b0276e5fb2dbe5dd4d981730655208fdf522900b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753782486 +0100	commit: Edit note 2: Move to using OCI Helm Charts using our GCHR mirror
