@@ -67,8 +67,8 @@ return {
       update_debounce = 200,
       max_file_length = 5000,
       checkboxes = {
-        [" "] = { char = "☐", hl_group = "ObsidianTodo", order = 1 },
-        ["x"] = { char = "", hl_group = "ObsidianDone", order = 2 },
+        ["x"] = { char = "", hl_group = "ObsidianDone", order = 1 },
+        [" "] = { char = "☐", hl_group = "ObsidianTodo", order = 2 },
         [">"] = { char = "󰔟", hl_group = "ObsidianRightArrow", order = 3 },
         ["~"] = { char = "󰯇", hl_group = "ObsidianTilde", order = 4 },
         ["!"] = { char = "󱈸", hl_group = "ObsidianImportant", order = 5 },
