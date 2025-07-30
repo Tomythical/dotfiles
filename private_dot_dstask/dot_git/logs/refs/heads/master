@@ -295,3 +295,8 @@ eb9731250f583300bb38e4175351b39682f87eb7 9eb9117bfba714a61186631385d14866585910c
 9eb9117bfba714a61186631385d14866585910c6 94efa3a3c016d0a70e499f337c54a812fb90f478 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753865997 +0100	commit: Stopped 16: DB Permission Granting for MaxxTrader with Lawrence
 94efa3a3c016d0a70e499f337c54a812fb90f478 b74805b2b95ddf4de0b4ea3aa4506486275cde92 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753866074 +0100	commit: Modified 10: Remove the public IP the DBs in UAT or prod
 b74805b2b95ddf4de0b4ea3aa4506486275cde92 250d6bf2615ca99de1f593fc5381e36a56e108a2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753866156 +0100	commit: Added 17: Review CVs
+250d6bf2615ca99de1f593fc5381e36a56e108a2 106e3493baa90a36410e9c6dc326d73a6cc3ed50 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753868850 +0100	commit: Modified 2: Move to using OCI Helm Charts using our GCHR mirror
+106e3493baa90a36410e9c6dc326d73a6cc3ed50 cf2e19a19bdfe7f9ef49e8fd0199c5ca89b624e8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753870788 +0100	commit: Started 12: Cleanup Bitbucket references from Teamcity
+cf2e19a19bdfe7f9ef49e8fd0199c5ca89b624e8 1d9c84e1eafe4f4f7ffdd7b583a030e776bb5d26 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753870791 +0100	commit: Stopped 12: Cleanup Bitbucket references from Teamcity
+1d9c84e1eafe4f4f7ffdd7b583a030e776bb5d26 4d4d54731016189deef47d324dad87f02a590f21 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753870935 +0100	commit: Modified 16: DB Permission Granting for MaxxTrader with Lawrence
+4d4d54731016189deef47d324dad87f02a590f21 8ea55672e303cd4f5a3b091d4b98997b0ba0770c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753877988 +0100	commit: Edit note 9: GitHub Actions for internal DevOps Pipelines
