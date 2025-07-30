@@ -292,3 +292,6 @@ a97967a30509e9b7e18b5c13c476f8a9485a2c31 661bc188770f22d6b5b843cc962ea6489da8212
 8c494bdf294bce9d7fd66724e26d8520555c1813 50b840e195fd0de60cc878069df1f71dae4985b5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753864927 +0100	commit: Stopped 11: Terraform Service Account Restructure
 50b840e195fd0de60cc878069df1f71dae4985b5 eb9731250f583300bb38e4175351b39682f87eb7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753864937 +0100	commit: Started 16: DB Permission Granting for MaxxTrader with Lawrence
 eb9731250f583300bb38e4175351b39682f87eb7 9eb9117bfba714a61186631385d14866585910c6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753865938 +0100	commit: Edit note 16: DB Permission Granting for MaxxTrader with Lawrence
+9eb9117bfba714a61186631385d14866585910c6 94efa3a3c016d0a70e499f337c54a812fb90f478 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753865997 +0100	commit: Stopped 16: DB Permission Granting for MaxxTrader with Lawrence
+94efa3a3c016d0a70e499f337c54a812fb90f478 b74805b2b95ddf4de0b4ea3aa4506486275cde92 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753866074 +0100	commit: Modified 10: Remove the public IP the DBs in UAT or prod
+b74805b2b95ddf4de0b4ea3aa4506486275cde92 250d6bf2615ca99de1f593fc5381e36a56e108a2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753866156 +0100	commit: Added 17: Review CVs
