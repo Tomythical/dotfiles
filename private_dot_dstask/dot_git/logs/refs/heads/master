@@ -316,3 +316,5 @@ bb1dfcd1027e91151bd3391eb961b231961ac42d a51f62ce949bd4fabda53b54cb81b96d2be9583
 a51f62ce949bd4fabda53b54cb81b96d2be95836 59cb195444ea58f075be1a3efdcf31d6e1c480f5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753952780 +0100	commit: Started 9: GitHub Actions for internal DevOps Pipelines
 59cb195444ea58f075be1a3efdcf31d6e1c480f5 4d7150502a6ec610c512e29b9ca581dfe4f9867b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753966916 +0100	commit: Edit note 9: GitHub Actions for internal DevOps Pipelines
 4d7150502a6ec610c512e29b9ca581dfe4f9867b eb05e024d9c7f4076b499d03f0649ba9b636cee1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1753980657 +0100	commit: Added 18: Do Whitelist IP CR
+eb05e024d9c7f4076b499d03f0649ba9b636cee1 40dae8e3d52ce3f2ee9ce33cb32eadcdaa71b176 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754039670 +0100	commit: Edit note 9: GitHub Actions for internal DevOps Pipelines
+40dae8e3d52ce3f2ee9ce33cb32eadcdaa71b176 b54eddc8193e84bc90199c340f6571ac292a92e6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754040379 +0100	commit: Added 19: Central WAF Policy State Move
