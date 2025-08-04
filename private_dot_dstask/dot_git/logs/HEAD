@@ -319,3 +319,6 @@ a51f62ce949bd4fabda53b54cb81b96d2be95836 59cb195444ea58f075be1a3efdcf31d6e1c480f
 eb05e024d9c7f4076b499d03f0649ba9b636cee1 40dae8e3d52ce3f2ee9ce33cb32eadcdaa71b176 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754039670 +0100	commit: Edit note 9: GitHub Actions for internal DevOps Pipelines
 40dae8e3d52ce3f2ee9ce33cb32eadcdaa71b176 b54eddc8193e84bc90199c340f6571ac292a92e6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754040379 +0100	commit: Added 19: Central WAF Policy State Move
 b54eddc8193e84bc90199c340f6571ac292a92e6 3dd63bdd93a8a1a0555a3e6fbfb55e6284453e14 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754049368 +0100	commit: Added 20: Remove Dev ILB p1
+3dd63bdd93a8a1a0555a3e6fbfb55e6284453e14 a8ac4fa4b85ade0e6f528302e05fc795d957f434 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754296188 +0100	commit: Resolved 18: Do Whitelist IP CR
+a8ac4fa4b85ade0e6f528302e05fc795d957f434 3cdc19e5c23aa965b61fee4154320ff05417452f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754296205 +0100	commit: Resolved 1: Add high-level try-catch for github call
+3cdc19e5c23aa965b61fee4154320ff05417452f b2c1b1f215ea68189a76311d1e9f1ec25b5a354c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754296506 +0100	commit: Edit note 9: GitHub Actions for internal DevOps Pipelines
