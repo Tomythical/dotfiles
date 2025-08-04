@@ -324,3 +324,4 @@ a8ac4fa4b85ade0e6f528302e05fc795d957f434 3cdc19e5c23aa965b61fee4154320ff05417452
 3cdc19e5c23aa965b61fee4154320ff05417452f b2c1b1f215ea68189a76311d1e9f1ec25b5a354c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754296506 +0100	commit: Edit note 9: GitHub Actions for internal DevOps Pipelines
 b2c1b1f215ea68189a76311d1e9f1ec25b5a354c 8d3ce59fb45e7cf441ad1cf3d54ad79b301a5a5a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754312835 +0100	commit: Edited 20: Remove Dev ILB
 8d3ce59fb45e7cf441ad1cf3d54ad79b301a5a5a 43476551c206c7043258258e6b46a5a6d5f7d7b8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754312842 +0100	commit: Modified 20: Remove Dev ILB
+43476551c206c7043258258e6b46a5a6d5f7d7b8 8ba8060841c8752b589ab4357e0c1f1b0f31bcb8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754322954 +0100	commit: Resolved 10: Remove the public IP the DBs in UAT or prod
