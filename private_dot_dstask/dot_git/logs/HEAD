@@ -330,3 +330,5 @@ b2c1b1f215ea68189a76311d1e9f1ec25b5a354c 8d3ce59fb45e7cf441ad1cf3d54ad79b301a5a5
 f2658557903b6353bd0a0bf11e22b5ca9a0af810 c5563eb15f52eb34a7a9f42cf878ef52438c284f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754412161 +0100	commit: Edit note 9: GitHub Actions for internal DevOps Pipelines
 c5563eb15f52eb34a7a9f42cf878ef52438c284f ca64ceb4bd5604ea335022eeba18340a818c85e9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754491635 +0100	commit: Edit note 2: Move to using OCI Helm Charts using our GCHR mirror
 ca64ceb4bd5604ea335022eeba18340a818c85e9 3abe4e538f010f1f27d9ff3b67cda80516558b73 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754497274 +0100	commit: Removed: 17: Review CVs
+3abe4e538f010f1f27d9ff3b67cda80516558b73 2e652ce177fe5e5aba6af74a9901ed92d34c20a5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754567235 +0100	commit: Logged Bug fix for fixhub Jira Querying
+2e652ce177fe5e5aba6af74a9901ed92d34c20a5 9b09151cb0a34de01f4b0b0a5949c0dbfad04821 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754567291 +0100	commit: Added 7: Upgrade Kyverno
