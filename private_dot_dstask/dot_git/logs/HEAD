@@ -333,3 +333,5 @@ ca64ceb4bd5604ea335022eeba18340a818c85e9 3abe4e538f010f1f27d9ff3b67cda80516558b7
 3abe4e538f010f1f27d9ff3b67cda80516558b73 2e652ce177fe5e5aba6af74a9901ed92d34c20a5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754567235 +0100	commit: Logged Bug fix for fixhub Jira Querying
 2e652ce177fe5e5aba6af74a9901ed92d34c20a5 9b09151cb0a34de01f4b0b0a5949c0dbfad04821 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754567291 +0100	commit: Added 7: Upgrade Kyverno
 9b09151cb0a34de01f4b0b0a5949c0dbfad04821 8ae49395dd456e8ecc505389264a167145f08a0b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754568745 +0100	commit: Edit note 9: GitHub Actions for internal DevOps Pipelines
+8ae49395dd456e8ecc505389264a167145f08a0b 143d06cf223c605a9e57d887909123fb857d9216 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754641159 +0100	commit: Modified 16: DB Permission Granting for MaxxTrader with Lawrence
+143d06cf223c605a9e57d887909123fb857d9216 712c7ded15356b1d1b3d3c354cf8a2d7dbd44791 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754641170 +0100	commit: Modified 16: DB Permission Granting for MaxxTrader with Lawrence
