@@ -339,3 +339,4 @@ ca64ceb4bd5604ea335022eeba18340a818c85e9 3abe4e538f010f1f27d9ff3b67cda80516558b7
 8a72af006496a45fa82f2da36df6cf0689d18856 a35e8419c1e708273395f1f3c3127ea2dc91000c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754647913 +0100	commit: Added 17: UAT - add fields in rtc-metrics DB
 a35e8419c1e708273395f1f3c3127ea2dc91000c b13f9d47cf814042c9a323cc9c6a641c2bbbbd7b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754647927 +0100	commit: Stopped 9: GitHub Actions for internal DevOps Pipelines
 b13f9d47cf814042c9a323cc9c6a641c2bbbbd7b 700edac95d6772b24178b96e7d0dfcf4ae34b241 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754647960 +0100	commit: Edit note 17: UAT - add fields in rtc-metrics DB
+700edac95d6772b24178b96e7d0dfcf4ae34b241 9f578cd6774f788ff94e1bc9c37478dc2fd792df Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754648422 +0100	commit: Resolved 17: UAT - add fields in rtc-metrics DB
