@@ -335,3 +335,7 @@ ca64ceb4bd5604ea335022eeba18340a818c85e9 3abe4e538f010f1f27d9ff3b67cda80516558b7
 9b09151cb0a34de01f4b0b0a5949c0dbfad04821 8ae49395dd456e8ecc505389264a167145f08a0b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754568745 +0100	commit: Edit note 9: GitHub Actions for internal DevOps Pipelines
 8ae49395dd456e8ecc505389264a167145f08a0b 143d06cf223c605a9e57d887909123fb857d9216 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754641159 +0100	commit: Modified 16: DB Permission Granting for MaxxTrader with Lawrence
 143d06cf223c605a9e57d887909123fb857d9216 712c7ded15356b1d1b3d3c354cf8a2d7dbd44791 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754641170 +0100	commit: Modified 16: DB Permission Granting for MaxxTrader with Lawrence
+712c7ded15356b1d1b3d3c354cf8a2d7dbd44791 8a72af006496a45fa82f2da36df6cf0689d18856 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754647849 +0100	commit: Added 10: Fix Fixhub Jira Querying Limit
+8a72af006496a45fa82f2da36df6cf0689d18856 a35e8419c1e708273395f1f3c3127ea2dc91000c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754647913 +0100	commit: Added 17: UAT - add fields in rtc-metrics DB
+a35e8419c1e708273395f1f3c3127ea2dc91000c b13f9d47cf814042c9a323cc9c6a641c2bbbbd7b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754647927 +0100	commit: Stopped 9: GitHub Actions for internal DevOps Pipelines
+b13f9d47cf814042c9a323cc9c6a641c2bbbbd7b 700edac95d6772b24178b96e7d0dfcf4ae34b241 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754647960 +0100	commit: Edit note 17: UAT - add fields in rtc-metrics DB
