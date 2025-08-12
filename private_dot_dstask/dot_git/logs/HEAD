@@ -348,3 +348,6 @@ b13f9d47cf814042c9a323cc9c6a641c2bbbbd7b 700edac95d6772b24178b96e7d0dfcf4ae34b24
 1e1403a84d2b07b054c2ad19c27f8d12cc8aa06d 81a7f972d1f60a58affead832c332d1efbffe392 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754923770 +0100	commit: Added 10: Attach change-bot tag when creating a PR
 81a7f972d1f60a58affead832c332d1efbffe392 73f135c2333c082ab207e8d5f82d6be329ca9da5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754924719 +0100	commit: Added 17: Create Canvas Roadmap for GitHub Actions
 73f135c2333c082ab207e8d5f82d6be329ca9da5 7809a8b4419a5370f1980f69e66f9047ce206aae Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754924762 +0100	commit: Edit note 2: Move to using OCI Helm Charts using our GCHR mirror
+7809a8b4419a5370f1980f69e66f9047ce206aae aff4da95334b45d66dce5fc925e569451b4a12fa Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754992503 +0100	commit: Edit note 7: Upgrade Kyverno
+aff4da95334b45d66dce5fc925e569451b4a12fa 4bb2c9f894105870d97d2d1389c0de49c643820a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754992801 +0100	commit: Edit note 7: Upgrade Kyverno
+4bb2c9f894105870d97d2d1389c0de49c643820a 9c0faeccefd3e661b0cbbadf28869d4f51f7676d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1754995107 +0100	commit: Added 18: Make GCP Groups for Internal Devops Roles
