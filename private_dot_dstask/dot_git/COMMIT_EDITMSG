@@ -1,1 +1,1 @@
-Added 21: BugFix for duplicate fixhub sessions
+Resolved 10: Revert k8s-gitops-dev to Helm HTTPS templating
