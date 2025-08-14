@@ -370,3 +370,4 @@ baed933d448441aee06a6c89b6236f7a52c32f3b 319723a79399a00b462adb063e7be373c3e97bd
 6069c209ed8f4041f76e4bf4ce227a4f9cbc4131 181958c8f2c9bb19e6f69527a51ddb93ca620c5c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755163140 +0100	commit: Started 10: Revert k8s-gitops-dev to Helm HTTPS templating
 181958c8f2c9bb19e6f69527a51ddb93ca620c5c 8ba63b08366d57f0345d2a054ffe1c345c8209ac Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755163647 +0100	commit: Started 6: Gateway API templating change for Regional LB instead of Istio
 8ba63b08366d57f0345d2a054ffe1c345c8209ac d8399e0cbc45f428453ccb2f95152d0d7efe106f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755163867 +0100	commit: Added 20: Managed IAM folder for frontend-docs bucket with conditional branch perms
+d8399e0cbc45f428453ccb2f95152d0d7efe106f ebd6119d748f368b4cd3653ff252b9cd43d1392e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755167446 +0100	commit: Added 21: BugFix for duplicate fixhub sessions
