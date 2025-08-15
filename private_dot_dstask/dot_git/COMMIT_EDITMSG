@@ -1,1 +1,1 @@
-Resolved 10: Revert k8s-gitops-dev to Helm HTTPS templating
+Modified 6: Gateway API templating change for Regional LB instead of Istio

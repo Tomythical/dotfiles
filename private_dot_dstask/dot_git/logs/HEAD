@@ -373,3 +373,4 @@ baed933d448441aee06a6c89b6236f7a52c32f3b 319723a79399a00b462adb063e7be373c3e97bd
 d8399e0cbc45f428453ccb2f95152d0d7efe106f ebd6119d748f368b4cd3653ff252b9cd43d1392e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755167446 +0100	commit: Added 21: BugFix for duplicate fixhub sessions
 ebd6119d748f368b4cd3653ff252b9cd43d1392e 82d805f2a19f1d4953c349a4d4c88d17c542ab08 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755188812 +0100	commit: Resolved 21: BugFix for duplicate fixhub sessions
 82d805f2a19f1d4953c349a4d4c88d17c542ab08 79484ac4ecce15eb230eb359a5867753f4af42c5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755189472 +0100	commit: Resolved 10: Revert k8s-gitops-dev to Helm HTTPS templating
+79484ac4ecce15eb230eb359a5867753f4af42c5 667f81ebcbd6ba1517a3c3480dac6972da841b46 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755246761 +0100	commit: Modified 6: Gateway API templating change for Regional LB instead of Istio
