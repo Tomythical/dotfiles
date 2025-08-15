@@ -386,3 +386,11 @@ a16ab83e377eff7fef71619a55260a450a715b41 240b228b16da35002b2e17598545c8af234185f
 0241ddcb9bda57ac97824c7d98220a6fdca115a7 58884d2da01f5687288fa469433c90e8f244418e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755252227 +0100	commit: Stopped 17: Create Canvas Roadmap for GitHub Actions
 58884d2da01f5687288fa469433c90e8f244418e ceae75b491edebc785b4a009a7d3fc2b9df33185 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755252241 +0100	commit: Started 19: Central WAF Policy State Move
 ceae75b491edebc785b4a009a7d3fc2b9df33185 7d701ec0d832e73a524cc162c80da416d051b598 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755252244 +0100	commit: Stopped 19: Central WAF Policy State Move
+7d701ec0d832e73a524cc162c80da416d051b598 2d37f9399fe27d33ff632328fd5997a6d50388c3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255354 +0100	commit: Edit note 7: Upgrade Kyverno
+2d37f9399fe27d33ff632328fd5997a6d50388c3 ccf4fbda211ebf6e973e65e6c9f18a4da0b86717 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255366 +0100	commit: Modified 7: Upgrade Kyverno
+ccf4fbda211ebf6e973e65e6c9f18a4da0b86717 86b45c9bcfb2fae301243fe774485b457d07541e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255369 +0100	commit: Modified 7: Upgrade Kyverno
+86b45c9bcfb2fae301243fe774485b457d07541e 1c15a41f1c876dcae06168f5e6cd72ede8b71387 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255373 +0100	commit: Modified 7: Upgrade Kyverno
+1c15a41f1c876dcae06168f5e6cd72ede8b71387 0a5443d264c064af49fe38ecda9a4b22b6ad0bf4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255424 +0100	commit: Modified 9: Upgrade External Secret to 0.18.1 in OPS
+0a5443d264c064af49fe38ecda9a4b22b6ad0bf4 eaf09e788400317d56814a5a5b70adec2c6de184 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255496 +0100	commit: Edit note 9: Upgrade External Secret to 0.18.1 in OPS
+eaf09e788400317d56814a5a5b70adec2c6de184 e23f6799daaa9c6bf5d3f5c18ead98fa3366c50a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255518 +0100	commit: Started 7: Upgrade Kyverno
+e23f6799daaa9c6bf5d3f5c18ead98fa3366c50a 10ce994eab6ff3495d305c963c44bc63dac2aa99 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255526 +0100	commit: Stopped 7: Upgrade Kyverno
