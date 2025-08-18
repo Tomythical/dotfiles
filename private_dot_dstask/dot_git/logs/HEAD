@@ -394,3 +394,7 @@ ccf4fbda211ebf6e973e65e6c9f18a4da0b86717 86b45c9bcfb2fae301243fe774485b457d07541
 0a5443d264c064af49fe38ecda9a4b22b6ad0bf4 eaf09e788400317d56814a5a5b70adec2c6de184 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255496 +0100	commit: Edit note 9: Upgrade External Secret to 0.18.1 in OPS
 eaf09e788400317d56814a5a5b70adec2c6de184 e23f6799daaa9c6bf5d3f5c18ead98fa3366c50a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255518 +0100	commit: Started 7: Upgrade Kyverno
 e23f6799daaa9c6bf5d3f5c18ead98fa3366c50a 10ce994eab6ff3495d305c963c44bc63dac2aa99 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755255526 +0100	commit: Stopped 7: Upgrade Kyverno
+10ce994eab6ff3495d305c963c44bc63dac2aa99 f9d4734b0bc4fbe04664e2fba53b71aed2995c29 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755506030 +0100	commit: Started 19: Central WAF Policy State Move
+f9d4734b0bc4fbe04664e2fba53b71aed2995c29 275895f41715c9ab906bbbc71f2fe19b42cbe7bf Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755506040 +0100	commit: Modified 1: DB Permission Granting for MaxxTrader with Lawrence
+275895f41715c9ab906bbbc71f2fe19b42cbe7bf c51a641fb9402defeea6aa5d221945a1d2606711 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755506049 +0100	commit: Modified 6: Gateway API templating change for Regional LB instead of Istio
+c51a641fb9402defeea6aa5d221945a1d2606711 45e6d56642e216287775631aa73119488f2b09d0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755506059 +0100	commit: Modified 6: Gateway API templating change for Regional LB instead of Istio
