@@ -400,3 +400,4 @@ f9d4734b0bc4fbe04664e2fba53b71aed2995c29 275895f41715c9ab906bbbc71f2fe19b42cbe7b
 c51a641fb9402defeea6aa5d221945a1d2606711 45e6d56642e216287775631aa73119488f2b09d0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755506059 +0100	commit: Modified 6: Gateway API templating change for Regional LB instead of Istio
 45e6d56642e216287775631aa73119488f2b09d0 fb1d87d19d4570e484fa5b4a3d3cae77bb3cab70 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755525467 +0100	commit: Added 10: Enable onprem rendering in k8s-gitops-prod
 fb1d87d19d4570e484fa5b4a3d3cae77bb3cab70 13342ad058252ccee96a685765f8a3d8e85b3b0d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755527559 +0100	commit: Added 21: Grant Permissions for External-Secrest in onprem prod
+13342ad058252ccee96a685765f8a3d8e85b3b0d 422115ddc202d3bbe886edc212f842d4ca8167bb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755592551 +0100	commit: Edit note 7: Upgrade Kyverno
