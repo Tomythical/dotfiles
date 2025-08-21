@@ -3,7 +3,8 @@ return {
   branch = "regexp", -- Use this branch for the new version
   cmd = "VenvSelect",
   enabled = function()
-    return LazyVim.has("telescope.nvim")
+    -- safe check: returns true only if telescope can be required
+    return pcall(require, "telescope")
   end,
   opts = {
     settings = {
@@ -12,7 +13,9 @@ return {
       },
     },
   },
-  --  Call config for python files and load the cached venv automatically
+  -- Call config for python files and load the cached venv automatically
   ft = "python",
-  keys = { { "<leader>cv", "<cmd>:VenvSelect<cr>", desc = "Select VirtualEnv", ft = "python" } },
+  keys = {
+    { "<leader>cv", "<cmd>VenvSelect<cr>", desc = "Select VirtualEnv", mode = "n" },
+  },
 }
