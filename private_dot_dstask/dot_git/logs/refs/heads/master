@@ -405,3 +405,4 @@ fb1d87d19d4570e484fa5b4a3d3cae77bb3cab70 13342ad058252ccee96a685765f8a3d8e85b3b0
 d2576290742fa9b3b6e88f186c97e983e0809d8b dcc6dd8b42fea71b5847cf545d32c602c3261f56 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755612413 +0100	commit: Edit note 22: Reduce ticket-storage-service redis memory
 dcc6dd8b42fea71b5847cf545d32c602c3261f56 3f59a4156a6144478fd1a7ca377e0aa757020f12 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755765435 +0100	commit: Stopped 19: Central WAF Policy State Move
 3f59a4156a6144478fd1a7ca377e0aa757020f12 9339354936c5fdca5b1bc9ead60b3af726cae420 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755765511 +0100	commit: Added 23: Use OCI templating for uat onprem repo
+9339354936c5fdca5b1bc9ead60b3af726cae420 1f9d189605a4f6b22e96e1070033c9c946b7b512 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755777457 +0100	commit: Resolved 23: Use OCI templating for uat onprem repo
