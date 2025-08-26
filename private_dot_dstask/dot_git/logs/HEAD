@@ -406,3 +406,9 @@ d2576290742fa9b3b6e88f186c97e983e0809d8b dcc6dd8b42fea71b5847cf545d32c602c3261f5
 dcc6dd8b42fea71b5847cf545d32c602c3261f56 3f59a4156a6144478fd1a7ca377e0aa757020f12 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755765435 +0100	commit: Stopped 19: Central WAF Policy State Move
 3f59a4156a6144478fd1a7ca377e0aa757020f12 9339354936c5fdca5b1bc9ead60b3af726cae420 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755765511 +0100	commit: Added 23: Use OCI templating for uat onprem repo
 9339354936c5fdca5b1bc9ead60b3af726cae420 1f9d189605a4f6b22e96e1070033c9c946b7b512 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1755777457 +0100	commit: Resolved 23: Use OCI templating for uat onprem repo
+1f9d189605a4f6b22e96e1070033c9c946b7b512 337d851fb4937aaf61269177d3bc93ab29308b0b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756202111 +0100	commit: Resolved 19: Central WAF Policy State Move
+337d851fb4937aaf61269177d3bc93ab29308b0b 66fe924f4031ad48bfc34e5250c3e0eeeb956a2f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756202139 +0100	commit: Resolved 10: Enable onprem rendering in k8s-gitops-prod
+66fe924f4031ad48bfc34e5250c3e0eeeb956a2f 0ffa9c130b971c082b2af935e9e848066b61b754 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756202162 +0100	commit: Resolved 17: Create Canvas Roadmap for GitHub Actions
+0ffa9c130b971c082b2af935e9e848066b61b754 21d4879863c902cb0138310b049f98fafcbded4c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756202229 +0100	commit: Edit note 6: Gateway API templating change for Regional LB instead of Istio
+21d4879863c902cb0138310b049f98fafcbded4c e318011f87451a9164cc6ab258c08f6027dfca71 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756202234 +0100	commit: Resolved 6: Gateway API templating change for Regional LB instead of Istio
+e318011f87451a9164cc6ab258c08f6027dfca71 16d7434a434650b69a84cf6f0d8853d63e4d7a71 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756202251 +0100	commit: Modified 7: Upgrade Kyverno
