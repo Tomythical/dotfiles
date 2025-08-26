@@ -1,1 +1,1 @@
-Modified 7: Upgrade Kyverno
+Edit note 6: CLUSTER_PROVIDER needs to be injected to env-config map
