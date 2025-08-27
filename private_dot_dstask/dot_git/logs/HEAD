@@ -414,3 +414,4 @@ dcc6dd8b42fea71b5847cf545d32c602c3261f56 3f59a4156a6144478fd1a7ca377e0aa757020f1
 e318011f87451a9164cc6ab258c08f6027dfca71 16d7434a434650b69a84cf6f0d8853d63e4d7a71 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756202251 +0100	commit: Modified 7: Upgrade Kyverno
 16d7434a434650b69a84cf6f0d8853d63e4d7a71 f9c35877159be867fab1df50abe9caa50daf0c92 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756220883 +0100	commit: Added 6: CLUSTER_PROVIDER needs to be injected to env-config map
 f9c35877159be867fab1df50abe9caa50daf0c92 13e8a3bee59f3c23977f00f995fa5ab9f71f896a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756220917 +0100	commit: Edit note 6: CLUSTER_PROVIDER needs to be injected to env-config map
+13e8a3bee59f3c23977f00f995fa5ab9f71f896a f1649ad5822776e84e66ad2f3040f2098b470065 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756286667 +0100	commit: Modified 7: Upgrade Kyverno
