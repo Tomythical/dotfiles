@@ -3,7 +3,7 @@ notes: ""
 tags:
 - onprem-k8s
 project: ""
-priority: P2
+priority: P3
 delegatedto: ""
 subtasks: []
 dependencies: []
