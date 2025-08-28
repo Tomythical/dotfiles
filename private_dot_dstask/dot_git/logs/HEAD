@@ -420,3 +420,6 @@ ac8e47dd6900601b21c01bdb51f6cbd3ecc112e4 17754c67a9f4d0c23cc40ed29ee41b664b89188
 17754c67a9f4d0c23cc40ed29ee41b664b891884 79a0b14b49f7d37deae8fc427357bbe5ed011def Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756297237 +0100	commit: Modified 6: CLUSTER_PROVIDER needs to be injected to env-config map
 79a0b14b49f7d37deae8fc427357bbe5ed011def e76ab0cd94d0edec6de13716d61c27d447809719 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756297271 +0100	commit: Added 1: Improve Documentation for New Joiner
 e76ab0cd94d0edec6de13716d61c27d447809719 7062a570ea0932353b66879cc31eba7d66b97f4c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756297467 +0100	commit: Edit note 11: GitHub Actions for internal DevOps Pipelines
+7062a570ea0932353b66879cc31eba7d66b97f4c 3aa5b81ba879a67b7ca5389fbd5345bf3c04c816 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756368794 +0100	commit: Added 10: Merge and Fix onprem branch
+3aa5b81ba879a67b7ca5389fbd5345bf3c04c816 d5d5190deefdac12aa3923067f95f724eb669050 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756368808 +0100	commit: Modified 10: Merge and Fix onprem branch
+d5d5190deefdac12aa3923067f95f724eb669050 8e710ac3aba3c23769593e3041df7b7c55e84574 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756368867 +0100	commit: Modified 21: Grant Permissions for External-Secrest in onprem prod
