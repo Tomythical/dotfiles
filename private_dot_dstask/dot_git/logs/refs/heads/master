@@ -423,3 +423,4 @@ e76ab0cd94d0edec6de13716d61c27d447809719 7062a570ea0932353b66879cc31eba7d66b97f4
 7062a570ea0932353b66879cc31eba7d66b97f4c 3aa5b81ba879a67b7ca5389fbd5345bf3c04c816 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756368794 +0100	commit: Added 10: Merge and Fix onprem branch
 3aa5b81ba879a67b7ca5389fbd5345bf3c04c816 d5d5190deefdac12aa3923067f95f724eb669050 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756368808 +0100	commit: Modified 10: Merge and Fix onprem branch
 d5d5190deefdac12aa3923067f95f724eb669050 8e710ac3aba3c23769593e3041df7b7c55e84574 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756368867 +0100	commit: Modified 21: Grant Permissions for External-Secrest in onprem prod
+8e710ac3aba3c23769593e3041df7b7c55e84574 44ec89b5eac839a0b1be188e92c9c107993c047c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756374469 +0100	commit: Resolved 10: Merge and Fix onprem branch
