@@ -6,7 +6,7 @@ return {
     events = { "BufWritePost", "BufReadPost", "InsertLeave" },
     linters_by_ft = {
       python = { "ruff" },
-      yaml = { "yamllint" },
+      yaml = {},
       bash = { " shellcheck" },
       markdown = {},
       -- Use the "*" filetype to run linters on all filetypes.
