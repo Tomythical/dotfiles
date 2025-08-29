@@ -440,3 +440,5 @@ c788d26fc77acdac421977d893e0298af765d62b 64dc812dc3d1cfe2c7d22e775f32794dbe21b43
 57453a23f41b6306d8d117fb8acec4b460114712 e093a45ca61d4f5542b0003c53476bca1fb4c83e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756394653 +0100	commit: Added 10: Set up External DNS with new onprem zone in GCP
 e093a45ca61d4f5542b0003c53476bca1fb4c83e 1fbd2c872c272390742f2b54efa2feadfd21e9bf Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756394682 +0100	commit: Added 11: Prep flux config for PROD overlays
 1fbd2c872c272390742f2b54efa2feadfd21e9bf eeb13be319c7dba38244b5da99f774239d22d78e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756394701 +0100	commit: Added 17: Think about some tasks for Kevin
+eeb13be319c7dba38244b5da99f774239d22d78e e504da94bfb355f2b590a5d98f93ea6d79d89ec5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756461989 +0100	commit: Started 8: Integrate with Grafa Metrics + Thanos Sidecar
+e504da94bfb355f2b590a5d98f93ea6d79d89ec5 60c89a78d17a8ae736b9a93c5d563aaffe98f5b0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756462575 +0100	commit: Edit note 8: Integrate with Grafa Metrics + Thanos Sidecar
