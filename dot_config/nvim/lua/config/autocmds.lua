@@ -8,6 +8,12 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
   end,
 })
 
+vim.api.nvim_create_autocmd("BufEnter", {
+  callback = function()
+    local root = require("lazyvim.util").root.get()
+    vim.fn.chdir(root)
+  end,
+})
 -- vim.api.nvim_create_autocmd({ "FileType" }, {
 --   pattern = { "markdown" },
 --   callback = function()
