@@ -11,6 +11,10 @@ return {
           },
         },
       },
+      jinja_lsp = {
+        filetypes = { "jinja", "jinja2", "j2", "yaml.j2" },
+        settings = {},
+      },
     },
   },
 }

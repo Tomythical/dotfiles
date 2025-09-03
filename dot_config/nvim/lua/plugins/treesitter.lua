@@ -4,6 +4,7 @@ return {
     ensure_installed = {
       "bash",
       "dockerfile",
+      "jinja",
       "json",
       "lua",
       "make",

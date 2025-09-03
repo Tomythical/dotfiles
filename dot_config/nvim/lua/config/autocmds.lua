@@ -14,6 +14,12 @@ vim.api.nvim_create_autocmd("BufEnter", {
     vim.fn.chdir(root)
   end,
 })
+
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+  pattern = "*.j2",
+  command = "set filetype=jinja",
+})
+
 -- vim.api.nvim_create_autocmd({ "FileType" }, {
 --   pattern = { "markdown" },
 --   callback = function()
