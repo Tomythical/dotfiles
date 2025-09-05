@@ -450,3 +450,4 @@ cb73dce8ed919f0cc7debee933976909319ba2ef 9d6a23527a8cd592c13d8365e7e8d38c0dc4aa0
 006a7fc8bc60cf8b5eeb855f8381f446df39cc87 08f5dafa51d58c9b6d30ac347e9a9ff819c75186 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756745547 +0100	commit: Removed: 16: Cleanup Bitbucket references from Teamcity
 08f5dafa51d58c9b6d30ac347e9a9ff819c75186 26ab86f9360b25a72b65fa7fd7cfb5515ec26124 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756918459 +0100	commit: Edit note 8: Integrate with Grafa Metrics + Thanos Sidecar
 26ab86f9360b25a72b65fa7fd7cfb5515ec26124 ab0f84973da86a547c86d5b9d7b88b91014d0d32 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1756984758 +0100	commit: Edit note 8: Integrate with Grafa Metrics + Thanos Sidecar
+ab0f84973da86a547c86d5b9d7b88b91014d0d32 02919455b69673501201c6d98d03835c5f0a1cdb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1757066501 +0100	commit: Resolved 17: Think about some tasks for Kevin
