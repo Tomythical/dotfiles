@@ -455,3 +455,4 @@ ab0f84973da86a547c86d5b9d7b88b91014d0d32 02919455b69673501201c6d98d03835c5f0a1cd
 efffeea081084c9605cf0c4e58f3d4af896654d5 451e5381daa7f1ba4384957bbc7a2be70d92c9d5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1757664937 +0100	rebase (finish): refs/heads/master onto ab0f84973da86a547c86d5b9d7b88b91014d0d32
 451e5381daa7f1ba4384957bbc7a2be70d92c9d5 ab0f84973da86a547c86d5b9d7b88b91014d0d32 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1757664947 +0100	rebase (finish): refs/heads/master onto ab0f84973da86a547c86d5b9d7b88b91014d0d32
 ab0f84973da86a547c86d5b9d7b88b91014d0d32 c40e96e31e117825337667346d40031f0e778594 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1757664963 +0100	commit: Removed: 1: Think about some tasks for Kevin
+c40e96e31e117825337667346d40031f0e778594 1ad8dfd85ab3b163a63ef4ac31f5daabe9156376 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1757668835 +0100	commit: Removed: 22: Reduce ticket-storage-service redis memory
