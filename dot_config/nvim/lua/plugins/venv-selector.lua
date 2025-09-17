@@ -1,6 +1,5 @@
 return {
   "linux-cultist/venv-selector.nvim",
-  branch = "regexp", -- Use this branch for the new version
   cmd = "VenvSelect",
   enabled = function()
     -- safe check: returns true only if telescope can be required
@@ -19,3 +18,4 @@ return {
     { "<leader>cv", "<cmd>VenvSelect<cr>", desc = "Select VirtualEnv", mode = "n" },
   },
 }
+
