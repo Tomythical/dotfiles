@@ -35,6 +35,8 @@ return {
     { "<leader>oq", "<cmd>ObsidianQuickSwitch<CR>", desc = "Quick switch note" },
     { "<leader>ol", "<cmd>ObsidianLink<CR>", desc = "Create link" },
   },
+  ---@module 'obsidian'
+  ---@type obsidian.config
   opts = {
     workspaces = {
       {
@@ -62,15 +64,15 @@ return {
       folder = "Thomas/Daily Notes",
       date_format = "%a %b-%e",
     },
-    checkboxes = {
-      ["x"] = { char = "✔", hl_group = "ObsidianDone" },
-      [" "] = { char = "☐", hl_group = "ObsidianTodo" },
-      [">"] = { char = ">", hl_group = "ObsidianRightArrow" },
-      ["-"] = { char = "-", hl_group = "ObsidianCanceled" },
-      ["!"] = { char = "󱈸", hl_group = "ObsidianImportant" },
-    },
     ui = {
-      enable = false,
+      enable = true,
+      checkboxes = {
+        [" "] = { char = "󰄱", hl_group = "ObsidianTodo" },
+        ["x"] = { char = "", hl_group = "ObsidianDone" },
+        [">"] = { char = "", hl_group = "ObsidianRightArrow" },
+        ["~"] = { char = "󰰱", hl_group = "ObsidianTilde" },
+        ["!"] = { char = "", hl_group = "ObsidianImportant" },
+      },
       ignore_conceal_warn = true,
       bullets = { char = "-", hl_group = "ObsidianBullet" },
     },
@@ -78,5 +80,8 @@ return {
       name = "snacks.pick",
     },
     preferred_link_style = "wiki",
+  },
+  checkbox = {
+    order = { " ", "x", "~", "!", ">" },
   },
 }
