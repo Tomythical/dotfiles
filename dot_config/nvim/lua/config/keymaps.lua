@@ -19,16 +19,16 @@ vim.keymap.set("n", "<leader>ot", "o- [ ] ", { desc = "Create new markdown task"
 -- Surrounding words with backticks
 vim.keymap.set("n", "gs", 'ciw`<C-r>"`<Esc>', { noremap = true })
 
--- local M = {}
---
--- function M.open_dstask_split()
---   -- open vertical split and make it e.g. 30 columns wide
---   vim.cmd("vsplit")
---   -- open terminal in this window, running dstask
---   vim.cmd("terminal dstask")
---   -- enter terminal-mode
---   vim.cmd("startinsert")
--- end
+local M = {}
+
+function M.open_dstask_split()
+  -- open vertical split and make it e.g. 30 columns wide
+  vim.cmd("vsplit")
+  -- open terminal in this window, running dstask
+  vim.cmd("terminal dstask")
+  -- enter terminal-mode
+  vim.cmd("startinsert")
+end
 --
 -- local N = {}
 --
@@ -53,6 +53,6 @@ vim.keymap.set("n", "gs", 'ciw`<C-r>"`<Esc>', { noremap = true })
 -- end
 --
 -- -- map it to <leader>d
--- vim.keymap.set("n", "<leader>N", M.open_dstask_split, { desc = "Open dstask in small vertical split" })
+vim.keymap.set("n", "<leader>T", M.open_dstask_split, { desc = "Open dstask in small vertical split" })
 -- -- map it to <leader>n
 -- vim.keymap.set("n", "<leader>n", N.open_dstask_note, { desc = "Open horizontal dstask note terminal" })

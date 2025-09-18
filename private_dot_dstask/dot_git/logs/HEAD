@@ -464,3 +464,20 @@ f16dd663e11796548dfe5e1c16fbe60787fbc84b 64e5863cd128d28fc545eba6495d2b807698bfe
 64e5863cd128d28fc545eba6495d2b807698bfe0 4bd07aa82dd5f16d3e648ca3f6894d6a5854f89d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758012927 +0100	commit: Modified 1: Prepare Slides for DevOps Demo
 4bd07aa82dd5f16d3e648ca3f6894d6a5854f89d b1667275d5c0bbb23eb1dbd7910c58a62c4f719d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758185342 +0100	commit: Resolved 1: Prepare Slides for DevOps Demo
 b1667275d5c0bbb23eb1dbd7910c58a62c4f719d d82889c64c4ed1a53e0d28170d703dce0eecc9d5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758186751 +0100	commit: Edit note 8: Integrate with Grafa Metrics + Thanos Sidecar
+d82889c64c4ed1a53e0d28170d703dce0eecc9d5 83891c6a47c0c5c7a5f8054757eac8a5bf982387 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758192184 +0100	commit: Added 1: Enable FQDN Network Policy in Cluster
+83891c6a47c0c5c7a5f8054757eac8a5bf982387 1dae9a51abaa1e45e88cafbbfca345e61599d51f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758192633 +0100	commit: Edit note 1: Enable FQDN Network Policy in Cluster
+1dae9a51abaa1e45e88cafbbfca345e61599d51f 8577f993004b0de11f6f36111e9288defd9577dd Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758192975 +0100	commit: Edit note 1: Enable FQDN Network Policy in Cluster
+8577f993004b0de11f6f36111e9288defd9577dd c51fa5c990b00c353cf96fd525cec1a8bab28c62 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758193653 +0100	commit: Edit note 1: Enable FQDN Network Policy in Cluster
+c51fa5c990b00c353cf96fd525cec1a8bab28c62 2e89da65cee602c007a3329db1ba800f73eea0ae Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758193687 +0100	commit: Added 17: Enable gVNIC in OPS node pools
+2e89da65cee602c007a3329db1ba800f73eea0ae ca8c3249c794ba53a9d364965e2f61b6f8000d11 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758193703 +0100	commit: Modified 17: Enable gVNIC in OPS node pools
+ca8c3249c794ba53a9d364965e2f61b6f8000d11 e5888e2707c84138bfd9cc7962a3561bd22c7c5d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758193991 +0100	commit: Modified 10: Set up External DNS with new onprem zone in GCP
+e5888e2707c84138bfd9cc7962a3561bd22c7c5d ac45a1c503819e786cbf553a7edd6d87d752f97f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758194025 +0100	commit: Added 19: Fix Render Master for onprem uat
+ac45a1c503819e786cbf553a7edd6d87d752f97f a12c66503ac2f5a8d6c087597e1e5e67ff097d44 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758194047 +0100	commit: Started 19: Fix Render Master for onprem uat
+a12c66503ac2f5a8d6c087597e1e5e67ff097d44 3deb1f0bfde029d9a840fd13097b3368c6ad6fc3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758194446 +0100	commit: Resolved 14: Finish Format pr status slack notifications PR
+3deb1f0bfde029d9a840fd13097b3368c6ad6fc3 1fc1ce1063ac6333579a458d7c70eccd04a467f9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758195512 +0100	commit: Edit note 8: Integrate with Grafa Metrics + Thanos Sidecar
+1fc1ce1063ac6333579a458d7c70eccd04a467f9 278a5c3a83ea38180965f6292ff66a1d67828239 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758196579 +0100	commit: Resolved 19: Fix Render Master for onprem uat
+278a5c3a83ea38180965f6292ff66a1d67828239 138e7ece5851e3847a7faa25b6114ab481b63cd9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758197464 +0100	commit: Added 14: test task due:next-monday
+138e7ece5851e3847a7faa25b6114ab481b63cd9 f6285f2608d8c63b31bc878838c12b6e40665b67 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758197478 +0100	revert: Revert "Added 14: test task due:next-monday"
+f6285f2608d8c63b31bc878838c12b6e40665b67 db7aa0f87250d148df862a8a3f34cc5795050be3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758197494 +0100	commit: Added 14: test task
+db7aa0f87250d148df862a8a3f34cc5795050be3 9a857dde8df0dc65f3f95bfb9f412573b6c360b1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758197681 +0100	revert: Revert "Added 14: test task"
+9a857dde8df0dc65f3f95bfb9f412573b6c360b1 f0bc4dc448de7fedfce4673b18eb41c378022b13 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758197757 +0100	commit: Started 3: Create GKE Node Pools for GHA Runner
