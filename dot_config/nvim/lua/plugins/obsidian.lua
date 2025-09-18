@@ -81,6 +81,10 @@ return {
     },
     preferred_link_style = "wiki",
   },
+  ---@class obsidian.config.CheckboxOpts
+  ---
+  ---Order of checkbox state chars, e.g. { " ", "x" }
+  ---@field order? string[]
   checkbox = {
     order = { " ", "x", "~", "!", ">" },
   },
