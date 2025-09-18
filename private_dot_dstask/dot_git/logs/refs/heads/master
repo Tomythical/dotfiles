@@ -480,3 +480,4 @@ db7aa0f87250d148df862a8a3f34cc5795050be3 9a857dde8df0dc65f3f95bfb9f412573b6c360b
 9a857dde8df0dc65f3f95bfb9f412573b6c360b1 f0bc4dc448de7fedfce4673b18eb41c378022b13 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758197757 +0100	commit: Started 3: Create GKE Node Pools for GHA Runner
 f0bc4dc448de7fedfce4673b18eb41c378022b13 4c753e4880f481cb52227f4bd561504b064db650 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758199742 +0100	commit: Edit note 3: Create GKE Node Pools for GHA Runner
 4c753e4880f481cb52227f4bd561504b064db650 c45f9b5f38471c82eae86dea8989beb0bf89a25e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758199915 +0100	commit: Modified 8: Integrate with Grafa Metrics + Thanos Sidecar
+c45f9b5f38471c82eae86dea8989beb0bf89a25e fd2d59621aa11878760c90b20cd3673612913da2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758201671 +0100	commit: Edit note 8: Integrate with Grafa Metrics + Thanos Sidecar
