@@ -18,4 +18,3 @@ return {
     { "<leader>cv", "<cmd>VenvSelect<cr>", desc = "Select VirtualEnv", mode = "n" },
   },
 }
-
