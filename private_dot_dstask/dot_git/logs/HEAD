@@ -485,3 +485,8 @@ f0bc4dc448de7fedfce4673b18eb41c378022b13 4c753e4880f481cb52227f4bd561504b064db65
 4c753e4880f481cb52227f4bd561504b064db650 c45f9b5f38471c82eae86dea8989beb0bf89a25e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758199915 +0100	commit: Modified 8: Integrate with Grafa Metrics + Thanos Sidecar
 c45f9b5f38471c82eae86dea8989beb0bf89a25e fd2d59621aa11878760c90b20cd3673612913da2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758201671 +0100	commit: Edit note 8: Integrate with Grafa Metrics + Thanos Sidecar
 fd2d59621aa11878760c90b20cd3673612913da2 8f93659db4fba06622c9dd2696651e8679622373 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758204523 +0100	commit: Added 14: Prep Monitoring-v2 in onprem-k8s-gitops-prod
+8f93659db4fba06622c9dd2696651e8679622373 3917bda651478db0f84c35ff5ef3a56df006e31c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758204589 +0100	commit: Added 19: Deploy AlertManager
+3917bda651478db0f84c35ff5ef3a56df006e31c af32d8f56329a37f9e69a7ac55cff1861916073a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758204633 +0100	commit: Added 22: Bucket Migration to monitoring projects
+af32d8f56329a37f9e69a7ac55cff1861916073a f522661499c6ca7c53278faa6c7179f58194ab6c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758204710 +0100	commit: Added 23: Create 3rd party service monitors + rules
+f522661499c6ca7c53278faa6c7179f58194ab6c b55aa5809205efc03d291fc1104e5a228400f0b2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758204767 +0100	commit: Edit note 8: Integrate with Grafa Metrics + Thanos Sidecar
+b55aa5809205efc03d291fc1104e5a228400f0b2 db6b550be0e60be0d40c63178eb8763344f5757b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758204786 +0100	commit: Removed: 14: Prep Monitoring-v2 in onprem-k8s-gitops-prod
