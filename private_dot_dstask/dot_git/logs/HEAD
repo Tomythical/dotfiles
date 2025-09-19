@@ -502,3 +502,6 @@ f68134676fae275f7aacefd7427973acfd63a26d 218f064ebe6a05b6eb7e3edbe6630e38d88a425
 d68cb2af01a9612919f8817f8cdbfd2e78c43d20 519308a4be8675a62bbaec98dccd5e01fb865f21 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758281943 +0100	commit: Modified 8: Integrate with Grafa Metrics + Thanos Sidecar
 519308a4be8675a62bbaec98dccd5e01fb865f21 84b29aa65acac33377dc88ddfe1a2ba33f0a1a7e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758281952 +0100	revert: Revert "Modified 8: Integrate with Grafa Metrics + Thanos Sidecar"
 84b29aa65acac33377dc88ddfe1a2ba33f0a1a7e 07d7b5a5d3b6203f5c22ada4e0d389fc96642d28 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758281959 +0100	commit: Modified 10: Lock Down ARC Runners via Istio
+07d7b5a5d3b6203f5c22ada4e0d389fc96642d28 3d93e68ac5ccf6c087f597874705b0a6b1ab5252 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758289637 +0100	commit: Edit note 7: Create 3rd party service monitors + rules
+3d93e68ac5ccf6c087f597874705b0a6b1ab5252 7ea4b1a1ffe428deda49b8b7f963350907a33e9c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758289672 +0100	commit: Edit note 7: Create 3rd party service monitors + rules
+7ea4b1a1ffe428deda49b8b7f963350907a33e9c 8caf4de53eb59be1eff5ba3ba4eab13b01622571 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758289680 +0100	commit: Stopped 7: Create 3rd party service monitors + rules
