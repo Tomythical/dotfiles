@@ -505,3 +505,8 @@ d68cb2af01a9612919f8817f8cdbfd2e78c43d20 519308a4be8675a62bbaec98dccd5e01fb865f2
 07d7b5a5d3b6203f5c22ada4e0d389fc96642d28 3d93e68ac5ccf6c087f597874705b0a6b1ab5252 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758289637 +0100	commit: Edit note 7: Create 3rd party service monitors + rules
 3d93e68ac5ccf6c087f597874705b0a6b1ab5252 7ea4b1a1ffe428deda49b8b7f963350907a33e9c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758289672 +0100	commit: Edit note 7: Create 3rd party service monitors + rules
 7ea4b1a1ffe428deda49b8b7f963350907a33e9c 8caf4de53eb59be1eff5ba3ba4eab13b01622571 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758289680 +0100	commit: Stopped 7: Create 3rd party service monitors + rules
+8caf4de53eb59be1eff5ba3ba4eab13b01622571 7b23318aa40c7900a288324d7c17fbf21ee4a1c0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758296821 +0100	commit: Edited 10: Lock Down ARC Runners via full FQDN Netpols
+7b23318aa40c7900a288324d7c17fbf21ee4a1c0 4ff22030b3453dfa58a77ed75f3ca3b50e1c7b3a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758297235 +0100	commit: Modified 2: Improve Documentation for New Joiner
+4ff22030b3453dfa58a77ed75f3ca3b50e1c7b3a 11abf33944111cd20ac078543ab7a1acaac963d2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758297256 +0100	commit: Modified 22: Upgrade External Secret to 0.18.1 in OPS
+11abf33944111cd20ac078543ab7a1acaac963d2 08e442acbde1455cd67840fb9e0777320b6a591b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758297275 +0100	commit: Modified 9: Upgrade Prometheus in OPS
+08e442acbde1455cd67840fb9e0777320b6a591b 026a1ba3708c8cff710222f4ef018c8d8a2a1e05 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758297285 +0100	commit: Modified 19: Upgrade Kyverno
