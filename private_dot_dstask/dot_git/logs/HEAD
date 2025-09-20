@@ -510,3 +510,6 @@ d68cb2af01a9612919f8817f8cdbfd2e78c43d20 519308a4be8675a62bbaec98dccd5e01fb865f2
 4ff22030b3453dfa58a77ed75f3ca3b50e1c7b3a 11abf33944111cd20ac078543ab7a1acaac963d2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758297256 +0100	commit: Modified 22: Upgrade External Secret to 0.18.1 in OPS
 11abf33944111cd20ac078543ab7a1acaac963d2 08e442acbde1455cd67840fb9e0777320b6a591b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758297275 +0100	commit: Modified 9: Upgrade Prometheus in OPS
 08e442acbde1455cd67840fb9e0777320b6a591b 026a1ba3708c8cff710222f4ef018c8d8a2a1e05 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758297285 +0100	commit: Modified 19: Upgrade Kyverno
+026a1ba3708c8cff710222f4ef018c8d8a2a1e05 4634ce3273bc1f724d1af625edc7a893126d7e32 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758297671 +0100	commit: Added 14: Merge in worklow PRs
+4634ce3273bc1f724d1af625edc7a893126d7e32 ca8c589fbaf07305d766f161f786d2a7fe1f28cb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758297681 +0100	commit: Modified 10: Lock Down ARC Runners via full FQDN Netpols
+ca8c589fbaf07305d766f161f786d2a7fe1f28cb 4703124a35bc45232b9865e301dff2f515302de9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758297709 +0100	commit: Added 24: Migrate one java app to test
