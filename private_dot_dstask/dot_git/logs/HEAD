@@ -535,3 +535,7 @@ ddefa312d688bd49308f9876d09dff347695601d 8eceea1e0141d36910768404025a294f64a9876
 8eceea1e0141d36910768404025a294f64a9876c 26984e1a241d8b3f8c2a971ab2f7f2d58e476267 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758625671 +0100	commit: Edit note 3: Create GKE Node Pools for GHA Runner
 26984e1a241d8b3f8c2a971ab2f7f2d58e476267 5309e78fd9a171d42f4ea0bb046d3b1191bc0ed9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758625687 +0100	commit: Resolved 3: Create GKE Node Pools for GHA Runner
 5309e78fd9a171d42f4ea0bb046d3b1191bc0ed9 1ded17efb87e37269851fe659e37b28512f75915 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758626943 +0100	commit: Added 3: Deploy basic OTEL Collector in onprem
+1ded17efb87e37269851fe659e37b28512f75915 8c043356fd1b6f2e1b52ad33cce3ff14230193a1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758629088 +0100	commit: Edit note 25: Bump Prometheus to v3.6.0
+8c043356fd1b6f2e1b52ad33cce3ff14230193a1 5a1d47d650a016d171735cf5e6f9af071136fda0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758629125 +0100	commit: Resolved 8: Integrate with Grafa Metrics + Thanos Sidecar
+5a1d47d650a016d171735cf5e6f9af071136fda0 fd75c8a2cb655a8d978cfd10d6fe2a0247aa8773 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758629164 +0100	commit: Added 8: Deploy Prometheus + Thanos in onprem-prod
+fd75c8a2cb655a8d978cfd10d6fe2a0247aa8773 27bd36936adf4a2aa1bb97fb676840a8553ab92a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758629204 +0100	commit: Modified 4: Deploy AlertManager
