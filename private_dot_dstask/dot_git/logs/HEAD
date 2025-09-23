@@ -534,3 +534,4 @@ c472bfcbc5f600d68efe7d6551a2a1ae9f95001a ddefa312d688bd49308f9876d09dff347695601
 ddefa312d688bd49308f9876d09dff347695601d 8eceea1e0141d36910768404025a294f64a9876c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758618012 +0100	commit: Edit note 3: Create GKE Node Pools for GHA Runner
 8eceea1e0141d36910768404025a294f64a9876c 26984e1a241d8b3f8c2a971ab2f7f2d58e476267 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758625671 +0100	commit: Edit note 3: Create GKE Node Pools for GHA Runner
 26984e1a241d8b3f8c2a971ab2f7f2d58e476267 5309e78fd9a171d42f4ea0bb046d3b1191bc0ed9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758625687 +0100	commit: Resolved 3: Create GKE Node Pools for GHA Runner
+5309e78fd9a171d42f4ea0bb046d3b1191bc0ed9 1ded17efb87e37269851fe659e37b28512f75915 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758626943 +0100	commit: Added 3: Deploy basic OTEL Collector in onprem
