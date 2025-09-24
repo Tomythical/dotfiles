@@ -538,3 +538,5 @@ ddefa312d688bd49308f9876d09dff347695601d 8eceea1e0141d36910768404025a294f64a9876
 fd75c8a2cb655a8d978cfd10d6fe2a0247aa8773 27bd36936adf4a2aa1bb97fb676840a8553ab92a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758629204 +0100	commit: Modified 4: Deploy AlertManager
 27bd36936adf4a2aa1bb97fb676840a8553ab92a 7991a9ecfa880992f4790232ddbf2bedb2e625e1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758630535 +0100	commit: Added 26: Make generate_diff/validate_branch scripts look good
 7991a9ecfa880992f4790232ddbf2bedb2e625e1 3e4af1367dd755e6ae1351ac56c5ed0ab948e83c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758631368 +0100	commit: Added 27: Move UAT namespaces to be under cloud repo
+3e4af1367dd755e6ae1351ac56c5ed0ab948e83c eabd056297277fe1c47034cab1fd5f84ff36d6e5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758706650 +0100	commit: Modified 3: Deploy basic OTEL Collector in onprem
+eabd056297277fe1c47034cab1fd5f84ff36d6e5 b1d413bd3f79c1cf968dd54a368fc4c94ac52278 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758706661 +0100	commit: Modified 4: Deploy AlertManager
