@@ -12,7 +12,7 @@
   "chezmoi.vim": { "branch": "main", "commit": "ca5f2ed602046d5662cb76d845c4b510aae0ce84" },
   "cmp-tabnine": { "branch": "main", "commit": "c0167cdc86c15e782c5461ee62aebee89231c2ed" },
   "conform.nvim": { "branch": "master", "commit": "b4aab989db276993ea5dcb78872be494ce546521" },
-  "copilot.lua": { "branch": "master", "commit": "3ea8f8c272c68a50405f066664b397bf1edaceb8" },
+  "copilot.lua": { "branch": "master", "commit": "6fba2272a2ddb18488dd927d3848d8219124854a" },
   "flash.nvim": { "branch": "main", "commit": "b68bda044d68e4026c4e1ec6df3c5afd7eb8e341" },
   "friendly-snippets": { "branch": "main", "commit": "572f5660cf05f8cd8834e096d7b4c921ba18e175" },
   "fzf-lua": { "branch": "main", "commit": "2388dcd61731ae158bf7dad2ae0419291837e557" },
