@@ -546,3 +546,7 @@ b1d413bd3f79c1cf968dd54a368fc4c94ac52278 1cd14bfbd6b9874fe691fbd27eb874a4859a745
 ebebce0faa6ed7395a77ffbde67e4f1ffbc7f0b0 6d162e80e183d1f74c4d32bcafc41c8e82b1ddab Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758796361 +0100	commit: Edit note 8: Deploy Prometheus + Thanos in onprem-prod
 6d162e80e183d1f74c4d32bcafc41c8e82b1ddab 995a16a415512f0d835b09132d2e1bc744977d24 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758796626 +0100	commit: Edit note 14: Merge in worklow PRs
 995a16a415512f0d835b09132d2e1bc744977d24 4b02df22b87c5dfbff599aca4b02d923fc22f378 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758796657 +0100	commit: Edit note 14: Merge in worklow PRs
+4b02df22b87c5dfbff599aca4b02d923fc22f378 42cafcdc82414d0d5b01e4b106ef05d32306bde9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758808941 +0100	commit: Edit note 4: Deploy AlertManager
+42cafcdc82414d0d5b01e4b106ef05d32306bde9 73201bb332521445b636e9a8a76f648d19d35b21 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758809849 +0100	commit: Started 4: Deploy AlertManager
+73201bb332521445b636e9a8a76f648d19d35b21 c021006fe17531947338101ce6788ab7eaf74394 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758809852 +0100	commit: Stopped 4: Deploy AlertManager
+c021006fe17531947338101ce6788ab7eaf74394 bf11cb8deaf5702d32b7608faf259f85ba1b36b0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758809864 +0100	commit: Stopped 3: Deploy basic OTEL Collector in onprem
