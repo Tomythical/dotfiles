@@ -550,3 +550,4 @@ ebebce0faa6ed7395a77ffbde67e4f1ffbc7f0b0 6d162e80e183d1f74c4d32bcafc41c8e82b1dda
 42cafcdc82414d0d5b01e4b106ef05d32306bde9 73201bb332521445b636e9a8a76f648d19d35b21 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758809849 +0100	commit: Started 4: Deploy AlertManager
 73201bb332521445b636e9a8a76f648d19d35b21 c021006fe17531947338101ce6788ab7eaf74394 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758809852 +0100	commit: Stopped 4: Deploy AlertManager
 c021006fe17531947338101ce6788ab7eaf74394 bf11cb8deaf5702d32b7608faf259f85ba1b36b0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758809864 +0100	commit: Stopped 3: Deploy basic OTEL Collector in onprem
+bf11cb8deaf5702d32b7608faf259f85ba1b36b0 2e6745a389be9ea44853fad7c9a8119c7e5fd886 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758881778 +0100	commit: Started 19: Upgrade Kyverno
