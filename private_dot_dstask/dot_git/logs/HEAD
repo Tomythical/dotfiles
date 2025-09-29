@@ -561,3 +561,4 @@ b62fecfb1fa4f6bf4d328e798551868c7ce704fd b5d5f407c35f3c3c8c899b604e1e4d29daf27ed
 b5d5f407c35f3c3c8c899b604e1e4d29daf27ede e86d50ccc95076d47c9e52b2f11d80c161f741e6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758893271 +0100	commit: Added 30: Add PROD querier to Grafana querier
 e86d50ccc95076d47c9e52b2f11d80c161f741e6 a8af2ae075076c7ce69ddace54ad0b53f57b4637 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758897584 +0100	commit: Started 3: Use proper slack channels for UAT + PROD onprem
 a8af2ae075076c7ce69ddace54ad0b53f57b4637 deba9067741607870283857a4df9cce6f3c1284a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758897636 +0100	commit: Edit note 8: Deploy Prometheus + Thanos in onprem-prod
+deba9067741607870283857a4df9cce6f3c1284a e4617d0966ce4c89d5e4e03f29742323acaa2b12 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758904299 +0100	commit: Resolved 3: Use proper slack channels for UAT + PROD onprem
