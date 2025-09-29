@@ -2,6 +2,7 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
+      copilot = {},
       pyright = {
         settings = {
           python = {
