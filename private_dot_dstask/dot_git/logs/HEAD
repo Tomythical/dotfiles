@@ -562,3 +562,7 @@ b5d5f407c35f3c3c8c899b604e1e4d29daf27ede e86d50ccc95076d47c9e52b2f11d80c161f741e
 e86d50ccc95076d47c9e52b2f11d80c161f741e6 a8af2ae075076c7ce69ddace54ad0b53f57b4637 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758897584 +0100	commit: Started 3: Use proper slack channels for UAT + PROD onprem
 a8af2ae075076c7ce69ddace54ad0b53f57b4637 deba9067741607870283857a4df9cce6f3c1284a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758897636 +0100	commit: Edit note 8: Deploy Prometheus + Thanos in onprem-prod
 deba9067741607870283857a4df9cce6f3c1284a e4617d0966ce4c89d5e4e03f29742323acaa2b12 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1758904299 +0100	commit: Resolved 3: Use proper slack channels for UAT + PROD onprem
+e4617d0966ce4c89d5e4e03f29742323acaa2b12 4bb53b523c0159a1ec4d43d82e85b131de130aa6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759233242 +0100	commit: Added 3: Get Render Branch Workflow to run faster
+4bb53b523c0159a1ec4d43d82e85b131de130aa6 2736b9d08a4fc1b69db59962b4503dca6c57c9fb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759233249 +0100	commit: Started 3: Get Render Branch Workflow to run faster
+2736b9d08a4fc1b69db59962b4503dca6c57c9fb b9cf08605b14ecaaeb0a24e0c9ef8fb6ad6e9a76 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759233299 +0100	commit: Added 31: Separate PVC for prometheus + thanos
+b9cf08605b14ecaaeb0a24e0c9ef8fb6ad6e9a76 d54cc87bce604a13e2856fb18b89ef8b44d9864e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759233302 +0100	commit: Started 31: Separate PVC for prometheus + thanos
