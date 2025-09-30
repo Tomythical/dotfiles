@@ -566,3 +566,4 @@ e4617d0966ce4c89d5e4e03f29742323acaa2b12 4bb53b523c0159a1ec4d43d82e85b131de130aa
 4bb53b523c0159a1ec4d43d82e85b131de130aa6 2736b9d08a4fc1b69db59962b4503dca6c57c9fb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759233249 +0100	commit: Started 3: Get Render Branch Workflow to run faster
 2736b9d08a4fc1b69db59962b4503dca6c57c9fb b9cf08605b14ecaaeb0a24e0c9ef8fb6ad6e9a76 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759233299 +0100	commit: Added 31: Separate PVC for prometheus + thanos
 b9cf08605b14ecaaeb0a24e0c9ef8fb6ad6e9a76 d54cc87bce604a13e2856fb18b89ef8b44d9864e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759233302 +0100	commit: Started 31: Separate PVC for prometheus + thanos
+d54cc87bce604a13e2856fb18b89ef8b44d9864e c4791474d3ad1548034b90d614fc1e814524679d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759241695 +0100	commit: Edit note 8: Deploy Prometheus + Thanos in onprem-prod
