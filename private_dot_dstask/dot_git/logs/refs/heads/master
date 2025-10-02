@@ -590,3 +590,5 @@ c28f42b1171fae43f15c9a931e5d804d21b591f7 3dbf2cb81de2255c614ac7f0d8dd380d058c9db
 0d7e420e7446eafdd05687613ea72f3eaabd1a05 f45c050d29a37ab1798995d2a79e5cc117e0b5d3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759329934 +0100	commit: Edit note 4: Scale Prometheus PROD PVC to 75Gi
 f45c050d29a37ab1798995d2a79e5cc117e0b5d3 5b597dda4337841db0ce6a4d737d2034233896f3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759334856 +0100	commit: Added 34: Deploy AlertManager in Cloud Envs
 5b597dda4337841db0ce6a4d737d2034233896f3 d69f94a8636a84ff11c373c139e08dfba56e7f4d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759334873 +0100	commit: Started 34: Deploy AlertManager in Cloud Envs
+d69f94a8636a84ff11c373c139e08dfba56e7f4d 2b267c778264df9137242be7da1a96296abc8125 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759336605 +0100	commit: Resolved 30: Scale Prod thanos-compact PVC
+2b267c778264df9137242be7da1a96296abc8125 8b9cadc7ac766b7abfd83c698e45f7571f83d826 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759336633 +0100	commit: Edit note 4: Scale Prometheus PROD PVC to 75Gi
