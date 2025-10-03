@@ -604,3 +604,6 @@ bdc0633f0eb7a3a561c2dd6104683202ac7b8776 16074c8f363844c79a5380c223f0fa7e08bf81d
 36ae0f94a4c6f91477a7ac547e778741aff418c7 493aab96a7c2c1fb83e5d61f8e166cb7a8e3449c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759424109 +0100	commit: Edited 31: Separate PVC for prometheus
 493aab96a7c2c1fb83e5d61f8e166cb7a8e3449c f271ab72d51376063f0d2e7cb9c031d71d018888 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759482709 +0100	commit: Added 14: Add Slack Notifications as part of render master
 f271ab72d51376063f0d2e7cb9c031d71d018888 d42ff05bf97064485dc56dd3fc2739d029051ab5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759482721 +0100	commit: Started 14: Add Slack Notifications as part of render master
+d42ff05bf97064485dc56dd3fc2739d029051ab5 5ddd787813af9df30d551571b7ebd037e12089d1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759487078 +0100	commit: Edit note 8: Deploy Prometheus + Thanos in onprem-prod
+5ddd787813af9df30d551571b7ebd037e12089d1 598889d72246eb13826082db0306a2db25f6bd62 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759487091 +0100	commit: Edited 8: Deploy Thanos in onprem-prod
+598889d72246eb13826082db0306a2db25f6bd62 6eb237933913be202f531d635591ce6502f78625 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759487587 +0100	commit: Edit note 26: Split up render/validate scripts
