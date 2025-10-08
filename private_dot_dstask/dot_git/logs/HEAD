@@ -619,3 +619,6 @@ b94566864b37e4c722e5eeeb9bbb2782bb02fe2a 4d2408ea3c2ffdc94dd5ed61ba0f772b06e8fc1
 4d2408ea3c2ffdc94dd5ed61ba0f772b06e8fc12 b155f374ca839c9a1110ba84e218e7b7c57bd3e1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759837945 +0100	commit: Resolved 4: Scale Prometheus PROD PVC to 75Gi
 b155f374ca839c9a1110ba84e218e7b7c57bd3e1 2a009aa92ecd9dd72f28f6f0537c0cf3825e256a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759837952 +0100	commit: Resolved 27: Move fixhub podmonitor into base ns config
 2a009aa92ecd9dd72f28f6f0537c0cf3825e256a 5da93c12ad00d8877d9f3b83f4c59e4bf3f48b76 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759837961 +0100	commit: Removed: 31: Separate PVC for prometheus
+5da93c12ad00d8877d9f3b83f4c59e4bf3f48b76 6812cc90dcc02eb4a45059afafe75efeb6495c7d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759852102 +0100	commit: Added 4: Create thanos servicemonitors
+6812cc90dcc02eb4a45059afafe75efeb6495c7d 1ac47ca586eac6880732287cdb58acd458af9bc2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759852154 +0100	commit: Edit note 4: Create thanos servicemonitors
+1ac47ca586eac6880732287cdb58acd458af9bc2 20cec7c6f1e7499026a36ead0f9240357aae7e23 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759852159 +0100	commit: Started 4: Create thanos servicemonitors
