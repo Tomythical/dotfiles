@@ -619,3 +619,13 @@ b155f374ca839c9a1110ba84e218e7b7c57bd3e1 2a009aa92ecd9dd72f28f6f0537c0cf3825e256
 5da93c12ad00d8877d9f3b83f4c59e4bf3f48b76 6812cc90dcc02eb4a45059afafe75efeb6495c7d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759852102 +0100	commit: Added 4: Create thanos servicemonitors
 6812cc90dcc02eb4a45059afafe75efeb6495c7d 1ac47ca586eac6880732287cdb58acd458af9bc2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759852154 +0100	commit: Edit note 4: Create thanos servicemonitors
 1ac47ca586eac6880732287cdb58acd458af9bc2 20cec7c6f1e7499026a36ead0f9240357aae7e23 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759852159 +0100	commit: Started 4: Create thanos servicemonitors
+20cec7c6f1e7499026a36ead0f9240357aae7e23 51f5080f857ea3dbd17a12dcb00bbf5a332f2538 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759937262 +0100	commit: Edit note 4: Create thanos servicemonitors
+51f5080f857ea3dbd17a12dcb00bbf5a332f2538 c2da718f2c0d1af51105f6e898003669b1529e97 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759937269 +0100	commit: Stopped 4: Create thanos servicemonitors
+c2da718f2c0d1af51105f6e898003669b1529e97 007f173e9c45ca30db031b328917e7d26798eacc Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759937275 +0100	commit: Modified 4: Create thanos servicemonitors
+007f173e9c45ca30db031b328917e7d26798eacc 4ebadd496e508016f17fa2c0b48e0e4c2a0d768b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759937295 +0100	commit: Resolved 29: Get thanos store bucket working
+4ebadd496e508016f17fa2c0b48e0e4c2a0d768b ff0ef4cccde80a0a22db1a0478f5c733bc0ec4b6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759937325 +0100	commit: Resolved 35: Bump Thanos Compact Data UAT PVC
+ff0ef4cccde80a0a22db1a0478f5c733bc0ec4b6 62631a2715c808686001c92ceae28c07ccdcb51d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759937626 +0100	commit: Added 27: Third Party ServiceMonitors in PROD CLoud
+62631a2715c808686001c92ceae28c07ccdcb51d d360b095f83682488633b919c5c7a5f27e76d1fb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759937629 +0100	commit: Started 27: Third Party ServiceMonitors in PROD CLoud
+d360b095f83682488633b919c5c7a5f27e76d1fb cde0c406119201efa25dd846f5d9da118c08231e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759937636 +0100	commit: Modified 27: Third Party ServiceMonitors in PROD CLoud
+cde0c406119201efa25dd846f5d9da118c08231e 7dc586a7317b3392911ac6e3ea9415898e43abac Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759938206 +0100	commit: Edit note 27: Third Party ServiceMonitors in PROD CLoud
+7dc586a7317b3392911ac6e3ea9415898e43abac 526a9ca21b4478d44725dcf2da258e3c11c1417e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1759938212 +0100	commit: Modified 27: Third Party ServiceMonitors in PROD CLoud
