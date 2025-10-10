@@ -640,3 +640,9 @@ cde0c406119201efa25dd846f5d9da118c08231e 7dc586a7317b3392911ac6e3ea9415898e43aba
 e3a3221d56559b5c0fdd9efeec8fe7a77f6eb2f9 d3c27f199bbc7ec1595cae4b98e6f0cc312e5881 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760097920 +0100	commit: Edit note 28: Add cluster_provider label and the other v2 labels to CI victoriametrics and prometheus
 d3c27f199bbc7ec1595cae4b98e6f0cc312e5881 b83139d18f06330235fa4c49714036ee85daba8b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760101503 +0100	commit: Edit note 25: Bump Prometheus to v3.6.0
 b83139d18f06330235fa4c49714036ee85daba8b e56bee4550c055156c6ba275fdfda1d97cf24872 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760101938 +0100	commit: Edit note 25: Bump Prometheus to v3.6.0
+e56bee4550c055156c6ba275fdfda1d97cf24872 a00fea6c2d1a762c7ea86fe309398bc2f5f896d5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760103300 +0100	commit: Added 29: Make Validate PR script Pretty in GHA
+a00fea6c2d1a762c7ea86fe309398bc2f5f896d5 91e03db56362682ec2a980b57abcfb4d245b075e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760105993 +0100	commit: Modified 25: Bump Prometheus to v3.6.0
+91e03db56362682ec2a980b57abcfb4d245b075e dcd943e0e062d81ab3a9413b75e4c6e39bd86641 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760105999 +0100	commit: Stopped 25: Bump Prometheus to v3.6.0
+dcd943e0e062d81ab3a9413b75e4c6e39bd86641 ffa674a7093d5bbdac4793125b80873a8bd9b93b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760106048 +0100	commit: Resolved 14: Add Slack Notifications as part of render master
+ffa674a7093d5bbdac4793125b80873a8bd9b93b 1a5b9ed62ecbbebb4eb3a5d717434953deed51bf Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760106294 +0100	commit: Edit note 30: Remove PVCs from runners
+1a5b9ed62ecbbebb4eb3a5d717434953deed51bf 9433f24a8eb4b7724c4ea168bca935e60a6b932d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760106301 +0100	commit: Resolved 30: Remove PVCs from runners
