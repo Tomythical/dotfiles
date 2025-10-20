@@ -650,3 +650,13 @@ ffa674a7093d5bbdac4793125b80873a8bd9b93b 1a5b9ed62ecbbebb4eb3a5d717434953deed51b
 786f7352f3c78b7df76b02cae8fe6f34f3e3de6c 24d3a4a0ee0b235b30d7774844046dfbaa375b0b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760370790 +0100	commit: Resolved 26: Split up render/validate scripts
 24d3a4a0ee0b235b30d7774844046dfbaa375b0b 62505b1097143708d46e11bd2dd295c4f829e765 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760370852 +0100	commit: Resolved 3: Get Render Branch Workflow to run faster
 62505b1097143708d46e11bd2dd295c4f829e765 ccb98a203d565fc91da3480f9238ae384a8a44f9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760370862 +0100	commit: Removed: 29: Make Validate PR script Pretty in GHA
+ccb98a203d565fc91da3480f9238ae384a8a44f9 5aed2fd5ae760748209bb63ffcdfad996035f8d6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760950498 +0100	commit: Edit note 8: Deploy Thanos in onprem-prod
+5aed2fd5ae760748209bb63ffcdfad996035f8d6 23667281856c484c7472a60cc7e694c0856358d3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760950502 +0100	commit: Edit note 8: Deploy Thanos in onprem-prod
+23667281856c484c7472a60cc7e694c0856358d3 8b3100d68ef6e9d4aed5c9a79da3c5b5cb72396d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760950509 +0100	commit: Resolved 8: Deploy Thanos in onprem-prod
+8b3100d68ef6e9d4aed5c9a79da3c5b5cb72396d ca4b985427c4190ca7a36625b7da93eae8018cc5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760950601 +0100	commit: Edit note 4: Create thanos servicemonitors
+ca4b985427c4190ca7a36625b7da93eae8018cc5 bf2722ec793694094fd1889874dd2ec988d1790e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760950624 +0100	commit: Modified 4: Create thanos servicemonitors
+bf2722ec793694094fd1889874dd2ec988d1790e aa577a71eaa1efb029ced33f44fc26d5f9f3626d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760950649 +0100	commit: Resolved 11: Prep flux config for PROD overlays
+aa577a71eaa1efb029ced33f44fc26d5f9f3626d 9c63710221bef9e3e04321116e2c9976197224cc Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760950771 +0100	commit: Edit note 34: Deploy AlertManager in Cloud Envs
+9c63710221bef9e3e04321116e2c9976197224cc dfebb8873a01f68982b328c7be5c81030c7c0417 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760951142 +0100	commit: Edit note 34: Deploy AlertManager in Cloud Envs
+dfebb8873a01f68982b328c7be5c81030c7c0417 fc1ea991973f75418c7875b76b69e9669e9307fa Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760951152 +0100	commit: Modified 34: Deploy AlertManager in Cloud Envs
+fc1ea991973f75418c7875b76b69e9669e9307fa a8e2d19ffd3cbb07d56fbfb1b9c9734c8a1d9c4f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1760951168 +0100	commit: Stopped 34: Deploy AlertManager in Cloud Envs
