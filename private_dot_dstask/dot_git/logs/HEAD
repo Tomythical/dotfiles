@@ -668,3 +668,4 @@ bf5d23da20c72417ce79f9ebb03977aa3740777c 221362d10b5342fc92d58e103f0e183d449d627
 60c01465935c8c76bbf20c626d07d8476f4c3883 7db80e46b28a7547110d23b7aa88d3ba29279eac Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761042703 +0100	commit: Started 3: Approve-Bot PR Polling for Change-bot /approve comments
 7db80e46b28a7547110d23b7aa88d3ba29279eac b0d36cca7f9a9b079ef764f696366cdcd5039150 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761042717 +0100	commit: Stopped 3: Approve-Bot PR Polling for Change-bot /approve comments
 b0d36cca7f9a9b079ef764f696366cdcd5039150 559a15a75ec74ed0a84856204a59c5a20615bc87 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761042722 +0100	commit: Started 4: Create thanos servicemonitors
+559a15a75ec74ed0a84856204a59c5a20615bc87 969d47a45a412f9f3273c03784e6fdcd75733b7c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761136255 +0100	commit: Edit note 4: Create thanos servicemonitors
