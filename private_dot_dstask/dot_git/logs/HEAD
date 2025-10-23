@@ -669,3 +669,7 @@ bf5d23da20c72417ce79f9ebb03977aa3740777c 221362d10b5342fc92d58e103f0e183d449d627
 7db80e46b28a7547110d23b7aa88d3ba29279eac b0d36cca7f9a9b079ef764f696366cdcd5039150 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761042717 +0100	commit: Stopped 3: Approve-Bot PR Polling for Change-bot /approve comments
 b0d36cca7f9a9b079ef764f696366cdcd5039150 559a15a75ec74ed0a84856204a59c5a20615bc87 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761042722 +0100	commit: Started 4: Create thanos servicemonitors
 559a15a75ec74ed0a84856204a59c5a20615bc87 969d47a45a412f9f3273c03784e6fdcd75733b7c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761136255 +0100	commit: Edit note 4: Create thanos servicemonitors
+969d47a45a412f9f3273c03784e6fdcd75733b7c fa1132b454e416df7e45e7a02a474b2db562c491 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761217256 +0100	commit: Added 26: Install GitHub ARC into bidfx org
+fa1132b454e416df7e45e7a02a474b2db562c491 c6a1f084ecce6a9568178428842135370debfb71 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761217296 +0100	commit: Added 29: Split scale sets into own namespaces
+c6a1f084ecce6a9568178428842135370debfb71 f0978ee71bcb238d171e68a15950af23e09dae91 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761217303 +0100	commit: Started 26: Install GitHub ARC into bidfx org
+f0978ee71bcb238d171e68a15950af23e09dae91 2b03b58d709f0f8a12db77a8faaebffc2d5f8b54 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761217308 +0100	commit: Started 29: Split scale sets into own namespaces
