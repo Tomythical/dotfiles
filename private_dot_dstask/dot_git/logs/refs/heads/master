@@ -670,3 +670,10 @@ b0d36cca7f9a9b079ef764f696366cdcd5039150 559a15a75ec74ed0a84856204a59c5a20615bc8
 fa1132b454e416df7e45e7a02a474b2db562c491 c6a1f084ecce6a9568178428842135370debfb71 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761217296 +0100	commit: Added 29: Split scale sets into own namespaces
 c6a1f084ecce6a9568178428842135370debfb71 f0978ee71bcb238d171e68a15950af23e09dae91 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761217303 +0100	commit: Started 26: Install GitHub ARC into bidfx org
 f0978ee71bcb238d171e68a15950af23e09dae91 2b03b58d709f0f8a12db77a8faaebffc2d5f8b54 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761217308 +0100	commit: Started 29: Split scale sets into own namespaces
+2b03b58d709f0f8a12db77a8faaebffc2d5f8b54 666b44e2a7ae886756d174135b6f50335e9fd7f8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761300069 +0100	commit: Resolved 4: Create thanos servicemonitors
+666b44e2a7ae886756d174135b6f50335e9fd7f8 c5680387501bee2b8b5c2f07e05a7b5b8377aba8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761300085 +0100	commit: Added 4: Create small prometheus-infra deployment on onprem prod
+c5680387501bee2b8b5c2f07e05a7b5b8377aba8 420767f27eb56c1d65685ecef4609551d6df9eb4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761300090 +0100	commit: Started 14: Grafana Dashboard Migration
+420767f27eb56c1d65685ecef4609551d6df9eb4 b959c841aafdd469df27b54c31a3651b6ad5b394 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761300119 +0100	commit: Added 30: Fix docker workflow action
+b959c841aafdd469df27b54c31a3651b6ad5b394 b7b4983b46c61d6556a2600013b18eb392472513 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761300122 +0100	commit: Started 30: Fix docker workflow action
+b7b4983b46c61d6556a2600013b18eb392472513 d81f273d7d7c786afea01c1e00dd3957ad91c009 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761300231 +0100	commit: Added 31: Adjust Node Pool resourcing for pod limits
+d81f273d7d7c786afea01c1e00dd3957ad91c009 76e181a7383a6027543300d72a974043b3413180 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761300236 +0100	commit: Added 35: Set Max Runners
