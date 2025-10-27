@@ -28,7 +28,7 @@ if not has_job then
   return M
 end
 
-local LIST_CMD = "dstask next"
+local LIST_CMD = "dstask show-active --"
 local SIDE_WIDTH_PCT = 0.35
 
 local function ensure_priority_highlights()
