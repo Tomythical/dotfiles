@@ -690,3 +690,8 @@ abb3a1450cb0778af135785517eca3c40a9e21b8 0c7da8d233ff846b62df54ee35b305435e499a8
 45668b7cc88fc90f7183e214891d3f41e710ae73 83fc289c7a5e735041aff98ccfc29dac16895969 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761562722 +0000	commit: Started 38: Gateway API Migration
 83fc289c7a5e735041aff98ccfc29dac16895969 5bb63a7664af0663c904adaee73ec624737cee33 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761562751 +0000	commit: Modified 38: Gateway API Migration
 5bb63a7664af0663c904adaee73ec624737cee33 621540f202d7e6cd17f6e564a992342df4483c71 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761562784 +0000	commit: Modified 30: Fix docker workflow action
+621540f202d7e6cd17f6e564a992342df4483c71 e6b7bbbbc4ec6cf9b1e57764278148c1670a3481 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761565346 +0000	commit: Added 39: Upgrade to thanos v0.40.0 due Tuesday
+e6b7bbbbc4ec6cf9b1e57764278148c1670a3481 7804d373c44bb3e67a7b01639c856b85326a6586 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761565371 +0000	commit: Edited 39: Upgrade to thanos v0.40.0
+7804d373c44bb3e67a7b01639c856b85326a6586 7e639d2eace519d6e6e60b731cc94d2e25c19037 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761565380 +0000	commit: Modified 33: Setup a log filter and see how much logspam happens due to Kyverno Bug
+7e639d2eace519d6e6e60b731cc94d2e25c19037 f3fcee59c5f5401586ce95c0d35af26123caf4d7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761565425 +0000	commit: Edited 33: Setup a log filter and see how much logspam happens due to Kyverno Bug
+f3fcee59c5f5401586ce95c0d35af26123caf4d7 23c55a6dda9f086fa5dd9e0ab0491dfd4e23d374 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761565436 +0000	commit: Modified 39: Upgrade to thanos v0.40.0
