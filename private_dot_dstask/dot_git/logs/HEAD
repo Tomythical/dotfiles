@@ -680,3 +680,10 @@ c5680387501bee2b8b5c2f07e05a7b5b8377aba8 420767f27eb56c1d65685ecef4609551d6df9eb
 b959c841aafdd469df27b54c31a3651b6ad5b394 b7b4983b46c61d6556a2600013b18eb392472513 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761300122 +0100	commit: Started 30: Fix docker workflow action
 b7b4983b46c61d6556a2600013b18eb392472513 d81f273d7d7c786afea01c1e00dd3957ad91c009 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761300231 +0100	commit: Added 31: Adjust Node Pool resourcing for pod limits
 d81f273d7d7c786afea01c1e00dd3957ad91c009 76e181a7383a6027543300d72a974043b3413180 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761300236 +0100	commit: Added 35: Set Max Runners
+76e181a7383a6027543300d72a974043b3413180 2660d94bba23bc67918a5cc4595519c70cac5131 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761316351 +0100	commit: Added 36: Check Artifact Pull costs if within same region
+2660d94bba23bc67918a5cc4595519c70cac5131 b946104dedaaf2abbc502df3d9a43406ee5bc4a5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761316362 +0100	commit: Modified 36: Check Artifact Pull costs if within same region
+b946104dedaaf2abbc502df3d9a43406ee5bc4a5 a5576c084971487f09d953e029d87b59470e80f1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761316391 +0100	commit: Edit note 34: Deploy AlertManager in Cloud Envs
+a5576c084971487f09d953e029d87b59470e80f1 7b7a896fb8ead0b3d66a87d5a94276e3e2c4a707 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761316394 +0100	commit: Resolved 34: Deploy AlertManager in Cloud Envs
+7b7a896fb8ead0b3d66a87d5a94276e3e2c4a707 03bc9de029c9f20bcdab16c453376809e7981fae Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761556268 +0000	commit: Added 34: Prep Demo Slides
+03bc9de029c9f20bcdab16c453376809e7981fae bec5339bd8f44bbdfac2bfbfb858a80b26dd8876 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761556272 +0000	commit: Started 34: Prep Demo Slides
+bec5339bd8f44bbdfac2bfbfb858a80b26dd8876 110ea0d4f77fb3d45c1c6d5d46cf2395eb877b71 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761556286 +0000	commit: Modified 34: Prep Demo Slides
