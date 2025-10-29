@@ -3,7 +3,7 @@ customCommands:
     context: 'localBranches'
     command: "gh pr view --web || (echo 'Creating PR...' && gh pr create --web)"
     description: 'Open PR if it exists. Otherwise create a PR for this branch'
-  - key: 'A'
+  - key: 'E'
     description: 'Add all, commit WIP, push'
     command: 'git add . && git commit -m "WIP" && git push'
     context: 'global'
