@@ -716,3 +716,5 @@ ec8d024818ca0f53107485f4473a6b309fa05e20 16b661cfc40766fe9a1c98b680cb30b0f64352b
 14697f7d37fb36322504526148a47678d203b5e8 e43d557169d7d1227b10e977c4d5543c143894d1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761816053 +0000	commit: Resolved 41: Review Grad Tech 2nd Stage Interview Question
 e43d557169d7d1227b10e977c4d5543c143894d1 4af6fb11bb8a0ef96ecd768c5266cca1d0b02792 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761816090 +0000	commit: Added 34: Get questions ready for Grad Tech interview
 4af6fb11bb8a0ef96ecd768c5266cca1d0b02792 bbbed19db46e522ac3629bcbc4abecce1510b988 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761816107 +0000	commit: Started 34: Get questions ready for Grad Tech interview
+bbbed19db46e522ac3629bcbc4abecce1510b988 3b942575253daf539e4dd976d99af85d404f169e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761826151 +0000	commit: Modified 38: Gateway API Migration
+3b942575253daf539e4dd976d99af85d404f169e d8be6a525b83a659c9d82e53cb1279d8aa61cf75 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761826205 +0000	commit: Edit note 38: Gateway API Migration
