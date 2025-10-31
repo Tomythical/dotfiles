@@ -719,3 +719,5 @@ e43d557169d7d1227b10e977c4d5543c143894d1 4af6fb11bb8a0ef96ecd768c5266cca1d0b0279
 bbbed19db46e522ac3629bcbc4abecce1510b988 3b942575253daf539e4dd976d99af85d404f169e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761826151 +0000	commit: Modified 38: Gateway API Migration
 3b942575253daf539e4dd976d99af85d404f169e d8be6a525b83a659c9d82e53cb1279d8aa61cf75 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761826205 +0000	commit: Edit note 38: Gateway API Migration
 d8be6a525b83a659c9d82e53cb1279d8aa61cf75 c3a7db47624aaf79de391f25cd71d212a51043bf Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761843331 +0000	commit: Modified 40: TeamCity Upgrade
+c3a7db47624aaf79de391f25cd71d212a51043bf c7dd3d491e4e71456109b795c96c01eb5a332406 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761846036 +0000	commit: Resolved 30: Fix docker workflow action
+c7dd3d491e4e71456109b795c96c01eb5a332406 3e6923f618d2a69e1476d08b44c8bf31d29dcdf6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1761846126 +0000	commit: Added 30: Create Docker workflows for each image
