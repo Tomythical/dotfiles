@@ -743,3 +743,4 @@ dd9345f1658d69a1ed3aa8fc5bace7a49dcfd6b9 306bc937a59a8704a8dfef9f1084800f6cab6d7
 0fde13e5956d981e955c325cf4ed64a5e5df91ea 5d5a0376abe609acf2c313ad7d8183d5c7ff50da Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762191092 +0000	commit: Added 34: Create a LB for the otel collector in UAT LD4
 5d5a0376abe609acf2c313ad7d8183d5c7ff50da 60391c41969c448d8e124428205f17af802a7145 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762191095 +0000	commit: Started 34: Create a LB for the otel collector in UAT LD4
 60391c41969c448d8e124428205f17af802a7145 f52e6da627fbe9aec8d822d4e864fd2e28ac1d83 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762191888 +0000	commit: Edit note 38: Gateway API Migration
+f52e6da627fbe9aec8d822d4e864fd2e28ac1d83 4b1fc6d71dd2f8b62ee3c9588aea097ee2fa7738 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762254726 +0000	commit: Modified 38: Gateway API Migration
