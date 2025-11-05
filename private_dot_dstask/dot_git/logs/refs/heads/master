@@ -752,3 +752,9 @@ f52e6da627fbe9aec8d822d4e864fd2e28ac1d83 4b1fc6d71dd2f8b62ee3c9588aea097ee2fa773
 52767ff21e73e1e6da49921df6d4a568b1df2f41 51de547728a472a2085bcd54a8b0c875d69380b7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762268938 +0000	commit: Modified 34: Create a LB for the otel collector in UAT LD4
 51de547728a472a2085bcd54a8b0c875d69380b7 43ee11175f27a6b0bf6dcf56bda9cec0f655641f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762271408 +0000	commit: Edit note 25: Bump Prometheus to v3.7.x
 43ee11175f27a6b0bf6dcf56bda9cec0f655641f 8df1178b1f63cfd42abe7d211bb86baec529eaaa Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762271703 +0000	commit: Edit note 25: Bump Prometheus to v3.7.x
+8df1178b1f63cfd42abe7d211bb86baec529eaaa 2a2ece0f3783f9144a9493a3c9ac3cb4ccab2409 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762295597 +0000	commit: Added 43: Prep Grad Tech 2nd Stage interview
+2a2ece0f3783f9144a9493a3c9ac3cb4ccab2409 7c9a4ce491a661c1e33c4c91a7bd2b336932f1a9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762295598 +0000	commit: Started 43: Prep Grad Tech 2nd Stage interview
+7c9a4ce491a661c1e33c4c91a7bd2b336932f1a9 6960e0d7feaca6c95fd4885ff9b66bc0f1396e8b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762295606 +0000	commit: Resolved 21: Grant Permissions for External-Secrest in onprem prod
+6960e0d7feaca6c95fd4885ff9b66bc0f1396e8b 5c5d351a89eceb39a0b2b158a2c9419786f6b9dd Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762295625 +0000	revert: Revert "Resolved 21: Grant Permissions for External-Secrest in onprem prod"
+5c5d351a89eceb39a0b2b158a2c9419786f6b9dd 8d676b84d26d80ffc3cb9a4c25993e5494250bc8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762295642 +0000	commit: Resolved 42: Create new repo for interview question
+8d676b84d26d80ffc3cb9a4c25993e5494250bc8 ab53826d70cf5dc607b98ece72485e85ad1e2fda Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762295997 +0000	commit: Edit note 43: Prep Grad Tech 2nd Stage interview
