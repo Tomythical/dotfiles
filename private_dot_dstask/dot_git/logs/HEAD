@@ -761,3 +761,5 @@ f52e6da627fbe9aec8d822d4e864fd2e28ac1d83 4b1fc6d71dd2f8b62ee3c9588aea097ee2fa773
 6960e0d7feaca6c95fd4885ff9b66bc0f1396e8b 5c5d351a89eceb39a0b2b158a2c9419786f6b9dd Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762295625 +0000	revert: Revert "Resolved 21: Grant Permissions for External-Secrest in onprem prod"
 5c5d351a89eceb39a0b2b158a2c9419786f6b9dd 8d676b84d26d80ffc3cb9a4c25993e5494250bc8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762295642 +0000	commit: Resolved 42: Create new repo for interview question
 8d676b84d26d80ffc3cb9a4c25993e5494250bc8 ab53826d70cf5dc607b98ece72485e85ad1e2fda Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762295997 +0000	commit: Edit note 43: Prep Grad Tech 2nd Stage interview
+ab53826d70cf5dc607b98ece72485e85ad1e2fda 04ea72f943268bde6b35362c8bf46826ab25b490 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762334849 +0000	commit: Resolved 22: Practice 2nd stage Grad tech interview question
+04ea72f943268bde6b35362c8bf46826ab25b490 bbe2f5de415f84fe5fd1fd33148b3d3a15aba58c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762335039 +0000	commit: Edit note 43: Prep Grad Tech 2nd Stage interview
