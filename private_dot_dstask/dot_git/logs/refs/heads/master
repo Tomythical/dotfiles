@@ -780,3 +780,6 @@ e8b1d23d1b67477c8dc1d761300e38eee9bee115 90ab86e35603901e3133a74dde5c0308fa0d088
 90ab86e35603901e3133a74dde5c0308fa0d088a 890f20e070d090cd65dc5b7176be8b4666c140e9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762421822 +0000	commit: Modified 14: Grafana Dashboard Migration
 890f20e070d090cd65dc5b7176be8b4666c140e9 e88ea25d18aa61c7978d0c0ca46c8fb228f8b6a1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762421859 +0000	commit: Edited 36: Plan out nexus-migration to AR
 e88ea25d18aa61c7978d0c0ca46c8fb228f8b6a1 866aecd2828b7c137655b8c83cc6855c7b55aff7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762425463 +0000	commit: Started 30: Create Docker workflows for each image
+866aecd2828b7c137655b8c83cc6855c7b55aff7 9c8a8788b94cffe8b2d2e77c50165dd055218fd0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762426468 +0000	commit: Modified 37: Update CPU Usage Prom Query to ignore alert spam
+9c8a8788b94cffe8b2d2e77c50165dd055218fd0 8c318a31989ba54b13f5b4474b852573278161c5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762426493 +0000	commit: Resolved 28: Add cluster_provider label and the other v2 labels to CI victoriametrics and prometheus
+8c318a31989ba54b13f5b4474b852573278161c5 a201c50ccec20a64cae02bb52532b06d428a6f84 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762426520 +0000	commit: Modified 20: Deploy prometheus-infra in onprem-prod
