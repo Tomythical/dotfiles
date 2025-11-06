@@ -779,3 +779,7 @@ e179ded28d72f6f66994d4e1810c1327c07c198f 4f395f5470ca1806cb04de368c443eebbfd195e
 4f395f5470ca1806cb04de368c443eebbfd195ea 31792560264be94bddada5245dbb4bb3da91eb84 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762356134 +0000	commit: Modified 36: Check Artifact Pull costs if within same region
 31792560264be94bddada5245dbb4bb3da91eb84 0476d07f107d43d17c992da1832dc9fd2c9f7466 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762359266 +0000	commit: Modified 36: Check Artifact Pull costs if within same region
 0476d07f107d43d17c992da1832dc9fd2c9f7466 e8b1d23d1b67477c8dc1d761300e38eee9bee115 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762359323 +0000	commit: Edit note 36: Check Artifact Pull costs if within same region
+e8b1d23d1b67477c8dc1d761300e38eee9bee115 90ab86e35603901e3133a74dde5c0308fa0d088a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762420621 +0000	commit: Modified 38: Gateway API Migration
+90ab86e35603901e3133a74dde5c0308fa0d088a 890f20e070d090cd65dc5b7176be8b4666c140e9 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762421822 +0000	commit: Modified 14: Grafana Dashboard Migration
+890f20e070d090cd65dc5b7176be8b4666c140e9 e88ea25d18aa61c7978d0c0ca46c8fb228f8b6a1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762421859 +0000	commit: Edited 36: Plan out nexus-migration to AR
+e88ea25d18aa61c7978d0c0ca46c8fb228f8b6a1 866aecd2828b7c137655b8c83cc6855c7b55aff7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762425463 +0000	commit: Started 30: Create Docker workflows for each image
