@@ -788,3 +788,6 @@ e88ea25d18aa61c7978d0c0ca46c8fb228f8b6a1 866aecd2828b7c137655b8c83cc6855c7b55aff
 8c318a31989ba54b13f5b4474b852573278161c5 a201c50ccec20a64cae02bb52532b06d428a6f84 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762426520 +0000	commit: Modified 20: Deploy prometheus-infra in onprem-prod
 a201c50ccec20a64cae02bb52532b06d428a6f84 7107f6a31d5c273f3fa4279ff12a231995089f39 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762514668 +0000	commit: Resolved 29: Split scale sets into own namespaces
 7107f6a31d5c273f3fa4279ff12a231995089f39 c175dc1d97be588f87a610b5a097b408de8915eb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762518178 +0000	commit: Modified 38: Gateway API Migration
+c175dc1d97be588f87a610b5a097b408de8915eb 7bf42f812d193ccde2e58778a2844b55e1d64694 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762522122 +0000	commit: Edit note 25: Bump Prometheus to v3.7.x
+7bf42f812d193ccde2e58778a2844b55e1d64694 ad835c7554efc94901dbada148d023a352e18b35 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762523515 +0000	commit: Resolved 26: Install GitHub ARC into bidfx org
+ad835c7554efc94901dbada148d023a352e18b35 fd4a93bbb6f10ef94f1fa4cc641e24c3208fe51b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762523676 +0000	commit: Modified 4: Create small prometheus-infra deployment on onprem prod
