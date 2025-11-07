@@ -791,3 +791,5 @@ a201c50ccec20a64cae02bb52532b06d428a6f84 7107f6a31d5c273f3fa4279ff12a231995089f3
 c175dc1d97be588f87a610b5a097b408de8915eb 7bf42f812d193ccde2e58778a2844b55e1d64694 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762522122 +0000	commit: Edit note 25: Bump Prometheus to v3.7.x
 7bf42f812d193ccde2e58778a2844b55e1d64694 ad835c7554efc94901dbada148d023a352e18b35 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762523515 +0000	commit: Resolved 26: Install GitHub ARC into bidfx org
 ad835c7554efc94901dbada148d023a352e18b35 fd4a93bbb6f10ef94f1fa4cc641e24c3208fe51b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762523676 +0000	commit: Modified 4: Create small prometheus-infra deployment on onprem prod
+fd4a93bbb6f10ef94f1fa4cc641e24c3208fe51b de029e1c79ab53ec45c5302b9a82d3dfe409a482 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762527511 +0000	commit: Modified 25: Bump Prometheus to v3.7.x
+de029e1c79ab53ec45c5302b9a82d3dfe409a482 840b83c00fb22664a0c273f6cb0b3bdc067334b1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762527522 +0000	commit: Modified 25: Bump Prometheus to v3.7.x
