@@ -790,3 +790,8 @@ c175dc1d97be588f87a610b5a097b408de8915eb 7bf42f812d193ccde2e58778a2844b55e1d6469
 ad835c7554efc94901dbada148d023a352e18b35 fd4a93bbb6f10ef94f1fa4cc641e24c3208fe51b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762523676 +0000	commit: Modified 4: Create small prometheus-infra deployment on onprem prod
 fd4a93bbb6f10ef94f1fa4cc641e24c3208fe51b de029e1c79ab53ec45c5302b9a82d3dfe409a482 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762527511 +0000	commit: Modified 25: Bump Prometheus to v3.7.x
 de029e1c79ab53ec45c5302b9a82d3dfe409a482 840b83c00fb22664a0c273f6cb0b3bdc067334b1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762527522 +0000	commit: Modified 25: Bump Prometheus to v3.7.x
+840b83c00fb22664a0c273f6cb0b3bdc067334b1 6a070bdc36e8022007be9a2d940cbbc91aebb21d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762531450 +0000	commit: Resolved 35: Set Max Runners
+6a070bdc36e8022007be9a2d940cbbc91aebb21d 3b7c12d0048ad40a15ceba7b060ba9e770a9751b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762533302 +0000	commit: Started 39: Upgrade to thanos v0.40.0
+3b7c12d0048ad40a15ceba7b060ba9e770a9751b c755a3900d60865f4997ec1311b193bd4d13075f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762533305 +0000	commit: Modified 39: Upgrade to thanos v0.40.0
+c755a3900d60865f4997ec1311b193bd4d13075f 34bb8ec6bf787a99ad6f157eeef91e2ad92321aa Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762533315 +0000	commit: Modified 39: Upgrade to thanos v0.40.0
+34bb8ec6bf787a99ad6f157eeef91e2ad92321aa 915d4d98a4f34ce812cb445615abdb41c1708d95 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762533335 +0000	commit: Edit note 39: Upgrade to thanos v0.40.0
