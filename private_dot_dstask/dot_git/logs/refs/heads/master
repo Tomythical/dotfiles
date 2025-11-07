@@ -783,3 +783,4 @@ e88ea25d18aa61c7978d0c0ca46c8fb228f8b6a1 866aecd2828b7c137655b8c83cc6855c7b55aff
 866aecd2828b7c137655b8c83cc6855c7b55aff7 9c8a8788b94cffe8b2d2e77c50165dd055218fd0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762426468 +0000	commit: Modified 37: Update CPU Usage Prom Query to ignore alert spam
 9c8a8788b94cffe8b2d2e77c50165dd055218fd0 8c318a31989ba54b13f5b4474b852573278161c5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762426493 +0000	commit: Resolved 28: Add cluster_provider label and the other v2 labels to CI victoriametrics and prometheus
 8c318a31989ba54b13f5b4474b852573278161c5 a201c50ccec20a64cae02bb52532b06d428a6f84 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762426520 +0000	commit: Modified 20: Deploy prometheus-infra in onprem-prod
+a201c50ccec20a64cae02bb52532b06d428a6f84 7107f6a31d5c273f3fa4279ff12a231995089f39 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762514668 +0000	commit: Resolved 29: Split scale sets into own namespaces
