@@ -802,3 +802,9 @@ fe643dca94057e77f9920264dc55ee88ce4d4e36 e173b836ef34d76409abc0d381a2a7fb1c8dbde
 e173b836ef34d76409abc0d381a2a7fb1c8dbded 941803f9d34d59f5b63e601153bed01c14ef3350 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762777609 +0000	commit: Added 22: Upgrade kyverno to v1.16.0
 941803f9d34d59f5b63e601153bed01c14ef3350 c51a665e51d32ca81207a50218b3345415f351e3 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762777611 +0000	commit: Started 22: Upgrade kyverno to v1.16.0
 c51a665e51d32ca81207a50218b3345415f351e3 fbc908430f7eaa02ca30272c2afab310069dc132 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762777616 +0000	commit: Modified 22: Upgrade kyverno to v1.16.0
+fbc908430f7eaa02ca30272c2afab310069dc132 9567570494d6f7918ef6da6eb0afa04715c8e2c5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762882527 +0000	commit: Added 26: Update onprem portal-a/b VirtualService to use HTTPRoute
+9567570494d6f7918ef6da6eb0afa04715c8e2c5 1213cff14df405f64e9d962f4d031fdb49e5598e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762882533 +0000	commit: Started 26: Update onprem portal-a/b VirtualService to use HTTPRoute
+1213cff14df405f64e9d962f4d031fdb49e5598e 62d9383d22132876f7ed9297e472c6cce70eab05 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762882619 +0000	commit: Added 28: Review Airflow PR in CI for Diogo
+62d9383d22132876f7ed9297e472c6cce70eab05 e1b3da1d5cf21cbac59d8bfe575644b2a3d1e325 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762882622 +0000	commit: Started 28: Review Airflow PR in CI for Diogo
+e1b3da1d5cf21cbac59d8bfe575644b2a3d1e325 a186e68128b2210e26ec5b53f2d5cdbedfba82d8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762882645 +0000	commit: Modified 28: Review Airflow PR in CI for Diogo
+a186e68128b2210e26ec5b53f2d5cdbedfba82d8 1fd9409fe522205a00ee344753d6868dd7be7efa Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762882679 +0000	commit: Modified 30: Create Docker workflows for each image
