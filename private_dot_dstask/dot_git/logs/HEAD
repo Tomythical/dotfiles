@@ -811,3 +811,8 @@ fbc908430f7eaa02ca30272c2afab310069dc132 9567570494d6f7918ef6da6eb0afa04715c8e2c
 62d9383d22132876f7ed9297e472c6cce70eab05 e1b3da1d5cf21cbac59d8bfe575644b2a3d1e325 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762882622 +0000	commit: Started 28: Review Airflow PR in CI for Diogo
 e1b3da1d5cf21cbac59d8bfe575644b2a3d1e325 a186e68128b2210e26ec5b53f2d5cdbedfba82d8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762882645 +0000	commit: Modified 28: Review Airflow PR in CI for Diogo
 a186e68128b2210e26ec5b53f2d5cdbedfba82d8 1fd9409fe522205a00ee344753d6868dd7be7efa Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762882679 +0000	commit: Modified 30: Create Docker workflows for each image
+1fd9409fe522205a00ee344753d6868dd7be7efa 9cc518cd9c25b405ed384f22b8a9637a77967526 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762883950 +0000	commit: Modified 41: Get screenshots of GitHub permissions for teams
+9cc518cd9c25b405ed384f22b8a9637a77967526 9fe87d286c5e90f6ac91187e2ddb7c4c1f5f9eae Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762883963 +0000	commit: Resolved 40: Review Kevin Change-Bot PR
+9fe87d286c5e90f6ac91187e2ddb7c4c1f5f9eae 12be65c4ca78fbac98db08601a3eb3ac39300412 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762884106 +0000	commit: Added 29: Review Venue Management UAR Deploy PR
+12be65c4ca78fbac98db08601a3eb3ac39300412 391748617ca3b3e577bcfc385b80cd567a909264 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762884108 +0000	commit: Started 29: Review Venue Management UAR Deploy PR
+391748617ca3b3e577bcfc385b80cd567a909264 339e3365a32793bb2b30c1a0ec693dacce6c4307 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762884112 +0000	commit: Modified 29: Review Venue Management UAR Deploy PR
