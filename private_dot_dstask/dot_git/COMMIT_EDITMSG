@@ -1,1 +1,1 @@
-Logged Fix validate_overlays.sh not fetching master
+Modified 38: Make YAML templating consistent in src/ingress
