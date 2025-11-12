@@ -1,1 +1,1 @@
-Modified 26: Update onprem portal-a/b VirtualService to use HTTPRoute
+Logged Fix validate_overlays.sh not fetching master
