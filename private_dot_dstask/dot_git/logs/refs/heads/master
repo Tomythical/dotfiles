@@ -825,3 +825,5 @@ c946c14b66dd84bf42735a9ac86c72d3622f8f3f 692516faf3ddebe2045a1ff311d61cc349d1a35
 eb0103ce9946ec6ac0280c36f19030f208231006 7e614aa55bb232d67eff1a0524e31a549490f89e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762964597 +0000	commit: Started 38: Make YAML templating consistent in src/ingress
 7e614aa55bb232d67eff1a0524e31a549490f89e fe2c772530fa57ca6a8f30a253af9e7975860cfc Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762964608 +0000	commit: Modified 38: Make YAML templating consistent in src/ingress
 fe2c772530fa57ca6a8f30a253af9e7975860cfc 86ff67592db49120ceea4a19170ed99fa7021f9c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1762968495 +0000	commit: Edit note 34: Create a LB for the otel collector in UAT LD4
+86ff67592db49120ceea4a19170ed99fa7021f9c 7ebe6e7d9a292db8723fef51e624b22093a09ce2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763032812 +0000	commit: Added 40: Deploy prometheus-v2 in ops-cluster
+7ebe6e7d9a292db8723fef51e624b22093a09ce2 3759fa127fd034496225b328c53195b384205aee Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763032815 +0000	commit: Started 40: Deploy prometheus-v2 in ops-cluster
