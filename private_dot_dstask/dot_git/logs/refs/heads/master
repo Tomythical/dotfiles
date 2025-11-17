@@ -832,3 +832,4 @@ fe2c772530fa57ca6a8f30a253af9e7975860cfc 86ff67592db49120ceea4a19170ed99fa7021f9
 8b05e6032b129d8d7553c47cf518dca0a18ce004 4bb4e6d8344521eaefab7c101a9de5732382a815 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763055645 +0000	commit: Started 14: Prep Maxx Interview Questions
 4bb4e6d8344521eaefab7c101a9de5732382a815 0ae5d7fd50416a3427d17c3d3e5f4317944fb6be Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763375421 +0000	commit: Edit note 22: Upgrade kyverno to v1.16.0
 0ae5d7fd50416a3427d17c3d3e5f4317944fb6be eb0d7dc1869205a0e75d5088a2c6bbfa13486db5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763375571 +0000	commit: Edit note 26: Update onprem portal-a/b VirtualService to use HTTPRoute
+eb0d7dc1869205a0e75d5088a2c6bbfa13486db5 4f23a1f57079d167d3fe780ad9d941c4e210dcea Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763376012 +0000	commit: Modified 34: Create a LB for the otel collector in UAT LD4
