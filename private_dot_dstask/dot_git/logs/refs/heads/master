@@ -842,3 +842,10 @@ d319887deeb40a85eb526d0550c9a43fdd2d404c 57db9082a209abb1e9af66bffce628e04817d8c
 f56e387f5ebb4e3abc82b8003a939171918c6e78 d5839d15d2beab60476eff9ebf678239228c807d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763402437 +0000	commit: Started 42: Plan nexus artifact syncing to GAR
 d5839d15d2beab60476eff9ebf678239228c807d a4c4bd25330b23a75d4225eed386bb3469782c81 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763458754 +0000	commit: Added 43: Change thanos-store memory config
 a4c4bd25330b23a75d4225eed386bb3469782c81 0178a45a118e79b8bafb92a43c96afd2c73b71cc Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763458756 +0000	commit: Started 43: Change thanos-store memory config
+0178a45a118e79b8bafb92a43c96afd2c73b71cc f3304ad4c3703d195f2c1f37b182b5e8d84c17c0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763464741 +0000	commit: Modified 43: Change thanos-store memory config
+f3304ad4c3703d195f2c1f37b182b5e8d84c17c0 76734cbd56c450378e893ea93787ba10bdfb0f6f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763464796 +0000	commit: Removed: 36: Plan out nexus-migration to AR
+76734cbd56c450378e893ea93787ba10bdfb0f6f afa3a55135af72bb1ba0fc278747fad8c720103b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763468152 +0000	commit: Modified 40: Deploy prometheus-v2 in ops-cluster
+afa3a55135af72bb1ba0fc278747fad8c720103b 348824b23c7fb1634ff145a25814dd9addd77ed7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763468215 +0000	commit: Resolved 21: Create 3rd party service monitors + rules
+348824b23c7fb1634ff145a25814dd9addd77ed7 7cfcb412f9b29f0bc1a8e78352429202f455e0e4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763468256 +0000	commit: Added 21: Investigate Metrics Misalignment in Grafana
+7cfcb412f9b29f0bc1a8e78352429202f455e0e4 1ae75deb7e30a659fdfdd5d79483b3a852d01559 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763468260 +0000	commit: Started 21: Investigate Metrics Misalignment in Grafana
+1ae75deb7e30a659fdfdd5d79483b3a852d01559 efd18056319c1694e83beae45e1a2391af6854f5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763468444 +0000	commit: Removed: 29: Review Venue Management UAR Deploy PR
