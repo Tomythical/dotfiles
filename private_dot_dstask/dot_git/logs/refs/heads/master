@@ -840,3 +840,5 @@ f2298f2af9066c25dcb6ce606f19db82f013b83d d319887deeb40a85eb526d0550c9a43fdd2d404
 d319887deeb40a85eb526d0550c9a43fdd2d404c 57db9082a209abb1e9af66bffce628e04817d8c6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763402274 +0000	commit: Started 41: Fix prom-v2 in DEV
 57db9082a209abb1e9af66bffce628e04817d8c6 f56e387f5ebb4e3abc82b8003a939171918c6e78 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763402434 +0000	commit: Added 42: Plan nexus artifact syncing to GAR
 f56e387f5ebb4e3abc82b8003a939171918c6e78 d5839d15d2beab60476eff9ebf678239228c807d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763402437 +0000	commit: Started 42: Plan nexus artifact syncing to GAR
+d5839d15d2beab60476eff9ebf678239228c807d a4c4bd25330b23a75d4225eed386bb3469782c81 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763458754 +0000	commit: Added 43: Change thanos-store memory config
+a4c4bd25330b23a75d4225eed386bb3469782c81 0178a45a118e79b8bafb92a43c96afd2c73b71cc Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763458756 +0000	commit: Started 43: Change thanos-store memory config
