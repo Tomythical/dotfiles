@@ -836,3 +836,10 @@ fe2c772530fa57ca6a8f30a253af9e7975860cfc 86ff67592db49120ceea4a19170ed99fa7021f9
 4bb4e6d8344521eaefab7c101a9de5732382a815 0ae5d7fd50416a3427d17c3d3e5f4317944fb6be Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763375421 +0000	commit: Edit note 22: Upgrade kyverno to v1.16.0
 0ae5d7fd50416a3427d17c3d3e5f4317944fb6be eb0d7dc1869205a0e75d5088a2c6bbfa13486db5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763375571 +0000	commit: Edit note 26: Update onprem portal-a/b VirtualService to use HTTPRoute
 eb0d7dc1869205a0e75d5088a2c6bbfa13486db5 4f23a1f57079d167d3fe780ad9d941c4e210dcea Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763376012 +0000	commit: Modified 34: Create a LB for the otel collector in UAT LD4
+4f23a1f57079d167d3fe780ad9d941c4e210dcea 20213aaa6fcbb6e7235f6339fdbf956362a7d4d8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763393296 +0000	commit: Edit note 34: Create a LB for the otel collector in UAT LD4
+20213aaa6fcbb6e7235f6339fdbf956362a7d4d8 f0586fe8ec6349e2aaa3d26149656f085f4232a8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763394783 +0000	commit: Edit note 34: Create a LB for the otel collector in UAT LD4
+f0586fe8ec6349e2aaa3d26149656f085f4232a8 f2298f2af9066c25dcb6ce606f19db82f013b83d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763394790 +0000	commit: Modified 34: Create a LB for the otel collector in UAT LD4
+f2298f2af9066c25dcb6ce606f19db82f013b83d d319887deeb40a85eb526d0550c9a43fdd2d404c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763402271 +0000	commit: Added 41: Fix prom-v2 in DEV
+d319887deeb40a85eb526d0550c9a43fdd2d404c 57db9082a209abb1e9af66bffce628e04817d8c6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763402274 +0000	commit: Started 41: Fix prom-v2 in DEV
+57db9082a209abb1e9af66bffce628e04817d8c6 f56e387f5ebb4e3abc82b8003a939171918c6e78 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763402434 +0000	commit: Added 42: Plan nexus artifact syncing to GAR
+f56e387f5ebb4e3abc82b8003a939171918c6e78 d5839d15d2beab60476eff9ebf678239228c807d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763402437 +0000	commit: Started 42: Plan nexus artifact syncing to GAR
