@@ -853,3 +853,6 @@ efd18056319c1694e83beae45e1a2391af6854f5 2981d52b65875b1c40495c9ca6c70f25c5ebd79
 2981d52b65875b1c40495c9ca6c70f25c5ebd79e 2b29dbb5340332e2aac5cd37da073a27fb1cd883 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763469274 +0000	commit: Modified 14: Prep Maxx Interview Questions
 2b29dbb5340332e2aac5cd37da073a27fb1cd883 b73d6a7a49cb39a37b91e54a83b399252700faf8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763469290 +0000	commit: Modified 21: Investigate Metrics Misalignment in Grafana
 b73d6a7a49cb39a37b91e54a83b399252700faf8 3bd997eb0f7bd59697e373a3e2db15e01b26f7a8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763488040 +0000	commit: Edit note 42: Plan nexus artifact syncing to GAR
+3bd997eb0f7bd59697e373a3e2db15e01b26f7a8 dc20c7415ec85e4fc9c3db0648f07acd1cab8394 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763566540 +0000	commit: Modified 34: Create a LB for the otel collector in UAT LD4
+dc20c7415ec85e4fc9c3db0648f07acd1cab8394 83d523bc7e76afcd1d0ab7a881cd95ca0de01499 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763566554 +0000	commit: Modified 43: Change thanos-store memory config
+83d523bc7e76afcd1d0ab7a881cd95ca0de01499 21ae1bf52397fd3b8a4f2231befa3a4af15cf6b7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763566561 +0000	commit: Resolved 14: Prep Maxx Interview Questions
