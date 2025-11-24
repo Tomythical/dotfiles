@@ -856,3 +856,5 @@ b73d6a7a49cb39a37b91e54a83b399252700faf8 3bd997eb0f7bd59697e373a3e2db15e01b26f7a
 3bd997eb0f7bd59697e373a3e2db15e01b26f7a8 dc20c7415ec85e4fc9c3db0648f07acd1cab8394 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763566540 +0000	commit: Modified 34: Create a LB for the otel collector in UAT LD4
 dc20c7415ec85e4fc9c3db0648f07acd1cab8394 83d523bc7e76afcd1d0ab7a881cd95ca0de01499 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763566554 +0000	commit: Modified 43: Change thanos-store memory config
 83d523bc7e76afcd1d0ab7a881cd95ca0de01499 21ae1bf52397fd3b8a4f2231befa3a4af15cf6b7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763566561 +0000	commit: Resolved 14: Prep Maxx Interview Questions
+21ae1bf52397fd3b8a4f2231befa3a4af15cf6b7 29e138faf0d20df1bba6e4ff0c5ed1b279020b56 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763725794 +0000	commit: Resolved 43: Change thanos-store memory config
+29e138faf0d20df1bba6e4ff0c5ed1b279020b56 5541f79712e0bf93eedb760d3208622b1a76d91e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1763725813 +0000	commit: Removed: 28: Review Airflow PR in CI for Diogo
