@@ -862,3 +862,4 @@ dc20c7415ec85e4fc9c3db0648f07acd1cab8394 83d523bc7e76afcd1d0ab7a881cd95ca0de0149
 04317049a8f29944ac1b5665d355f6ca3d5a0c60 43ba56986010bc641ea5d8d7ea6867a58d44ac66 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1764066976 +0000	commit: Started 13: Make Wishlist for Devan AMA
 43ba56986010bc641ea5d8d7ea6867a58d44ac66 23b9572e7012ecf0b32c139fd6ba213489d54874 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1764066990 +0000	commit: Stopped 13: Make Wishlist for Devan AMA
 23b9572e7012ecf0b32c139fd6ba213489d54874 fe4bd562d7e2d64733b9a102b838d68f3b58eb0f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1764066992 +0000	commit: Started 14: Fix rep-base docker build github action
+fe4bd562d7e2d64733b9a102b838d68f3b58eb0f 468a29fc0724c5137c21dda4adb1d29726735192 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1764846182 +0000	commit: Resolved 26: Update onprem portal-a/b VirtualService to use HTTPRoute
