@@ -863,3 +863,5 @@ dc20c7415ec85e4fc9c3db0648f07acd1cab8394 83d523bc7e76afcd1d0ab7a881cd95ca0de0149
 43ba56986010bc641ea5d8d7ea6867a58d44ac66 23b9572e7012ecf0b32c139fd6ba213489d54874 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1764066990 +0000	commit: Stopped 13: Make Wishlist for Devan AMA
 23b9572e7012ecf0b32c139fd6ba213489d54874 fe4bd562d7e2d64733b9a102b838d68f3b58eb0f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1764066992 +0000	commit: Started 14: Fix rep-base docker build github action
 fe4bd562d7e2d64733b9a102b838d68f3b58eb0f 468a29fc0724c5137c21dda4adb1d29726735192 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1764846182 +0000	commit: Resolved 26: Update onprem portal-a/b VirtualService to use HTTPRoute
+468a29fc0724c5137c21dda4adb1d29726735192 11b7d599cd840427f84edb44e7d87738790e40e0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765198547 +0000	commit: Added 26: Create log sink for GAR write audit using BigQuery
+11b7d599cd840427f84edb44e7d87738790e40e0 2ab1a883a3df29bb7544ffbc812050e19b5460ec Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765198608 +0000	commit: Edit note 26: Create log sink for GAR write audit using BigQuery
