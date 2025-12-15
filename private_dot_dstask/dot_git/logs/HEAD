@@ -874,3 +874,7 @@ fe4bd562d7e2d64733b9a102b838d68f3b58eb0f 468a29fc0724c5137c21dda4adb1d2972673519
 f2256902e91e113fee93ddb6fddfcd74726b345f 9906b96744f4f69a1318f8cc0d667e737e32f5ca Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765281769 +0000	commit: Removed: 21: Investigate Metrics Misalignment in Grafana
 9906b96744f4f69a1318f8cc0d667e737e32f5ca b59846146ecd82a171d11bf33b05e87ac4cf2bb7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765281788 +0000	commit: Edited 42: Nexus artifact syncing to GAR
 b59846146ecd82a171d11bf33b05e87ac4cf2bb7 878dad91894c389756484e4cc1146ad76e491716 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765281802 +0000	commit: Resolved 34: Create a LB for the otel collector in UAT LD4
+878dad91894c389756484e4cc1146ad76e491716 00f366d5e2c0638da64409c2208b3a10982d931a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765797172 +0000	commit: Added 14: Fix Mobile Android TC Build Pusing to GAR
+00f366d5e2c0638da64409c2208b3a10982d931a d363d175283a21c84441f5a5c0cbd64f1e9ca31b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765797175 +0000	commit: Modified 14: Fix Mobile Android TC Build Pusing to GAR
+d363d175283a21c84441f5a5c0cbd64f1e9ca31b 09abe0024458916e1c8aa2adbf05ee7dac6ad8e4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765797218 +0000	commit: Started 14: Fix Mobile Android TC Build Pusing to GAR
+09abe0024458916e1c8aa2adbf05ee7dac6ad8e4 c62429f12bd4582bd17146d3506834f346fce285 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765797389 +0000	commit: Edit note 14: Fix Mobile Android TC Build Pusing to GAR
