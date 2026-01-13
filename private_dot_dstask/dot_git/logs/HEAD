@@ -889,3 +889,6 @@ e7ec413e194f098a70dcfcdccbfc3395fd2d759e 99c596b39fe903dc095709672668fc82ff2754b
 1b4170db4ea6a0d5e5acc63fa7a9331cddcbcc1f b4810a804283d3a7df78bad16fe483277a178ca6 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765888702 +0000	commit: Started 21: Set up Flux GitOps for docs apps in OPS cluster
 b4810a804283d3a7df78bad16fe483277a178ca6 9f4a5c53a066a87063faf1e1b37219ab8bcd7a32 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765890383 +0000	commit: Modified 26: Create log sink for GAR write audit using BigQuery
 9f4a5c53a066a87063faf1e1b37219ab8bcd7a32 a0a8a2634f1286ef1848e348a80dc6075adea3f0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1765890391 +0000	commit: Modified 14: Fix Mobile Android TC Build Pusing to GAR
+a0a8a2634f1286ef1848e348a80dc6075adea3f0 f735a4e773f19dfc54ec72834de8140e23773589 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768315265 +0000	commit: Resolved 42: Nexus artifact syncing to GAR
+f735a4e773f19dfc54ec72834de8140e23773589 85542e4644d69445ec3307990a5c482c9291d8a2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768315269 +0000	commit: Resolved 29: Make the SupportPortal - Cut Maven Release TC job push to AR
+85542e4644d69445ec3307990a5c482c9291d8a2 85f5b29062a6be0214cb865d97ed56dc7071ae13 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768315290 +0000	commit: Removed: 14: Fix Mobile Android TC Build Pusing to GAR
