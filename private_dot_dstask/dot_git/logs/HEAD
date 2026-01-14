@@ -896,3 +896,11 @@ f735a4e773f19dfc54ec72834de8140e23773589 85542e4644d69445ec3307990a5c482c9291d8a
 f34dad1187ab967064672906d910d8191979465c 17fca093015ec16707aa4c1ace95892220d98248 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768405918 +0000	commit: Edit note 39: Upgrade to thanos v0.40.0
 17fca093015ec16707aa4c1ace95892220d98248 4ef227e6257c2f710f0a6c429b18a64908919e96 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768405938 +0000	commit: Resolved 39: Upgrade to thanos v0.40.0
 4ef227e6257c2f710f0a6c429b18a64908919e96 86336bdedcd43e177e5412861689e86abe2f2e0b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768405958 +0000	commit: Edited 25: Bump Prometheus to v3.9.x
+86336bdedcd43e177e5412861689e86abe2f2e0b 6264cd7bcd88ecfbdffb74391c03a75c275f9c1e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768408779 +0000	commit: Modified 21: Set up Flux GitOps for docs apps in OPS cluster
+6264cd7bcd88ecfbdffb74391c03a75c275f9c1e e56296daaa0641554f9992ca566ed94d2ff1def7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768410416 +0000	commit: Modified 30: Create Docker workflows for each image
+e56296daaa0641554f9992ca566ed94d2ff1def7 79fe714ee7c391ee14be1f3cfbcf26b89f322b4a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768410571 +0000	commit: Resolved 30: Create Docker workflows for each image
+79fe714ee7c391ee14be1f3cfbcf26b89f322b4a a163410e366e6f1e10abbd24d63d021d45c6814e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768410616 +0000	commit: Removed: 9: Upgrade Prometheus in OPS
+a163410e366e6f1e10abbd24d63d021d45c6814e a3db702f59f3db37d0cc940d398ae5867a30e107 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768410626 +0000	commit: Removed: 19: Upgrade Kyverno
+a3db702f59f3db37d0cc940d398ae5867a30e107 c25f0282e2d4f8433e4a9c65bf152c40c92cfd5d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768411029 +0000	commit: Resolved 26: Create log sink for GAR write audit using BigQuery
+c25f0282e2d4f8433e4a9c65bf152c40c92cfd5d 3efcb19cda03cd42f4ecb99043c3fcd05919dfb1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768411203 +0000	commit: Resolved 21: Set up Flux GitOps for docs apps in OPS cluster
+3efcb19cda03cd42f4ecb99043c3fcd05919dfb1 3b282fb17ca5cd335c1312db00eafdddd8a2ab37 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768411574 +0000	commit: Resolved 27: Third Party ServiceMonitors in PROD CLoud
