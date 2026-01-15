@@ -911,3 +911,7 @@ eb595cc9c92afe13d68bbfa52f34b801cc736af4 11dc46e66d23bf57f4abb00a6f37cf72a5ffb07
 c060ed6107d1537ca136222e7afa294aa6294385 05d43557b521015d4042ee4d287f33f8ffd54663 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768482677 +0000	commit: Started 4: Create small prometheus-infra deployment on onprem prod
 05d43557b521015d4042ee4d287f33f8ffd54663 705758a8c3a57c7dfd7b5b590f9e6dfd64b773f4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768482691 +0000	commit: Edit note 4: Create small prometheus-infra deployment on onprem prod
 705758a8c3a57c7dfd7b5b590f9e6dfd64b773f4 0d78badcd896cdae5cb34bc35a89561eae5de72f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768486622 +0000	commit: Edit note 25: Bump Prometheus to v3.9.x
+0d78badcd896cdae5cb34bc35a89561eae5de72f 72306593e9afa93dbcc505a51248f9504b30bb76 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768487811 +0000	commit: Modified 2: Improve Documentation for New Joiner
+72306593e9afa93dbcc505a51248f9504b30bb76 ade49491773f1889ca2b3887e01008131ec28b13 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768487826 +0000	commit: Modified 11: Change-Bot + Approve-Bot Documentation
+ade49491773f1889ca2b3887e01008131ec28b13 1c8a88e7eff152a5058957a32bc710d6adc60064 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768487852 +0000	commit: Added 6: Fix Thanos Instability
+1c8a88e7eff152a5058957a32bc710d6adc60064 65b2dcdc6a51c99626346974c7649a4ef72011d8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768487857 +0000	commit: Started 6: Fix Thanos Instability
