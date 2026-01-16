@@ -919,3 +919,5 @@ c060ed6107d1537ca136222e7afa294aa6294385 05d43557b521015d4042ee4d287f33f8ffd5466
 ade49491773f1889ca2b3887e01008131ec28b13 1c8a88e7eff152a5058957a32bc710d6adc60064 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768487852 +0000	commit: Added 6: Fix Thanos Instability
 1c8a88e7eff152a5058957a32bc710d6adc60064 65b2dcdc6a51c99626346974c7649a4ef72011d8 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768487857 +0000	commit: Started 6: Fix Thanos Instability
 65b2dcdc6a51c99626346974c7649a4ef72011d8 b71a151b3a3b4c83640676c80789dcbe7a9d0a39 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768493068 +0000	commit: Edit note 6: Fix Thanos Instability
+b71a151b3a3b4c83640676c80789dcbe7a9d0a39 b8d64e76a740e9b7ce21a42b4fd9b996411d7cac Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768499112 +0000	commit: Added 12: Fix rep-base BASE arg docker build
+b8d64e76a740e9b7ce21a42b4fd9b996411d7cac 009a27a05e750313bac9bac645e99233e69e5d4f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1768499115 +0000	commit: Started 12: Fix rep-base BASE arg docker build
