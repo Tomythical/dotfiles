@@ -942,3 +942,7 @@ d448904f976e644c397c762919f5830ac9956559 a33cdfc3b4ecd480872e4907d47567dd1f02fca
 a33cdfc3b4ecd480872e4907d47567dd1f02fca8 31335e15b0bff7a90c99bb2ba50e47c317437665 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769074389 +0000	commit: Edit note 12: Tweak OTEL london aggregator to have another pipeline to send traces to GCP Trace
 31335e15b0bff7a90c99bb2ba50e47c317437665 cba09d5c7de5273fd6364cad7aae68c94482b49b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769074483 +0000	commit: Added 19: Migrate extra Java packages
 cba09d5c7de5273fd6364cad7aae68c94482b49b 93316262d02a7d4b93d8a315cb5b6a1a6ecb6980 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769074492 +0000	commit: Started 19: Migrate extra Java packages
+93316262d02a7d4b93d8a315cb5b6a1a6ecb6980 cb688adc4b6b62eab57e8f948bccbab1576bbf71 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769421093 +0000	commit: Resolved 14: Replace Jaeger with Badger filesystem
+cb688adc4b6b62eab57e8f948bccbab1576bbf71 d9129e66d145447e6ac88d6b7eea40105d3169f0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769421105 +0000	commit: Added 14: Revert Badger from Jaeger
+d9129e66d145447e6ac88d6b7eea40105d3169f0 38bb3c139332aadb4c95bbc0c942404850419c0c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769421109 +0000	commit: Started 14: Revert Badger from Jaeger
+38bb3c139332aadb4c95bbc0c942404850419c0c 0f7ad2e243a0ff3e4f1fbc024c28a31c75e06d8d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769421116 +0000	commit: Modified 25: Bump Prometheus to v3.9.x
