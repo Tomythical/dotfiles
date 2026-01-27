@@ -1,1 +1,1 @@
-Modified 25: Bump Prometheus to v3.9.x
+Removed: 12: Tweak OTEL london aggregator to have another pipeline to send traces to GCP Trace
