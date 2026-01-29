@@ -975,3 +975,4 @@ a57f28cddd5f495a5984a0e1d52a8b05e116aadb 073ea84d6afc376317529890a810b6c4842fe13
 073ea84d6afc376317529890a810b6c4842fe135 cc9449f2c9aff1c89d84f25c65f18bf24a712982 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769680782 +0000	commit: Started 19: Deploy prometheus stack for ci onprem
 cc9449f2c9aff1c89d84f25c65f18bf24a712982 fe19173b637109271f8c262d214f5439f13dbc31 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769680894 +0000	commit: Added 21: Migrate k8s-gitops-prod over to github actions
 fe19173b637109271f8c262d214f5439f13dbc31 20bb3dcadcff6ea0960c6c1926b5ad98a5234087 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769680896 +0000	commit: Started 21: Migrate k8s-gitops-prod over to github actions
+20bb3dcadcff6ea0960c6c1926b5ad98a5234087 28bfec4beb36c722f59a85467a442c6ff2d4f2ec Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769682531 +0000	commit: Edit note 21: Migrate k8s-gitops-prod over to github actions
