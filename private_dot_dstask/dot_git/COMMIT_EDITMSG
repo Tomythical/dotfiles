@@ -1,1 +1,1 @@
-Removed: 12: Tweak OTEL london aggregator to have another pipeline to send traces to GCP Trace
+Started 21: Migrate k8s-gitops-prod over to github actions

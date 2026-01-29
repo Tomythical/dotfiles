@@ -966,3 +966,7 @@ baa30e50442f97f69ff0539da940000c6ed0f0aa 65fdd485c042906e5c754195636c4e282f38e8b
 5e4f50b5d44b2529e87f9200d5fe1ac80bbd0d9b b926119d30599b5a5453f85744555806dcbc7ce5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769528686 +0000	revert: Revert "Modified 14: Replace Jaeger with Badger filesystem"
 b926119d30599b5a5453f85744555806dcbc7ce5 5883fba6e2dfd37b2bfe6ecee32e07ef153edfd0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769528723 +0000	reset: moving to 5883fba6e2dfd37b2bfe6ecee32e07ef153edfd0
 5883fba6e2dfd37b2bfe6ecee32e07ef153edfd0 a57f28cddd5f495a5984a0e1d52a8b05e116aadb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769528741 +0000	rebase (finish): refs/heads/master onto 0f7ad2e243a0ff3e4f1fbc024c28a31c75e06d8d
+a57f28cddd5f495a5984a0e1d52a8b05e116aadb 073ea84d6afc376317529890a810b6c4842fe135 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769680778 +0000	commit: Added 19: Deploy prometheus stack for ci onprem
+073ea84d6afc376317529890a810b6c4842fe135 cc9449f2c9aff1c89d84f25c65f18bf24a712982 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769680782 +0000	commit: Started 19: Deploy prometheus stack for ci onprem
+cc9449f2c9aff1c89d84f25c65f18bf24a712982 fe19173b637109271f8c262d214f5439f13dbc31 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769680894 +0000	commit: Added 21: Migrate k8s-gitops-prod over to github actions
+fe19173b637109271f8c262d214f5439f13dbc31 20bb3dcadcff6ea0960c6c1926b5ad98a5234087 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769680896 +0000	commit: Started 21: Migrate k8s-gitops-prod over to github actions
