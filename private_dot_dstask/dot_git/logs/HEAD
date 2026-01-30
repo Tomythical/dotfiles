@@ -978,3 +978,7 @@ fe19173b637109271f8c262d214f5439f13dbc31 20bb3dcadcff6ea0960c6c1926b5ad98a523408
 20bb3dcadcff6ea0960c6c1926b5ad98a5234087 28bfec4beb36c722f59a85467a442c6ff2d4f2ec Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769682531 +0000	commit: Edit note 21: Migrate k8s-gitops-prod over to github actions
 28bfec4beb36c722f59a85467a442c6ff2d4f2ec 9b4347d2e11ae37c10122675fb66b740922d3e6f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769769271 +0000	commit: Added 26: Enable tracing for Thanos
 9b4347d2e11ae37c10122675fb66b740922d3e6f da30e3bde6d6f6cbbf75314a8de2a01b7a3b27f1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769769279 +0000	commit: Started 26: Enable tracing for Thanos
+da30e3bde6d6f6cbbf75314a8de2a01b7a3b27f1 d045dbd2efb7232945ee8dd45dd44a466f4f4527 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769789800 +0000	commit: Added 27: Look into why support-portal rollout doesn't work
+d045dbd2efb7232945ee8dd45dd44a466f4f4527 074e41a5626a719cc03671d03e73d24449205a2e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769789829 +0000	commit: Edited 27: Look into why support-portal rollout doesn't work
+074e41a5626a719cc03671d03e73d24449205a2e 38495e429ae5a68bc81141cd1f35b5699cab9731 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769789851 +0000	commit: Started 27: Look into why support-portal rollout doesn't work
+38495e429ae5a68bc81141cd1f35b5699cab9731 18280f25139bb6ec872d22aa463088a879333b98 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769789865 +0000	commit: Resolved 14: Revert Badger from Jaeger
