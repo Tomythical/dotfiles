@@ -1,7 +1,7 @@
 k9s:
   liveViewAutoRefresh: true
   screenDumpDir: /home/tmatheickal/.local/state/k9s/screen-dumps
-  refreshRate: 2
+  refreshRate: 3
   maxConnRetry: 5
   readOnly: false
   noExitOnCtrlC: false
@@ -14,7 +14,7 @@ k9s:
     reactive: false
     noIcons: false
     defaultsToFullScreen: false
-  skipLatestRevCheck: false
+  skipLatestRevCheck: true
   disablePodCounting: false
   shellPod:
     image: busybox:1.35.0
@@ -28,7 +28,7 @@ k9s:
       namespaces: []
       labels: {}
   logger:
-    tail: 100
+    tail: 1000
     buffer: 5000
     sinceSeconds: -1
     textWrap: false
