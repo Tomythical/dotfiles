@@ -971,3 +971,5 @@ a57f28cddd5f495a5984a0e1d52a8b05e116aadb 073ea84d6afc376317529890a810b6c4842fe13
 cc9449f2c9aff1c89d84f25c65f18bf24a712982 fe19173b637109271f8c262d214f5439f13dbc31 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769680894 +0000	commit: Added 21: Migrate k8s-gitops-prod over to github actions
 fe19173b637109271f8c262d214f5439f13dbc31 20bb3dcadcff6ea0960c6c1926b5ad98a5234087 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769680896 +0000	commit: Started 21: Migrate k8s-gitops-prod over to github actions
 20bb3dcadcff6ea0960c6c1926b5ad98a5234087 28bfec4beb36c722f59a85467a442c6ff2d4f2ec Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769682531 +0000	commit: Edit note 21: Migrate k8s-gitops-prod over to github actions
+28bfec4beb36c722f59a85467a442c6ff2d4f2ec 9b4347d2e11ae37c10122675fb66b740922d3e6f Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769769271 +0000	commit: Added 26: Enable tracing for Thanos
+9b4347d2e11ae37c10122675fb66b740922d3e6f da30e3bde6d6f6cbbf75314a8de2a01b7a3b27f1 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769769279 +0000	commit: Started 26: Enable tracing for Thanos
