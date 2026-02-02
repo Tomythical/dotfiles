@@ -982,3 +982,6 @@ da30e3bde6d6f6cbbf75314a8de2a01b7a3b27f1 d045dbd2efb7232945ee8dd45dd44a466f4f452
 d045dbd2efb7232945ee8dd45dd44a466f4f4527 074e41a5626a719cc03671d03e73d24449205a2e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769789829 +0000	commit: Edited 27: Look into why support-portal rollout doesn't work
 074e41a5626a719cc03671d03e73d24449205a2e 38495e429ae5a68bc81141cd1f35b5699cab9731 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769789851 +0000	commit: Started 27: Look into why support-portal rollout doesn't work
 38495e429ae5a68bc81141cd1f35b5699cab9731 18280f25139bb6ec872d22aa463088a879333b98 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1769789865 +0000	commit: Resolved 14: Revert Badger from Jaeger
+18280f25139bb6ec872d22aa463088a879333b98 f87e9b3fc435759d09f761545a8744413bc42fc4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770026718 +0000	commit: Edited 25: Bump Prometheus to v3.8.1
+f87e9b3fc435759d09f761545a8744413bc42fc4 4cbad59987402df5000228d795c3f8821610be94 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770026725 +0000	commit: Edit note 25: Bump Prometheus to v3.8.1
+4cbad59987402df5000228d795c3f8821610be94 348fb17ebfc64765e87ec34a675dde0d64edf869 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770026729 +0000	commit: Resolved 25: Bump Prometheus to v3.8.1
