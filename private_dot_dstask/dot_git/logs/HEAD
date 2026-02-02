@@ -985,3 +985,6 @@ d045dbd2efb7232945ee8dd45dd44a466f4f4527 074e41a5626a719cc03671d03e73d24449205a2
 18280f25139bb6ec872d22aa463088a879333b98 f87e9b3fc435759d09f761545a8744413bc42fc4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770026718 +0000	commit: Edited 25: Bump Prometheus to v3.8.1
 f87e9b3fc435759d09f761545a8744413bc42fc4 4cbad59987402df5000228d795c3f8821610be94 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770026725 +0000	commit: Edit note 25: Bump Prometheus to v3.8.1
 4cbad59987402df5000228d795c3f8821610be94 348fb17ebfc64765e87ec34a675dde0d64edf869 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770026729 +0000	commit: Resolved 25: Bump Prometheus to v3.8.1
+348fb17ebfc64765e87ec34a675dde0d64edf869 ca9a5df792d5b86139aa95561b7c0ee0b3054a51 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770029885 +0000	commit: Added 14: Shutdown tracing for Thanos v1
+ca9a5df792d5b86139aa95561b7c0ee0b3054a51 833000c7d665a9854fb5820d4a3d406dc1c47851 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770029929 +0000	commit: Added 25: Add condition for deploying CRs on weekend due date
+833000c7d665a9854fb5820d4a3d406dc1c47851 8d5041f9ea2e4166d31e49d74f80010c58bcf7dd Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770031307 +0000	commit: Edit note 25: Add condition for deploying CRs on weekend due date
