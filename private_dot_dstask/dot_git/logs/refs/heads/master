@@ -997,3 +997,5 @@ e470bc49065c61d893476ad4e7b7f198364300b6 c4746f7dec446e89ac8295eeeebc2763d554a01
 c4746f7dec446e89ac8295eeeebc2763d554a019 3c671effde2453fa80081f294dd631fefc01fff0 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770140873 +0000	commit: Edit note 4: Migrate all worklfows to use self-hosted runners
 3c671effde2453fa80081f294dd631fefc01fff0 9c7a73be156aeabe6d8882926ff5c29b08db013e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770140921 +0000	commit: Edit note 4: Migrate all worklfows to use self-hosted runners
 9c7a73be156aeabe6d8882926ff5c29b08db013e 256122b195c0d85e3a8bd8fee054b8a0fc2f6ddb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770308088 +0000	commit: Edit note 6: Fix Thanos Instability
+256122b195c0d85e3a8bd8fee054b8a0fc2f6ddb 8c9bdfd6c96e296a378b8ca068dcb79f4add3e69 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770453554 +0000	commit: Added 10: Weekend Work
+8c9bdfd6c96e296a378b8ca068dcb79f4add3e69 18ded889bb796388ff6e06c74fc6a3eb3c50e38a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770453560 +0000	commit: Started 10: Weekend Work
