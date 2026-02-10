@@ -6,6 +6,7 @@ return {
   dependencies = {
     "nvim-lua/plenary.nvim",
   },
+  legacy_commands = false,
   cmd = {
     "Obsidian new",
     "Obsidian search",

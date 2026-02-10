@@ -1004,3 +1004,17 @@ c4746f7dec446e89ac8295eeeebc2763d554a019 3c671effde2453fa80081f294dd631fefc01fff
 9c7a73be156aeabe6d8882926ff5c29b08db013e 256122b195c0d85e3a8bd8fee054b8a0fc2f6ddb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770308088 +0000	commit: Edit note 6: Fix Thanos Instability
 256122b195c0d85e3a8bd8fee054b8a0fc2f6ddb 8c9bdfd6c96e296a378b8ca068dcb79f4add3e69 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770453554 +0000	commit: Added 10: Weekend Work
 8c9bdfd6c96e296a378b8ca068dcb79f4add3e69 18ded889bb796388ff6e06c74fc6a3eb3c50e38a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770453560 +0000	commit: Started 10: Weekend Work
+18ded889bb796388ff6e06c74fc6a3eb3c50e38a dd08492d840ff6f6062dc3eb4e8a2634f2bd0059 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722268 +0000	commit: Stopped 35: Fix HTTPRoute templating for only certain locations
+dd08492d840ff6f6062dc3eb4e8a2634f2bd0059 d57d830fc9aea3d918a0018bda52a9bcc524a24e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722294 +0000	commit: Stopped 38: Make YAML templating consistent in src/ingress
+d57d830fc9aea3d918a0018bda52a9bcc524a24e 224170bec3087b8b6c9c9b103e9f16caab1ec22a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722294 +0000	commit: Stopped 21: Migrate k8s-gitops-prod over to github actions
+224170bec3087b8b6c9c9b103e9f16caab1ec22a f328a41f52fb19dcc9a24229ec3f30299764a7cd Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722294 +0000	commit: Stopped 27: Look into why support-portal rollout doesn't work
+f328a41f52fb19dcc9a24229ec3f30299764a7cd 78e140c60248f781885ad9310c53803b7d971c4c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722296 +0000	commit: Resolved 10: Weekend Work
+78e140c60248f781885ad9310c53803b7d971c4c 970ac5823927a82797bf3940ea79ef287c19cebb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722316 +0000	commit: Added 10: Look into get-done engine alert routing onprem
+970ac5823927a82797bf3940ea79ef287c19cebb 249ddaa370c8178539ccf8257748c53e52d9476c Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722319 +0000	commit: Started 10: Look into get-done engine alert routing onprem
+249ddaa370c8178539ccf8257748c53e52d9476c c4a06b4a2cfe3170da2856a1dad7608e4b2247dd Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722344 +0000	commit: Added 26: Standardize OTEL in ops cluster
+c4a06b4a2cfe3170da2856a1dad7608e4b2247dd aff16a15458191b5e8bb80e05025426b0354318d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722348 +0000	commit: Started 26: Standardize OTEL in ops cluster
+aff16a15458191b5e8bb80e05025426b0354318d eb73a1dffbb74ae173d134573906213999683fdc Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722371 +0000	commit: Added 29: Find Node Grafana dashboard
+eb73a1dffbb74ae173d134573906213999683fdc 5999216c61dac2896b73907d7175f43b131278d7 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722372 +0000	commit: Started 29: Find Node Grafana dashboard
+5999216c61dac2896b73907d7175f43b131278d7 d142a9cdd91b34ef9f2e00da94b39bf791b2f555 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722396 +0000	commit: Added 30: Deploy falcon-cache
+d142a9cdd91b34ef9f2e00da94b39bf791b2f555 bd39b4d0d6ed3ddc72ff82f200d68ee360701d08 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722398 +0000	commit: Started 30: Deploy falcon-cache
+bd39b4d0d6ed3ddc72ff82f200d68ee360701d08 905d134b8373b571ed292354bd50f2df122a4b59 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722465 +0000	commit: Edit note 6: Fix Thanos Instability
