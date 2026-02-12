@@ -1019,3 +1019,9 @@ eb73a1dffbb74ae173d134573906213999683fdc 5999216c61dac2896b73907d7175f43b131278d
 d142a9cdd91b34ef9f2e00da94b39bf791b2f555 bd39b4d0d6ed3ddc72ff82f200d68ee360701d08 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722398 +0000	commit: Started 30: Deploy falcon-cache
 bd39b4d0d6ed3ddc72ff82f200d68ee360701d08 905d134b8373b571ed292354bd50f2df122a4b59 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770722465 +0000	commit: Edit note 6: Fix Thanos Instability
 905d134b8373b571ed292354bd50f2df122a4b59 1e3aa21b4dbe6ce3daec88e83ff6c858e33c3a1d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770729325 +0000	commit: Edit note 6: Fix Thanos Instability
+1e3aa21b4dbe6ce3daec88e83ff6c858e33c3a1d b077d6b1d533c1ce932d90632f248a0d3b678bed Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770897116 +0000	commit: Edit note 9: Migrate Grafana Dashboards to monitoring-v2
+b077d6b1d533c1ce932d90632f248a0d3b678bed ec6c1502d855cf37b73a263f7190d14ac9388abb Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770897228 +0000	commit: Edit note 6: Fix Thanos Instability
+ec6c1502d855cf37b73a263f7190d14ac9388abb 035e6b05c93bcccc4f1dcb5458077419f81a59cc Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770897231 +0000	commit: Resolved 6: Fix Thanos Instability
+035e6b05c93bcccc4f1dcb5458077419f81a59cc 3c1bbf1ad027cc83bf5d35d3dfabeb1a09312cc4 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770897254 +0000	commit: Added 6: Saple Thanos Tracing
+3c1bbf1ad027cc83bf5d35d3dfabeb1a09312cc4 79cd1dd18ee0dd8dc6600cbe22a600b6af16ce38 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770897256 +0000	commit: Started 6: Saple Thanos Tracing
+79cd1dd18ee0dd8dc6600cbe22a600b6af16ce38 96605b18f78206e7645e6798a1f208ffd5241120 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770897273 +0000	commit: Edited 6: Sample Thanos Tracing
