@@ -1027,3 +1027,9 @@ ec6c1502d855cf37b73a263f7190d14ac9388abb 035e6b05c93bcccc4f1dcb5458077419f81a59c
 79cd1dd18ee0dd8dc6600cbe22a600b6af16ce38 96605b18f78206e7645e6798a1f208ffd5241120 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770897273 +0000	commit: Edited 6: Sample Thanos Tracing
 96605b18f78206e7645e6798a1f208ffd5241120 d775dd46c641217c16e74914aebcaab8e7261cf2 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770910829 +0000	commit: Modified 6: Sample Thanos Tracing
 d775dd46c641217c16e74914aebcaab8e7261cf2 c839827c258a022584210c36bd6aa1533077f85d Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770910847 +0000	commit: Modified 1: Migrate extra Java packages
+c839827c258a022584210c36bd6aa1533077f85d b9d3cd5fa0820802876e0a556e407e8066b87457 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770914880 +0000	commit: Added 34: Update thanos to v0.41.0
+b9d3cd5fa0820802876e0a556e407e8066b87457 0310f4693036f117ff9ee2822abb642063283819 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770914885 +0000	commit: Started 34: Update thanos to v0.41.0
+0310f4693036f117ff9ee2822abb642063283819 9a33a86bccdeee7271b4d31023ca18a3b735dc59 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770916093 +0000	commit: Modified 6: Sample Thanos Tracing
+9a33a86bccdeee7271b4d31023ca18a3b735dc59 c603d818bd25a49f6322d668af0d300e14a2493b Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770916099 +0000	commit: Modified 6: Sample Thanos Tracing
+c603d818bd25a49f6322d668af0d300e14a2493b d8234efc4d680164a51843d71e17434524a5f9f5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770916103 +0000	commit: Modified 6: Sample Thanos Tracing
+d8234efc4d680164a51843d71e17434524a5f9f5 995b0f6ac0c3342de3eee1f8af870720f4dca853 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1770916114 +0000	commit: Stopped 22: Upgrade kyverno to v1.16.0
