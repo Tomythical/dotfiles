@@ -1059,3 +1059,4 @@ c8b99c517bdb9710cd19075fdef5cbd3c9af0479 171228191005112fb5b2b44e1864a2ebbe0e0e4
 226792ed23856a9bf386eaa31a91da08bc88ac73 9e65909ad0af4ab473d1188d8066bc125a061199 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771263566 +0000	commit: Modified 10: Look into get-done engine alert routing onprem
 9e65909ad0af4ab473d1188d8066bc125a061199 f145c45ac38dedccc8dfe3fbcca7cdd18705497e Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771325549 +0000	commit: Edit note 4: Migrate all worklfows to use self-hosted runners
 f145c45ac38dedccc8dfe3fbcca7cdd18705497e 8cb2bda8a3fa363fa7b59793199e3cd8f2c8962a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771329022 +0000	commit: Edit note 10: Look into get-done engine alert routing onprem
+8cb2bda8a3fa363fa7b59793199e3cd8f2c8962a 98008b532e994507e573652fe91ef6def12256cf Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771334809 +0000	commit: Modified 20: Deploy prometheus-infra in onprem-prod
