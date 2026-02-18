@@ -1063,3 +1063,4 @@ f145c45ac38dedccc8dfe3fbcca7cdd18705497e 8cb2bda8a3fa363fa7b59793199e3cd8f2c8962
 98008b532e994507e573652fe91ef6def12256cf 3e9cbd7edd8cfd4a4bd65c2b769b6f7c720eb140 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771348958 +0000	commit: Added 6: Make List of Epic + Subtasks for Indya
 3e9cbd7edd8cfd4a4bd65c2b769b6f7c720eb140 b84500437bb675d50bb019bf6c380dde7fe7a14a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771348961 +0000	commit: Started 6: Make List of Epic + Subtasks for Indya
 b84500437bb675d50bb019bf6c380dde7fe7a14a bb5c8ea00d82ba69a69d09c98dc188adf8ed4be5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771412077 +0000	commit: Resolved 39: Fix otel-collector naming in CI
+bb5c8ea00d82ba69a69d09c98dc188adf8ed4be5 9d0ce6285b4a9643a4e415f150c798d2445e95f5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771418753 +0000	commit: Edit note 10: Look into get-done engine alert routing onprem
