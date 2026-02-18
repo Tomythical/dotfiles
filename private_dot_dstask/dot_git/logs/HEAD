@@ -1062,3 +1062,4 @@ f145c45ac38dedccc8dfe3fbcca7cdd18705497e 8cb2bda8a3fa363fa7b59793199e3cd8f2c8962
 8cb2bda8a3fa363fa7b59793199e3cd8f2c8962a 98008b532e994507e573652fe91ef6def12256cf Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771334809 +0000	commit: Modified 20: Deploy prometheus-infra in onprem-prod
 98008b532e994507e573652fe91ef6def12256cf 3e9cbd7edd8cfd4a4bd65c2b769b6f7c720eb140 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771348958 +0000	commit: Added 6: Make List of Epic + Subtasks for Indya
 3e9cbd7edd8cfd4a4bd65c2b769b6f7c720eb140 b84500437bb675d50bb019bf6c380dde7fe7a14a Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771348961 +0000	commit: Started 6: Make List of Epic + Subtasks for Indya
+b84500437bb675d50bb019bf6c380dde7fe7a14a bb5c8ea00d82ba69a69d09c98dc188adf8ed4be5 Thomas Matheickal <thomas.matheickal@fx.sgx.com> 1771412077 +0000	commit: Resolved 39: Fix otel-collector naming in CI
