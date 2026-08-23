@@ -1,3 +1,6 @@
+local opencode_cmd = "opencode --port"
+local snacks_terminal_opts = { win = { position = "right", enter = false } }
+
 return {
   {
     "Nickvandyke/opencode.nvim",
@@ -27,7 +30,13 @@ return {
     },
     config = function()
       ---@type opencode.Opts
-      vim.g.opencode_opts = {}
+      vim.g.opencode_opts = {
+        server = {
+          start = function()
+            require("snacks.terminal").open(opencode_cmd, snacks_terminal_opts)
+          end,
+        },
+      }
       vim.o.autoread = true -- Required for `opts.events.reload`.
 
       vim.api.nvim_create_autocmd({ "TermOpen" }, {
@@ -81,9 +90,9 @@ return {
       {
         "<leader>aa",
         function()
-          require("opencode").toggle()
+          require("snacks.terminal").toggle(opencode_cmd, snacks_terminal_opts)
         end,
-        mode = { "n", "t" },
+        mode = { "n" },
         desc = "Toggle",
       },
       {

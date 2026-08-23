@@ -1,0 +1,20 @@
+# Managed by chezmoi. Personal identity is the default; work identity is
+# opted-in per-directory via includeIf. No work email committed to repo.
+
+[user]
+	name = {{ .name | quote | trimAll "\"" }}
+	email = {{ .email }}
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore
+[push]
+	default = current
+[rebase]
+	updateRefs = true
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	pr = "!f() { gh pr view --web; };f"
+
+# Work identity — only inside work repos. Points to a LOCAL, gitignored file.
+[includeIf "gitdir:~/repos/DEVOPS/"]
+	path = ~/.gitconfig-work

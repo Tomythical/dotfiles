@@ -40,12 +40,10 @@ return {
     workspaces = {
       {
         name = "work",
-        path = "~/repos/DEVOPS/devops-obsidian/",
+        path = "~/vaults/devops-obsidian/",
       },
     },
     completion = {
-      nvim_cmp = false,
-      blink = true,
       min_chars = 2,
     },
 
@@ -78,7 +76,9 @@ return {
     picker = {
       name = "snacks.pick",
     },
-    preferred_link_style = "wiki",
+    link = {
+      style = "wiki",
+    },
     checkbox = {
       order = { " ", "x", "~", "!" },
     },

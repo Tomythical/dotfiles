@@ -1,7 +1,7 @@
 customCommands:
   - key: 'G'
     context: 'localBranches'
-    command: "gh pr view --web || (echo 'Creating PR...' && gh pr create --web)"
+    command: "gh pr view --web || (echo 'Creating PR...' && gh pr create --fill && gh pr view --web)"
     description: 'Open PR if it exists. Otherwise create a PR for this branch'
   - key: 'E'
     description: 'Add all, commit WIP, push'
