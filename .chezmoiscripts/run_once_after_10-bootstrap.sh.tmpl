@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+# ---------------------------------------------------------------------------
+# Fresh-machine bootstrap. run_once (chezmoi re-runs only when this script's
+# content changes) + run_after (executes after chezmoi has written all managed
+# files, so ~/.config/mise/config.toml exists before `mise install` reads it).
+#
+# Idempotent + safe to re-run: every install step is guarded by a presence
+# check. Installs nothing that is already present.
+# ---------------------------------------------------------------------------
+set -euo pipefail
+
+log() { printf '\033[1;34m[bootstrap]\033[0m %s\n' "$*"; }
+
+# --- 1. Oh My Zsh (shell framework; ~/.zshrc sources $ZSH/oh-my-zsh.sh) -------
+if [[ ! -d "$HOME/.oh-my-zsh" ]]; then
+  log "installing oh-my-zsh"
+  # RUNZSH=no keeps installer from dropping us into a subshell (breaks automation)
+  # KEEP_ZSHRC=yes stops installer clobbering our chezmoi-managed ~/.zshrc
+  RUNZSH=no KEEP_ZSHRC=yes sh -c \
+    "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+else
+  log "oh-my-zsh present, skipping"
+fi
+
+# --- 1b. oh-my-zsh custom plugins referenced in ~/.zshrc plugins=(...) --------
+ZSH_CUSTOM="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"
+declare -A omz_plugins=(
+  [zsh-autosuggestions]="https://github.com/zsh-users/zsh-autosuggestions"
+  [zsh-syntax-highlighting]="https://github.com/zsh-users/zsh-syntax-highlighting"
+  [zsh-history-substring-search]="https://github.com/zsh-users/zsh-history-substring-search"
+)
+for name in "${!omz_plugins[@]}"; do
+  dest="$ZSH_CUSTOM/plugins/$name"
+  if [[ ! -d "$dest" ]]; then
+    log "cloning omz plugin: $name"
+    git clone --depth=1 "${omz_plugins[$name]}" "$dest"
+  fi
+done
+
+# --- 2. mise (portable tool manager) ------------------------------------------
+if ! command -v mise >/dev/null 2>&1 && [[ ! -x "$HOME/.local/bin/mise" ]]; then
+  log "installing mise"
+  curl -fsSL https://mise.run | sh
+fi
+# make mise callable in THIS script even if not yet on PATH
+export PATH="$HOME/.local/bin:$PATH"
+
+{{- if eq .chezmoi.os "darwin" }}
+# --- 2b. macOS: Homebrew (for tools mise doesn't own: java/maven, GUI casks) ---
+if ! command -v brew >/dev/null 2>&1; then
+  log "installing Homebrew"
+  NONINTERACTIVE=1 /bin/bash -c \
+    "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+{{- end }}
+
+# --- 3. install every tool pinned in ~/.config/mise/config.toml ---------------
+# config.toml was written by chezmoi BEFORE this run_after script, so this
+# materialises the full toolchain (node, neovim, tmux, eza, zoxide, fd, etc).
+if command -v mise >/dev/null 2>&1 || [[ -x "$HOME/.local/bin/mise" ]]; then
+  log "mise install (this may take a while on a fresh machine)"
+  "${HOME}/.local/bin/mise" install || mise install
+fi
+
+log "bootstrap complete"
