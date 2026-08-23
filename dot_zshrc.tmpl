@@ -1,0 +1,280 @@
+# Speed up zsh startup
+DISABLE_AUTO_UPDATE="true"
+DISABLE_MAGIC_FUNCTIONS="true"
+DISABLE_COMPFIX="true"
+skip_global_compinit=1
+
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+{{- if eq .chezmoi.os "darwin" }}
+# macOS: bring Homebrew (Apple Silicon default prefix) onto PATH early so the
+# guarded tool inits below can find brew-installed binaries.
+if [[ -x /opt/homebrew/bin/brew ]]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+elif [[ -x /usr/local/bin/brew ]]; then
+  eval "$(/usr/local/bin/brew shellenv)"
+fi
+{{- else }}
+# Linux: Homebrew (linuxbrew) if present.
+if [[ -x /home/linuxbrew/.linuxbrew/bin/brew ]]; then
+  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi
+{{- end }}
+
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="robbyrussell"
+
+# Stop oh-my-zsh from setting the tab title to the running command.
+# Must be set BEFORE `source $ZSH/oh-my-zsh.sh`.
+DISABLE_AUTO_TITLE="true"
+
+SPACESHIP_PROMPT_ASYNC=true
+SPACESHIP_PROMPT_ADD_NEWLINE=true
+SPACESHIP_CHAR_SYMBOL="⚡"
+
+plugins=(git z zsh-autosuggestions zsh-syntax-highlighting  zsh-history-substring-search)
+
+[[ -f $ZSH/oh-my-zsh.sh ]] && source $ZSH/oh-my-zsh.sh
+
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
+ZSH_AUTOSUGGEST_USE_ASYNC=1
+
+# compinit - only rebuild once per day
+fpath=(~/.completions $fpath)
+autoload -Uz compinit
+setopt extendedglob
+if [[ -n ~/.zcompdump(#qN.mh+24) ]]; then
+  compinit
+else
+  compinit -C
+fi
+
+# User configuration
+# Cache eval outputs for faster startup
+_zsh_cache_eval() {
+  local name="$1" cmd="$2"
+  local cache_file="$HOME/.zshcache/${name}.zsh"
+  if [[ ! -f "$cache_file" ]] || [[ ! -s "$cache_file" ]]; then
+    eval "$cmd" > "$cache_file"
+  fi
+  source "$cache_file"
+}
+
+[[ -f "$HOME/.atuin/bin/env" ]] && . "$HOME/.atuin/bin/env"
+[[ -f "$HOME/.cargo/env" ]] && source "$HOME/.cargo/env"
+
+command -v starship       >/dev/null 2>&1 && _zsh_cache_eval "starship" "starship init zsh"
+command -v atuin          >/dev/null 2>&1 && _zsh_cache_eval "atuin" "atuin init zsh"
+command -v fzf            >/dev/null 2>&1 && _zsh_cache_eval "fzf" "fzf --zsh"
+command -v dstask         >/dev/null 2>&1 && _zsh_cache_eval "dstask" "dstask zsh-completion"
+command -v intelli-shell  >/dev/null 2>&1 && _zsh_cache_eval "intelli-shell" "intelli-shell init zsh"
+command -v mise           >/dev/null 2>&1 && _zsh_cache_eval "mise" "mise activate zsh"
+command -v zoxide         >/dev/null 2>&1 && _zsh_cache_eval "zoxide" "zoxide init zsh"
+export EDITOR=nvim
+
+# Lazy load NVM (which is notorious for slow startup)
+export NVM_DIR="$HOME/.nvm"
+if [[ -s "$NVM_DIR/nvm.sh" ]]; then
+  function nvm() {
+    unset -f nvm node npm npx
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+    nvm use default >/dev/null 2>&1 || true
+    nvm "$@"
+  }
+
+  function node() { nvm >/dev/null 2>&1 && node "$@"; }
+  function npm() { nvm >/dev/null 2>&1 && npm "$@"; }
+  function npx() { nvm >/dev/null 2>&1 && npx "$@"; }
+fi
+
+# IntelliShell
+if command -v intelli-shell >/dev/null 2>&1; then
+  export INTELLI_HOME="$HOME/.local/share/intelli-shell"
+  export PATH="$INTELLI_HOME/bin:$PATH"
+fi
+
+function set_git_title() {
+    if git rev-parse --show-toplevel &>/dev/null; then
+        repo=$(basename "$(git rev-parse --show-toplevel)")
+    else
+        repo=$(basename "$PWD")
+    fi
+    print -Pn "\e]0;$repo\a"
+}
+
+precmd() { set_git_title }
+
+# markplane task tracker (project lives outside cwd; markplane is project-scoped)
+export MARKPLANE_DIR="$HOME/.local/share/markplane"
+export MARKPLANE_PORT="${MARKPLANE_PORT:-4200}"
+# `tasks ...` runs markplane against the global tracker from anywhere; your cwd is unchanged
+tasks() { ( cd "$MARKPLANE_DIR" && command markplane "$@" ) }
+
+# Bare `markplane ...` also works from anywhere: if no local .markplane/ is
+# found by walking up from cwd, fall back to the global project dir.
+markplane() {
+  local d="$PWD"
+  while [ "$d" != "/" ]; do
+    [ -d "$d/.markplane" ] && { command markplane "$@"; return }
+    d="${d:h}"
+  done
+  ( cd "$MARKPLANE_DIR" && command markplane "$@" )
+}
+
+# Start the markplane web UI once, in the background, surviving terminal close.
+markplane_serve_once() {
+  emulate -L zsh
+  command -v markplane >/dev/null 2>&1 || return 0
+  local port="$MARKPLANE_PORT"
+  local lock="${TMPDIR:-/tmp}/markplane-serve-$port.lock"
+  if curl -sf -o /dev/null "http://127.0.0.1:${port}" 2>/dev/null; then
+    return 0
+  fi
+  if ! mkdir "$lock" 2>/dev/null; then
+    return 0
+  fi
+  if curl -sf -o /dev/null "http://127.0.0.1:${port}" 2>/dev/null; then
+    rmdir "$lock" 2>/dev/null
+    return 0
+  fi
+  local open_flag=()
+  if [[ -o interactive && ( -n "$DISPLAY" || -n "$WAYLAND_DISPLAY" ) ]]; then
+    open_flag=(--open)
+  fi
+  ( cd "$MARKPLANE_DIR" && exec setsid markplane serve --port "$port" ${open_flag} \
+      </dev/null >"${MARKPLANE_DIR}/serve.log" 2>&1 ) &!
+  ( sleep 5; rmdir "$lock" 2>/dev/null ) </dev/null >/dev/null 2>&1 &!
+}
+markplane_serve_once
+
+# Always route opencode through Headroom proxy.
+# Bypass with:  command opencode
+if command -v headroom >/dev/null 2>&1; then
+  opencode() {
+    headroom wrap opencode -- "$@"
+  }
+fi
+
+# gcloud user-credential guard for kubectl->GKE.
+gcloud_auth_guard() {
+  [[ -o interactive ]] || return        # never block scripts/CI on a browser prompt
+  command -v gcloud >/dev/null || return # no gcloud installed -> nothing to check
+
+  local marker="$HOME/.zshcache/gcloud-auth-ok"
+  [[ -n "$marker"(#qN.mh-1) ]] && return
+
+  if gcloud auth print-access-token >/dev/null 2>&1; then
+    mkdir -p "$HOME/.zshcache"
+    : > "$marker"
+  else
+    echo "gcloud user credential invalid/expired -> running gcloud auth login"
+    if gcloud auth login; then
+      mkdir -p "$HOME/.zshcache"
+      : > "$marker"
+    fi
+  fi
+}
+gcloud_auth_guard
+
+# slack canvas -> markplane importer
+alias slackmark="python3 $HOME/bin/scripts/slack-canvas-to-markplane.py"
+
+# ---------------------------------------------------------------------------
+# hr <repo> — herdr one-nvim-per-repo helper
+# Usage: hr <repo>
+# ---------------------------------------------------------------------------
+HR_REPO_BASE="${HR_REPO_BASE:-$HOME/repos/DEVOPS}"
+
+hr() {
+  local repo="$1"
+
+  if [[ -z "$repo" ]]; then
+    echo "Usage: hr <repo>"
+    echo ""
+    echo "Available repos:"
+    for d in "$HR_REPO_BASE"/*/; do
+      [[ -d "${d}.git" ]] && echo "  $(basename "$d")"
+    done
+    return 1
+  fi
+
+  local repo_path="$HR_REPO_BASE/$repo"
+
+  if [[ ! -d "$repo_path" ]]; then
+    echo "hr: repo not found: $repo_path" >&2
+    return 1
+  fi
+
+  local workspace_id
+  local list_json
+  list_json=$(command herdr workspace list 2>/dev/null) || {
+    echo "hr: herdr workspace list failed" >&2
+    return 1
+  }
+
+  if command -v jq >/dev/null 2>&1; then
+    workspace_id=$(printf '%s' "$list_json" | jq -r --arg label "$repo" \
+      '.result.workspaces[] | select(.label == $label) | .workspace_id // empty' 2>/dev/null | head -1)
+  else
+    workspace_id=$(printf '%s' "$list_json" | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+label = '$repo'
+for w in data.get('result', {}).get('workspaces', []):
+    if w.get('label') == label:
+        print(w.get('workspace_id', ''))
+        break
+" 2>/dev/null)
+  fi
+
+  if [[ -n "$workspace_id" ]]; then
+    command herdr workspace focus "$workspace_id"
+    return
+  fi
+
+  local create_json
+  create_json=$(command herdr workspace create \
+    --cwd "$repo_path" \
+    --label "$repo" \
+    --focus 2>/dev/null) || {
+    echo "hr: herdr workspace create failed" >&2
+    return 1
+  }
+
+  local pane_id
+  if command -v jq >/dev/null 2>&1; then
+    pane_id=$(printf '%s' "$create_json" | jq -r '.result.root_pane.pane_id // empty' 2>/dev/null)
+  else
+    pane_id=$(printf '%s' "$create_json" | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+print(data.get('result', {}).get('root_pane', {}).get('pane_id', ''))
+" 2>/dev/null)
+  fi
+
+  if [[ -z "$pane_id" ]]; then
+    echo "hr: could not determine root pane id from workspace create output" >&2
+    return 1
+  fi
+
+  command herdr pane run "$pane_id" nvim
+}
+
+# zsh completion for hr
+_hr() {
+  local base="${HR_REPO_BASE:-$HOME/repos/DEVOPS}"
+  local -a repos
+  for d in "$base"/*/; do
+    [[ -d "${d}.git" ]] && repos+=("$(basename "$d")")
+  done
+  compadd -a repos
+}
+compdef _hr hr
+
+# Machine-specific overrides (work email git include target, host-specific PATH,
+# secrets sourced from a private file, etc). NOT managed by chezmoi (see .chezmoiignore).
+[[ -f "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
