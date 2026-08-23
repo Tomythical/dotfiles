@@ -1,0 +1,47 @@
+# ============================================================
+# chezmoi ignore — matched against TARGET paths (~ relative)
+# Nothing listed here is applied or added.
+# ============================================================
+
+# ---- Secrets / credentials — NEVER sync ----
+.config/gh/
+.config/gcloud/
+.config/.jira/
+.config/jiratui/
+.config/shell_gpt/
+.config/slackcli/
+.config/github-copilot/
+.config/gh-copilot/
+.config/configstore/
+.config/lazysql/
+.config/rclone/
+.ssh/
+.aws/
+.kube/
+.netrc
+.gitconfig-work
+.zshrc.local
+**/credentials*
+**/*token*
+**/*.key
+**/*.pem
+
+# ---- Nested git repos (never sync any .git) ----
+**/.git/
+
+# ---- Generated / cache / state ----
+.cache/
+.local/state/
+.local/share/bob/
+.config/nvim.bak/
+.config/nvim_backups/
+**/node_modules/
+**/__pycache__/
+.config/JetBrains/
+.config/TabNine/
+.config/chromium/
+.config/obsidian/
+.config/pulse/
+.config/thefuck/
+.config/ibus/
+.config/procps/

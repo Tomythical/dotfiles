@@ -1,0 +1,12 @@
+{{- /* Prompted once at init; stored in local ~/.config/chezmoi/chezmoi.toml, never committed */ -}}
+{{- $name := promptStringOnce . "name" "Git user name" -}}
+{{- $email := promptStringOnce . "email" "Git email (use personal email, NOT work)" -}}
+
+[data]
+    name = {{ $name | quote }}
+    email = {{ $email | quote }}
+
+[git]
+    autoCommit = true
+    # keep false until setup verified (Phase 7), then flip to true
+    autoPush = false
