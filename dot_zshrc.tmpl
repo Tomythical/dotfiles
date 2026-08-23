@@ -58,6 +58,7 @@ _zsh_cache_eval() {
   local name="$1" cmd="$2"
   local cache_file="$HOME/.zshcache/${name}.zsh"
   if [[ ! -f "$cache_file" ]] || [[ ! -s "$cache_file" ]]; then
+    mkdir -p "$HOME/.zshcache"
     eval "$cmd" > "$cache_file"
   fi
   source "$cache_file"
@@ -108,49 +109,6 @@ function set_git_title() {
 
 precmd() { set_git_title }
 
-# markplane task tracker (project lives outside cwd; markplane is project-scoped)
-export MARKPLANE_DIR="$HOME/.local/share/markplane"
-export MARKPLANE_PORT="${MARKPLANE_PORT:-4200}"
-# `tasks ...` runs markplane against the global tracker from anywhere; your cwd is unchanged
-tasks() { ( cd "$MARKPLANE_DIR" && command markplane "$@" ) }
-
-# Bare `markplane ...` also works from anywhere: if no local .markplane/ is
-# found by walking up from cwd, fall back to the global project dir.
-markplane() {
-  local d="$PWD"
-  while [ "$d" != "/" ]; do
-    [ -d "$d/.markplane" ] && { command markplane "$@"; return }
-    d="${d:h}"
-  done
-  ( cd "$MARKPLANE_DIR" && command markplane "$@" )
-}
-
-# Start the markplane web UI once, in the background, surviving terminal close.
-markplane_serve_once() {
-  emulate -L zsh
-  command -v markplane >/dev/null 2>&1 || return 0
-  local port="$MARKPLANE_PORT"
-  local lock="${TMPDIR:-/tmp}/markplane-serve-$port.lock"
-  if curl -sf -o /dev/null "http://127.0.0.1:${port}" 2>/dev/null; then
-    return 0
-  fi
-  if ! mkdir "$lock" 2>/dev/null; then
-    return 0
-  fi
-  if curl -sf -o /dev/null "http://127.0.0.1:${port}" 2>/dev/null; then
-    rmdir "$lock" 2>/dev/null
-    return 0
-  fi
-  local open_flag=()
-  if [[ -o interactive && ( -n "$DISPLAY" || -n "$WAYLAND_DISPLAY" ) ]]; then
-    open_flag=(--open)
-  fi
-  ( cd "$MARKPLANE_DIR" && exec setsid markplane serve --port "$port" ${open_flag} \
-      </dev/null >"${MARKPLANE_DIR}/serve.log" 2>&1 ) &!
-  ( sleep 5; rmdir "$lock" 2>/dev/null ) </dev/null >/dev/null 2>&1 &!
-}
-markplane_serve_once
-
 # Always route opencode through Headroom proxy.
 # Bypass with:  command opencode
 if command -v headroom >/dev/null 2>&1; then
@@ -158,122 +116,6 @@ if command -v headroom >/dev/null 2>&1; then
     headroom wrap opencode -- "$@"
   }
 fi
-
-# gcloud user-credential guard for kubectl->GKE.
-gcloud_auth_guard() {
-  [[ -o interactive ]] || return        # never block scripts/CI on a browser prompt
-  command -v gcloud >/dev/null || return # no gcloud installed -> nothing to check
-
-  local marker="$HOME/.zshcache/gcloud-auth-ok"
-  [[ -n "$marker"(#qN.mh-1) ]] && return
-
-  if gcloud auth print-access-token >/dev/null 2>&1; then
-    mkdir -p "$HOME/.zshcache"
-    : > "$marker"
-  else
-    echo "gcloud user credential invalid/expired -> running gcloud auth login"
-    if gcloud auth login; then
-      mkdir -p "$HOME/.zshcache"
-      : > "$marker"
-    fi
-  fi
-}
-gcloud_auth_guard
-
-# slack canvas -> markplane importer
-alias slackmark="python3 $HOME/bin/scripts/slack-canvas-to-markplane.py"
-
-# ---------------------------------------------------------------------------
-# hr <repo> — herdr one-nvim-per-repo helper
-# Usage: hr <repo>
-# ---------------------------------------------------------------------------
-HR_REPO_BASE="${HR_REPO_BASE:-$HOME/repos/DEVOPS}"
-
-hr() {
-  local repo="$1"
-
-  if [[ -z "$repo" ]]; then
-    echo "Usage: hr <repo>"
-    echo ""
-    echo "Available repos:"
-    for d in "$HR_REPO_BASE"/*/; do
-      [[ -d "${d}.git" ]] && echo "  $(basename "$d")"
-    done
-    return 1
-  fi
-
-  local repo_path="$HR_REPO_BASE/$repo"
-
-  if [[ ! -d "$repo_path" ]]; then
-    echo "hr: repo not found: $repo_path" >&2
-    return 1
-  fi
-
-  local workspace_id
-  local list_json
-  list_json=$(command herdr workspace list 2>/dev/null) || {
-    echo "hr: herdr workspace list failed" >&2
-    return 1
-  }
-
-  if command -v jq >/dev/null 2>&1; then
-    workspace_id=$(printf '%s' "$list_json" | jq -r --arg label "$repo" \
-      '.result.workspaces[] | select(.label == $label) | .workspace_id // empty' 2>/dev/null | head -1)
-  else
-    workspace_id=$(printf '%s' "$list_json" | python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-label = '$repo'
-for w in data.get('result', {}).get('workspaces', []):
-    if w.get('label') == label:
-        print(w.get('workspace_id', ''))
-        break
-" 2>/dev/null)
-  fi
-
-  if [[ -n "$workspace_id" ]]; then
-    command herdr workspace focus "$workspace_id"
-    return
-  fi
-
-  local create_json
-  create_json=$(command herdr workspace create \
-    --cwd "$repo_path" \
-    --label "$repo" \
-    --focus 2>/dev/null) || {
-    echo "hr: herdr workspace create failed" >&2
-    return 1
-  }
-
-  local pane_id
-  if command -v jq >/dev/null 2>&1; then
-    pane_id=$(printf '%s' "$create_json" | jq -r '.result.root_pane.pane_id // empty' 2>/dev/null)
-  else
-    pane_id=$(printf '%s' "$create_json" | python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-print(data.get('result', {}).get('root_pane', {}).get('pane_id', ''))
-" 2>/dev/null)
-  fi
-
-  if [[ -z "$pane_id" ]]; then
-    echo "hr: could not determine root pane id from workspace create output" >&2
-    return 1
-  fi
-
-  command herdr pane run "$pane_id" nvim
-}
-
-# zsh completion for hr
-_hr() {
-  local base="${HR_REPO_BASE:-$HOME/repos/DEVOPS}"
-  local -a repos
-  for d in "$base"/*/; do
-    [[ -d "${d}.git" ]] && repos+=("$(basename "$d")")
-  done
-  compadd -a repos
-}
-compdef _hr hr
 
 # Machine-specific overrides (work email git include target, host-specific PATH,
 # secrets sourced from a private file, etc). NOT managed by chezmoi (see .chezmoiignore).
